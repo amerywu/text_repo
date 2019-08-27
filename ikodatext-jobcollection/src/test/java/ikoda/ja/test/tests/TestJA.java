@@ -69,16 +69,16 @@ public class TestJA
 		try
 		{
 			ConfigurationBeanParent config = getConfig();
-			RestHighLevelClient client = ElasticSearchClientFactory.getInstance().initiateClient(
+			ElasticSearchClientFactory.getInstance().initiateClient(
 					config.getElasticSearchUser(), 
 					config.getElasticSearchPassword(), 
 					config.getElasticSearchUrl(), 
 					new Integer(config.getElasticSearchPort()).intValue());
 			
-			JALog.getLogger().info("ESClient " + client.toString() );
+			JALog.getLogger().info("ESClient " + ElasticSearchClientFactory.getInstance().client().toString() );
 			
 			GetIndexRequest request = new GetIndexRequest("utindex");
-			boolean exists = client.indices().exists(request, RequestOptions.DEFAULT);
+			boolean exists = ElasticSearchClientFactory.getInstance().client().indices().exists(request, RequestOptions.DEFAULT);
 			JALog.getLogger().info("utindex exists: " + exists);
 			if(!exists) {
 				CreateIndexRequest createRequest = new CreateIndexRequest("utindex");
@@ -88,7 +88,7 @@ public class TestJA
 					);
 				createRequest.mapping(jsonIndex());
 				
-				CreateIndexResponse createIndexResponse = client.indices().create(createRequest, RequestOptions.DEFAULT);
+				CreateIndexResponse createIndexResponse = ElasticSearchClientFactory.getInstance().client().indices().create(createRequest, RequestOptions.DEFAULT);
 				boolean acknowledged = createIndexResponse.isAcknowledged(); 
 				boolean shardsAcknowledged = createIndexResponse.isShardsAcknowledged();
 				

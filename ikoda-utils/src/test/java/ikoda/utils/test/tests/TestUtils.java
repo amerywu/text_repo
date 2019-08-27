@@ -98,12 +98,12 @@ public class TestUtils {
 
 		try {
 			try {
-				RestHighLevelClient client = ElasticSearchClientFactory.getInstance().initiateClient("elastic",
+				ElasticSearchClientFactory.getInstance().initiateClient("elastic",
 						"883-8177", "192.168.0.141", 9200);
-				logger.info("ES " + client.toString());
+				logger.info("ES " + ElasticSearchClientFactory.getInstance().client().toString());
 
 				GetIndexRequest request = new GetIndexRequest("utindex");
-				boolean exists = client.indices().exists(request, RequestOptions.DEFAULT);
+				boolean exists = ElasticSearchClientFactory.getInstance().client().indices().exists(request, RequestOptions.DEFAULT);
 				logger.info("utindex exists: " + exists);
 				if (!exists) {
 					CreateIndexRequest createRequest = new CreateIndexRequest("utindex");
@@ -111,7 +111,7 @@ public class TestUtils {
 							Settings.builder().put("index.number_of_shards", 3).put("index.number_of_replicas", 2));
 					createRequest.mapping(jsonIndex());
 
-					CreateIndexResponse createIndexResponse = client.indices().create(createRequest,
+					CreateIndexResponse createIndexResponse = ElasticSearchClientFactory.getInstance().client().indices().create(createRequest,
 							RequestOptions.DEFAULT);
 					boolean acknowledged = createIndexResponse.isAcknowledged();
 					boolean shardsAcknowledged = createIndexResponse.isShardsAcknowledged();

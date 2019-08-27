@@ -10,7 +10,7 @@ public class EsJson {
 	
 	public final static String JOBS_INDEX_NAME = "job-description-index";
 
-	public XContentBuilder jobsIndexJson() throws Exception {
+	public static XContentBuilder jobsIndexJson() throws Exception {
 		XContentBuilder builder = XContentFactory.jsonBuilder();
 		builder.startObject();
 		{
@@ -45,23 +45,8 @@ public class EsJson {
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
 				builder.startObject("areasOfStudy");
-				{
-					builder.field("type", "text");
-				}
-				builder.startObject("certification");
-				{
-					builder.field("type", "text");
-				}
-				builder.startObject("skills");
-				{
-					builder.field("type", "text");
-				}
-				builder.startObject("relatedMajors");
-				{
-					builder.field("type", "text");
-				}
-				builder.startObject("workSkills");
 				{
 					builder.field("type", "text");
 				}
@@ -70,14 +55,32 @@ public class EsJson {
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
+				builder.startObject("skills");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("relatedMajors");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("workSkills");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
 				builder.startObject("region");
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
 				builder.startObject("contentType");
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
 				builder.startObject("degreeLevel");
 				{
 					builder.field("type", "text");
@@ -87,10 +90,12 @@ public class EsJson {
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
 				builder.startObject("yearsExperienceAsInt");
 				{
 					builder.field("type", "text");
 				}
+				builder.endObject();
 			}
 			builder.endObject();
 		}

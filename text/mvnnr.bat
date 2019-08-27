@@ -1,7 +1,7 @@
-cd C:\Users\jake\__workspace\text-repo\ikoda-utils
+cd C:\Users\jake\__workspace\text_repo\ikoda-utils
 
 call mvn clean install
 
-cd C:\Users\jake\__workspace\text-repo\text
+cd C:\Users\jake\__workspace\text_repo\text
 
 call mvn clean install -Pnorun

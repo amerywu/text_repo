@@ -18,9 +18,11 @@ import ikoda.netio.config.ConfigurationBeanParent;
 import ikoda.netio.config.InterfaceConfigurationBeanParent;
 import ikoda.nlp.analysis.FileAnalyzerThread;
 import ikoda.nlp.analysis.FileAnalyzerThreadManagement;
+import ikoda.nlp.structure.EsJson;
 import ikoda.persistence.application.PersistenceChoresThread;
 import ikoda.persistence.application.PersistenceReportingThread;
 import ikoda.persistence.application.PersistenceThread;
+import ikoda.utils.ElasticSearchManager;
 import ikoda.utils.ProcessStatus;
 
 public class JobAnalysisThread extends Thread
@@ -372,6 +374,15 @@ public class JobAnalysisThread extends Thread
 
             System.out.println("runTextProcesses");
             JALog.getLogger().info(config);
+            
+            if(config.isSendToES()) {
+            	ElasticSearchManager.getInstance().init(
+            			config.getElasticSearchUser(), 
+            			config.getElasticSearchPassword(),
+            			config.getElasticSearchUrl(),
+            			new Integer(config.getElasticSearchPort()).intValue());
+            	ElasticSearchManager.getInstance().createIndexIfNotExisting(EsJson.JOBS_INDEX_NAME, EsJson.jobsIndexJson());
+            }
 
             if (config.isElegantStop())
             {

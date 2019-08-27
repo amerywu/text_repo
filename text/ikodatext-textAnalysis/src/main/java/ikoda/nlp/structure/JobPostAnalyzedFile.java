@@ -7,6 +7,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.locks.ReentrantLock;
 
+import org.elasticsearch.action.index.IndexRequest;
+import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.common.xcontent.XContentFactory;
+
 import bridge.RScalaBridge;
 import bridge.RScalaBridgeObject;
 import ikoda.netio.config.ConfigurationBeanParent;
@@ -18,6 +22,7 @@ import ikoda.nlp.analysis.TALog;
 import ikoda.nlp.analyzers.DEGREENerTokenAnalyzer;
 import ikoda.persistence.model.CountDegree;
 import ikoda.utils.DuplicateEntryChecker;
+import ikoda.utils.ElasticSearchManager;
 import ikoda.utils.MultiplePropertiesSingleton;
 import ikoda.utils.ProcessStatus;
 
@@ -839,6 +844,10 @@ public class JobPostAnalyzedFile extends AnalyzedFile
                 ProcessStatus.incrementStatus("TA Success " + ib.getRegion());
                 saved = true;
             }
+            if(config.isSendToES())
+            {
+            	dispatchToES(ib);
+            }
         }
         if (!saved)
         {
@@ -846,19 +855,50 @@ public class JobPostAnalyzedFile extends AnalyzedFile
             analyzeFailedRun();
         }
         
-        if(config.isSendToES())
-        {
-        	
-        }
+
 
         return saved;
     }
     
     private boolean dispatchToES(InfoBox ib) {
+    	try {
+    		XContentBuilder builder = XContentFactory.jsonBuilder();
+    		builder.startObject();
+    		{
+    				builder.field("type", ib.getContentType());
+    				builder.field("location",ib.getLocation());
+    				builder.field("salaryStart", ib.getStartSalaryRange());
+    				builder.field("salaryEnd",ib.getEndSalaryRange());
+    				builder.field("jobTitles",ib.getJobTitles());
+    				builder.field("qualifications",ib.getQualifications());
+    				builder.field("areasOfStudy",ib.getAreasOfStudy());
+    				builder.field("certification");
+    				builder.field("skills");
+    				builder.field("relatedMajors");
+    				builder.field("workSkills");
+    				builder.field("certification");
+    				builder.field("region");
+    				builder.field("contentType");
+    				builder.field("degreeLevel");
+    				builder.field("detailLevel");
+    				builder.field("yearsExperienceAsInt");
+    		}
+    		builder.endObject();
+    		ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME);
+    		
+    		
+    		return true;
+    	}
+    	catch(Exception e) {
+    		TALog.getLogger().warn(e.getMessage(),e);
+    		return false;
+    	}
+
+
+    	}
     	
     	
-    	
-    }
+
 
     private List<InfoBox> postProcessInfoBoxesMergeConditions()
     {
