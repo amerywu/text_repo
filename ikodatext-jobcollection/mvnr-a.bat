@@ -10,4 +10,4 @@ call mvnnr
 
 cd C:\Users\jake\__workspace\text_repo\ikodatext-jobcollection
 
-call mvn clean install -Passemble
+call mvn clean install 

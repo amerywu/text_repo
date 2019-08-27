@@ -4,5 +4,5 @@
 	<textAnalysisFailedPath>Z:\_filedump\_filedump-en-majors\_textAnalysisFailed</textAnalysisFailedPath>
 	<textAnalysisInfoBoxPath>Z:\_filedump\_filedump-en-majors\_infoBoxes</textAnalysisInfoBoxPath>
 	<textAnalysisDonePath>Z:\_filedump\_filedump-en-majors\analyzed</textAnalysisDonePath>
-	<taThreadCount>4</taThreadCount>
+	<taThreadCount>3</taThreadCount>
 </configurationTextAnalysis>

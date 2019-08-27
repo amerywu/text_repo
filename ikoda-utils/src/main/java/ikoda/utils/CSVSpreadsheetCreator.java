@@ -902,7 +902,7 @@ public class CSVSpreadsheetCreator extends AbstractSpreadsheetCreator
 	{
 		try
 		{
-			logger.info(pathToDir + File.separator + projectPrefix + fileName);
+			logger.debug("Saving to "+ pathToDir + File.separator + projectPrefix + fileName);
 			printByRowCsv(Paths.get(cleanFullPath(pathToDir, projectPrefix + fileName)));
 			data.clear();
 

@@ -318,7 +318,7 @@ public class FileAnalyzerThread extends FileAnalyzerThreadManagement
                 }
                 catch (Exception e)
                 {
-                    TALog.getLogger().error(e.getMessage(), e);
+                    TALog.getLogger().error(e.getMessage());
                 }
                 finally
                 {
@@ -357,7 +357,7 @@ public class FileAnalyzerThread extends FileAnalyzerThreadManagement
                 }
                 catch (Exception e)
                 {
-                    TALog.getLogger().error(e.getMessage(), e);
+                    TALog.getLogger().error(e.getMessage());
                 }
                 finally
                 {

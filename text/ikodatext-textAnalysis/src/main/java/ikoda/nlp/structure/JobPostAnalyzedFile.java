@@ -67,6 +67,8 @@ public class JobPostAnalyzedFile extends AnalyzedFile
     private final static String JOB_TITLE_TRIM2 = "JOB DESCRIPTION";
     private final static String JOB_TITLE_TRIM3 = "_";
     private final static String COMMA = ",";
+    private final static String EMPTY = "";
+    private final static String STOP = ". ";
     private final static String UNDERSCORE = "_";
 
     private static String[] uidIgnoreWords = { HTTP, COPYRIGHT, RIGHTRESERVED, GENDER, ETHNICITY, ETHNIC, INDEED,
@@ -846,7 +848,9 @@ public class JobPostAnalyzedFile extends AnalyzedFile
             }
             if(config.isSendToES())
             {
-            	dispatchToES(ib);
+            	if(ib.getDetailLevel() > 2) {
+            		dispatchToES(ib);
+            	}
             }
         }
         if (!saved)
@@ -860,28 +864,47 @@ public class JobPostAnalyzedFile extends AnalyzedFile
         return saved;
     }
     
+    private String listToString(List<String>  list, String separator) {
+    	
+    	if(list.isEmpty())
+    	{
+    		return "";
+    	}
+    	StringBuilder sb = new StringBuilder();
+    	Iterator<String> itr = list.iterator();
+    	while (itr.hasNext()) {
+    		sb.append(itr.next());
+    		if(itr.hasNext()) {
+    			sb.append(separator);
+    		}
+    	}
+    	return sb.toString();
+
+    }
+    
     private boolean dispatchToES(InfoBox ib) {
     	try {
     		XContentBuilder builder = XContentFactory.jsonBuilder();
     		builder.startObject();
     		{
-    				builder.field("type", ib.getContentType());
+    				builder.field("contentType", ib.getContentType());
     				builder.field("location",ib.getLocation());
     				builder.field("salaryStart", ib.getStartSalaryRange());
     				builder.field("salaryEnd",ib.getEndSalaryRange());
-    				builder.field("jobTitles",ib.getJobTitles());
-    				builder.field("qualifications",ib.getQualifications());
-    				builder.field("areasOfStudy",ib.getAreasOfStudy());
-    				builder.field("certification");
-    				builder.field("skills");
-    				builder.field("relatedMajors");
-    				builder.field("workSkills");
-    				builder.field("certification");
-    				builder.field("region");
-    				builder.field("contentType");
-    				builder.field("degreeLevel");
-    				builder.field("detailLevel");
-    				builder.field("yearsExperienceAsInt");
+    				builder.field("jobTitles",listToString(ib.getJobTitles(),COMMA));
+    				builder.field("qualifications",listToString(ib.getQualifications(),COMMA));
+    				builder.field("areasOfStudy",listToString(ib.getAreasOfStudy(),COMMA));
+    				builder.field("certification",listToString(ib.getCertification(),COMMA));
+    				builder.field("skills", listToString(ib.getSkills(),STOP));
+    				builder.field("relatedMajors", listToString(ib.getRelatedMajors(),COMMA));
+    				builder.field("workSkills", listToString(ib.getWorkSkills(),COMMA));
+    				builder.field("region", ib.getRegion());
+    				builder.field("degreeLevel",ib.getDegreeLevel());
+    				builder.field("detailLevel", ib.getDetailLevel());
+    				builder.field("yearsExperienceAsInt",String.valueOf(ib.getYearsExperienceAsInt()));
+    				builder.field("majorFinal",ib.getMajorFinal());
+    				builder.field("jobFinal", ib.getJobFinal());
+    				builder.field("databaseDescriptor", ib.getDatabaseDescriptor());
     		}
     		builder.endObject();
     		ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME);
@@ -1067,6 +1090,11 @@ public class JobPostAnalyzedFile extends AnalyzedFile
                 {
                     ib.getSkills().clear();
                 }
+                ArrayList<String> newList = new ArrayList();
+                for(String s : ib.getSkills()) {
+                	newList.add(s.replace(".", " ").trim());
+                }
+                ib.setSkills(newList);
             }
 
         }

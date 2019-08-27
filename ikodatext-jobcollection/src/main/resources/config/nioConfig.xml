@@ -3,7 +3,7 @@
     <urlRepository>Z:\_fd\_filedump-en-majors\urlRepository</urlRepository>
     <netIoDumpPath>Z:\_filedump\_filedump-en-majors\output</netIoDumpPath>
     <maxCallsRoundOne>5</maxCallsRoundOne>
-    <maxCallsRoundTwo>50</maxCallsRoundTwo>
+    <maxCallsRoundTwo>20</maxCallsRoundTwo>
     <maxCallsRoundThree>1</maxCallsRoundThree>
     <maxCallsRoundFour>1</maxCallsRoundFour>
     <netioMinimumCycleInMinutes>3500</netioMinimumCycleInMinutes>

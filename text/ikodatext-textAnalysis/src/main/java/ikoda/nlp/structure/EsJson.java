@@ -16,11 +16,7 @@ public class EsJson {
 		{
 			builder.startObject("properties");
 			{
-				builder.startObject("content");
-				{
-					builder.field("type", "text");
-				}
-				builder.endObject();
+
 				builder.startObject("location");
 				{
 					builder.field("type", "text");
@@ -92,6 +88,21 @@ public class EsJson {
 				}
 				builder.endObject();
 				builder.startObject("yearsExperienceAsInt");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("majorFinal");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("jobFinal");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("databaseDescriptor");
 				{
 					builder.field("type", "text");
 				}
