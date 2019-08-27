@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+	<urls>
+		<url>http://sou.zhaopin.com/jobs/searchresult.ashx?pd=7&amp;jl=%E5%A4%A9%E6%B4%A5&amp;sm=0&amp;p=1&amp;sf=0&amp;st=99999&amp;el=4&amp;isadv=1</url>
+		<website>ZHAOPING</website>
+	</urls>
+
+	<urls>
+		<url>http://sou.zhaopin.com/jobs/searchresult.ashx?pd=7&amp;jl=%E6%AD%A6%E6%B1%89&amp;sm=0&amp;p=1&amp;sf=0&amp;st=99999&amp;el=4&amp;isadv=1</url>
+		<website>ZHAOPING</website>
+	</urls>
+
+	<urls>
+		<url>http://sou.zhaopin.com/jobs/searchresult.ashx?pd=7&amp;jl=%E8%A5%BF%E5%AE%89&amp;sm=0&amp;p=1&amp;sf=0&amp;st=99999&amp;el=4&amp;isadv=1</url>
+		<website>ZHAOPING</website>
+	</urls>
+
+	<urls>
+		<url>http://sou.zhaopin.com/jobs/searchresult.ashx?pd=7&amp;jl=%E6%88%90%E9%83%BD&amp;sm=0&amp;p=1&amp;sf=0&amp;st=99999&amp;el=4&amp;isadv=1</url>
+		<website>ZHAOPING</website>
+	</urls>
+
+
+	<urlrepository>

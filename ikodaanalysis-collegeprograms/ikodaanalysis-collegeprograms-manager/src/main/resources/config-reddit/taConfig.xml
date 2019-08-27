@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationTextAnalysis>
+    
+    <csvForITokenNames>NOUN0</csvForITokenNames>
+    <csvForITokenNames>NOUN1</csvForITokenNames>
+    <csvForITokenNames>NOUN2</csvForITokenNames>
+    <csvForITokenNames>NOUN3</csvForITokenNames>
+    <csvForITokenNames>VERB0</csvForITokenNames>
+    <csvForITokenNames>VERB1</csvForITokenNames>
+    <csvForITokenNames>VERB2</csvForITokenNames>
+    <csvForITokenNames>VERB3</csvForITokenNames>
+    <csvForITokenNames>ADJECTIVE0</csvForITokenNames>
+    <csvForITokenNames>ADJECTIVE1</csvForITokenNames>
+    <csvForITokenNames>ADJECTIVE2</csvForITokenNames>
+    <csvForITokenNames>ADJECTIVE3</csvForITokenNames>
+    <csvForITokenNames>LEMMATIZEDSENTENCE</csvForITokenNames>
+
+    
+    <textAnalysisDonePath>C:\Users\jake\_fd\_filedump_reddit\TASuccess</textAnalysisDonePath>
+    <textAnalysisFailedPath>C:\Users\jake\_fd\_filedump_reddit\TAFail</textAnalysisFailedPath>
+    <csvPath>C:\Users\jake\_fd\_filedump_reddit\</csvPath>
+
+    <collectPartOfSpeech>true</collectPartOfSpeech>
+    <convertToLemmas>true</convertToLemmas>
+    <preventSentenceDuplicates>true</preventSentenceDuplicates>
+    <collectBySentence>true</collectBySentence>
+    <preventSentenceDuplicates>true</preventSentenceDuplicates>
+    <projectPrefix>D_</projectPrefix>
+    <targetColumnName>AA_URI</targetColumnName>
+
+	<columnsToExcludeFromLibSvm>AA_CATEGORY</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_SOURCE</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_UID</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>zz_TARGET</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_URL</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_WEBSITE</columnsToExcludeFromLibSvm>
+
+
+    <maxFileLength>1000000</maxFileLength>
+    <minFileLength>1100</minFileLength>
+    <rollingRowCount>20</rollingRowCount>
+    <taThreadCount>2</taThreadCount>
+    
+    
+    
+
+
+    <maxNumberOfDocuments>1000</maxNumberOfDocuments>
+            <configProperties>
+			<property>
+				<key>maxRowPerBatch</key>
+				<value>1000</value>
+			</property>
+
+	</configProperties>
+</configurationTextAnalysis>
+
+

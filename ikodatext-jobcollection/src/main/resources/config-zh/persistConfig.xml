@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationPersistence>
+	<persistenceDonePath>C:\Users\jake\_fd\_filedump_zh\_persistencedone</persistenceDonePath>
+	<persistenceFailedPath>C:\Users\jake\_fd\_filedump_zh\_persistencefailed</persistenceFailedPath>
+    <persistIfCountDetailLevel>4</persistIfCountDetailLevel>
+	
+	
+	<qualificationMap>mmconfig</qualificationMap>
+	
+	<persistIfCountDetailLevel>3</persistIfCountDetailLevel>
+	<persistIfCountAreasOfStudy>1</persistIfCountAreasOfStudy>
+	<persistIfValueMinimumSalary>5000</persistIfValueMinimumSalary>
+	<persistIfCountCertification>0</persistIfCountCertification>
+
+</configurationPersistence>

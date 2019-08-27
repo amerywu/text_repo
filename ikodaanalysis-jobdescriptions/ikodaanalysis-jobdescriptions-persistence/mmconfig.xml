@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<majormapconfiguration>
+    <majorMapEntry>
+        <ikodamajor>Psychology</ikodamajor>
+        <relatedMajors>Psychology</relatedMajors>
+        <relatedMajors>Counseling</relatedMajors>
+        <relatedMajors>Social Science</relatedMajors>
+        <relatedMajors>Social Sciences</relatedMajors>
+    </majorMapEntry>
+    <majorMapEntry>
+        <ikodamajor>Sociology</ikodamajor>
+        <relatedMajors>Social Work</relatedMajors>
+        <relatedMajors>Social Science</relatedMajors>
+        <relatedMajors>Social Sciences</relatedMajors>
+    </majorMapEntry>
+</majormapconfiguration>

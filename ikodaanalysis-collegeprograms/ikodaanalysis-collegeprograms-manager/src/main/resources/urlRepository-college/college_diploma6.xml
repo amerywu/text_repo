@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+<urls>
+		<url>http://www.citruscollege.edu/stdntsrv/counsel/Pages/DegreeCertificateChart.aspx</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>disciplines/</firstRoundLinks>
+		<secondRoundLinks>search/?P</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+<urls>
+		<url>http://www.butte.edu/academicprograms/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>program_details.php</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R1_URI_PREFIX</key>
+				<value>/academicprograms/</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+   <urls>
+		<url>http://catalog.sunyulster.edu/content.php?catoid=5&amp;navoid=143</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>preview_program.php?catoid</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+
+
+<urls>
+		<url>http://www.canton.edu/course_descriptions/anthropology.html</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>course_descriptions/</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+
+<urls>
+		<url>http://www.sunydutchess.edu/catalog/current/programs/index.html</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>current/programs</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+<urls>
+<url>http://www.fingerlakes.edu/courses/index.cfm</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>descriptions.cfm</firstRoundLinks>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+					<property>
+				<key>R1_URI_PREFIX</key>
+				<value>/courses/</value>
+			</property>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+	
+
+	 
+
+	
+<urls>
+		<url>https://www.corning-cc.edu/academics/programs</url>
+		<website>COLLEGE_CORNINGCC</website>
+        <firstRoundLinks>/programs</firstRoundLinks>
+		<firstRoundIgnore>career-chart</firstRoundIgnore>
+		<firstRoundIgnore>degrees</firstRoundIgnore>
+		<firstRoundIgnore>transfer</firstRoundIgnore>
+		<firstRoundIgnore>career-programs</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_URI_OMMIT</key>
+				<value>academics</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_NEXTROUND_DENY_DUPLICATES_ANYWHERE</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R3_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_URI_OMMIT</key>
+				<value>academics</value>
+			</property>
+			<property>
+				<key>R3_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R3_UPCOMING_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R3_NEXTROUND_DENY_DUPLICATES_ANYWHERE</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R3_NEXTROUND_DENY_DUPLICATES_ANYWHERE</key>
+				<value>true</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+</urlrepository>
+
+
+

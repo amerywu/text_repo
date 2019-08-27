@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <analysisType>JOB_DESCRIPTION_ANALYSIS_CONFIGURATION</analysisType>
+     <analysisSubType>JOB_DESCRIPTION_ANALYSIS_DEGREE_LEVEL</analysisSubType>
+      <specifiedLanguage>en</specifiedLanguage>
+		<runNetio>false</runNetio>
+		<runFileio>false</runFileio>
+		<runTextAnalysis>true</runTextAnalysis>
+		<runPersistence>true</runPersistence>
+		
+		
+		<keyspaceName>jdtest</keyspaceName>
+		<mlServerUrl>192.168.0.141</mlServerUrl>
+		<mlServerPort>9999</mlServerPort>
+		<mlLocalStreamPorts>8081,8082,8083,8084</mlLocalStreamPorts>
+		<localUrls>192.168.0.15</localUrls>
+	
+		<applicationMainModuleName>ikodaanalysis-jobdescriptions-manager</applicationMainModuleName>
+	
+	  
+		<elegantStop>false</elegantStop>
+		<netioResumeMode>false</netioResumeMode>
+		
+		
+		<configProperties>
+			<property>
+				<key>jdtestbyjob</key>
+				<value>14b99f71-9f93-460c-80e2-de1474cf7f10</value>
+			</property>
+			<property>
+				<key>jdtestbysentence</key>
+				<value>652afe74-6637-4618-b932-4c3bd26e6853</value>
+			</property>
+	</configProperties>
+	
+</configuration>

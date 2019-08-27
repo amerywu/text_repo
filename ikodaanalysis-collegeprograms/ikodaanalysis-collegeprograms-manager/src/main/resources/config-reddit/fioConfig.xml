@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationFileio>
+	<fileIoJobPostingPath>C:\Users\jake\_fd\_filedump_reddit\fioAccumulateAppend</fileIoJobPostingPath>
+	<fileIoXMLPath>C:\Users\jake\_fd\_filedump_reddit\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>C:\Users\jake\_fd\_filedump_reddit\fio_</fileIoResultsPath>
+	<fileIoUndeterminedPath>C:\Users\jake\_fd\_filedump_reddit\fioUndetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>C:\Users\jake\_fd\_filedump_reddit\fio_</fileIoNonApplicablePath>
+	<fileIoDonePath>C:\Users\jake\_fd\_filedump_reddit\_fioProcessedAndParked</fileIoDonePath>
+	<fileIoOutBoxPath>C:\Users\jake\_fd\_filedump_reddit\fioOutBox</fileIoOutBoxPath>
+</configurationFileio>

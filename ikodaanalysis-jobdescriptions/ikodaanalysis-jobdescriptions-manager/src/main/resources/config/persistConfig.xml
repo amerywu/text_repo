@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationPersistence>
+    <analysisType>JOB_DESCRIPTION_ANALYSIS_CONFIGURATION</analysisType>
+	<biteSize>1000</biteSize>
+	<percentToSample>90</percentToSample>
+    <minDetailLevel>7</minDetailLevel>
+</configurationPersistence>

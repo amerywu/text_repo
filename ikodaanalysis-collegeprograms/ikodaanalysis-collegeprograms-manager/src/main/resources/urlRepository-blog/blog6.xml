@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository> 
+<urls>
+		<url>https://www.reddit.com/r/environmental_science/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>environmental_science/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/EarthScience/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>EarthScience/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/climate/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>climate/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/nursing/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/MedicalAssistant/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>MedicalAssistant/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/emergencymedicine/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>emergencymedicine/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	<urls>
+		<url>https://www.reddit.com/r/pharmacy/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>pharmacy/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property> 
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	<urls>
+		<url>https://www.reddit.com/r/respiratorytherapy/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>respiratorytherapy/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+</urlrepository>

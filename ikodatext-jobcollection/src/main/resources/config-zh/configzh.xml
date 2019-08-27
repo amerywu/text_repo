@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+
+ <applicationMainModuleName>ikodatext-jobAnalysis</applicationMainModuleName>
+
+    <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>CHINESEDEGREE_LEVEL</analysisSubType>
+    <databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_ZH</databaseDescriptor>
+    <qualificationMap>mmconfig</qualificationMap>.
+    <nerPropertiesPath>ner_zh_CN.txt</nerPropertiesPath>
+    <specifiedLanguage>zh_CN</specifiedLanguage>
+    <jobAnalysisModuleName>ikodatext-jobAnalysis_zh</jobAnalysisModuleName>
+	
+    <languagesForAnalysis>
+        <localeCode>zh_CN</localeCode>
+        <regions>zh</regions>
+    </languagesForAnalysis>
+    
+  
+    
+    <urlRepository>Z:\_livefiledump_zh_degree\urlRepository</urlRepository>
+    <textAnalysisFailedPath>Z:\_livefiledump_zh_degree\_textAnalysisFailed</textAnalysisFailedPath>
+    <textAnalysisInfoBoxPath>Z:\_livefiledump_zh_degree\_infoBoxes</textAnalysisInfoBoxPath>
+    <textAnalysisDonePath>Z:\_livefiledump_zh_degree\_textAnalyzed</textAnalysisDonePath>
+    <netIoDumpPath>Z:\_livefiledump_zh_degree\output</netIoDumpPath>
+    <fileIoJobPostingPath>Z:\_livefiledump_zh_degree\_JobPosting</fileIoJobPostingPath>
+    <fileIoXMLPath>Z:\_livefiledump_zh_degree\allXmlFiles</fileIoXMLPath>
+    <fileIoResultsPath>Z:\_livefiledump_zh_degree\resultListings</fileIoResultsPath>
+    <fileIoUndeterminedPath>Z:\_livefiledump_zh_degree\undetermined</fileIoUndeterminedPath>
+    <fileIoNonApplicablePath>Z:\_livefiledump_zh_degree\NA</fileIoNonApplicablePath>
+    <fileIoDonePath>Z:\_livefiledump_zh_degree\done</fileIoDonePath>
+    <persistenceDonePath>Z:\_livefiledump_zh_degree\_persistencedone</persistenceDonePath>
+    <persistenceFailedPath>Z:\_livefiledump_zh_degree\_persistencefailed</persistenceFailedPath>
+    
+    
+    <runNetio>false</runNetio>
+    <runFileio>true</runFileio>
+    <runTextAnalysis>true</runTextAnalysis>
+    <runPersistenceReporting>false</runPersistenceReporting>
+    <runPersistence>true</runPersistence>
+    <runPersistenceChores>true</runPersistenceChores>
+    
+    
+    <maxCallsRoundOne>50</maxCallsRoundOne>
+    <maxCallsRoundTwo>5000</maxCallsRoundTwo>
+    <maxCallsRoundThree>1</maxCallsRoundThree>
+    <maxCallsRoundFour>1</maxCallsRoundFour>
+    
+     <netioMinimumCycleInMinutes>4320</netioMinimumCycleInMinutes>
+    <elegantStop>false</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>true</minimizeResourceUse>
+    
+    <persistIfCountDetailLevel>3</persistIfCountDetailLevel>
+    <persistIfCountAreasOfStudy>0</persistIfCountAreasOfStudy>
+    <persistIfValueMinimumSalary>5000</persistIfValueMinimumSalary>
+    <persistIfCountCertification>0</persistIfCountCertification>
+    
+</configuration>

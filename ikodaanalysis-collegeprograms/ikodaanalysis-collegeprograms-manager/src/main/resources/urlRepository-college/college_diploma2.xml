@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+	<urls>
+		<url>https://www.bakersfieldcollege.edu/academics/degrees-certificates</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>programs/</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+
+	<urls>
+		<url>http://www.glendale.edu/academics/degree-certificate-programs/certificate-programs</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>degree-certificate-programs</firstRoundLinks>
+		<secondRoundLinks>career-center</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>https://www.oakton.edu/academics/academic_departments/index.php</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>academics/academic_departments</firstRoundLinks>
+		<firstRoundLinks>special_programs</firstRoundLinks>
+		<firstRoundIgnore>..</firstRoundIgnore>
+		<firstRoundIgnore>/audience_nav/</firstRoundIgnore>
+		<firstRoundIgnore>search</firstRoundIgnore>
+		<secondRoundLinks>syllabi</secondRoundLinks>
+		<secondRoundLinks>.php</secondRoundLinks>
+		<secondRoundIgnore>..</secondRoundIgnore>
+		<secondRoundIgnore>index</secondRoundIgnore>
+		<secondRoundIgnore>audience_nav</secondRoundIgnore>
+		<secondRoundIgnore>admission</secondRoundIgnore>
+		<secondRoundIgnore>task_nav</secondRoundIgnore>
+		<secondRoundIgnore>about</secondRoundIgnore>
+		<thirdRoundLinks>/course_syllabi/</thirdRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+</urlrepository>
+
+
+

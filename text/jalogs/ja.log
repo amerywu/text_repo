@@ -1,0 +1,794 @@
+[INFO] 2018-01-15 23:20:09,020: ikoda.jobanalysis.JobAnalysisApplication.main(JobAnalysisApplication.java:33) JobAnalysisApplication  main Starting JobAnalysisApplication
+
+[INFO] 2018-01-15 23:20:09,025: ikoda.jobanalysis.JobAnalysisApplication.main(JobAnalysisApplication.java:40) JobAnalysisApplication  main /C:/Users/jake/_servers/apache-maven-3.3.3/boot/plexus-classworlds-2.5.2.jar
+
+[DEBUG] 2018-01-15 23:20:30,169: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@681e748d], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@4034836c, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[INFO] 2018-01-15 23:20:30,222: ikoda.jobanalysis.JobAnalysisThread.runTextProcesses(JobAnalysisThread.java:376) JobAnalysisThread  runTextProcesses ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@681e748d], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@2700d863, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[INFO] 2018-01-15 23:20:30,587: ikoda.jobanalysis.JobAnalysisThread.runTextProcesses(JobAnalysisThread.java:398) JobAnalysisThread  runTextProcesses File IO started
+
+[INFO] 2018-01-15 23:20:31,502: ikoda.jobanalysis.JobAnalysisThread.runTextProcesses(JobAnalysisThread.java:407) JobAnalysisThread  runTextProcesses Net IO started
+
+[INFO] 2018-01-15 23:23:26,267: ikoda.jobanalysis.JobAnalysisThread.runTextProcesses(JobAnalysisThread.java:434) JobAnalysisThread  runTextProcesses TA started
+
+[INFO] 2018-01-15 23:23:26,596: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:308) JobAnalysisThread  run Starting Job Analysis Thread
+
+[INFO] 2018-01-15 23:23:26,791: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:24:13,108: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@a731844], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@5337039c, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:24:13,108: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:24:13,109: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:24:13,128: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 30.0
+FileioThread currentFile currentFileProcessTime : 374
+Memory Free : 1027
+Memory Max : 7282
+Memory Total : 3059
+Memory Used : 2032
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 15
+Netio 04. Calls remaining  this round : 12
+Netio 05. Next round calls : 227
+Netio 06. Spider id : 15
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:03:41
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:04
+TA Files with Text Analyzed T:1 : 0
+TA Success : 1
+TA Success Australia : 1
+TA currentFileProcessTime : 44299
+
+
+[INFO] 2018-01-15 23:24:13,138: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:24:43,586: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@366d5dc9], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@3f88389d, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:24:43,586: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:24:43,587: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:24:43,682: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 32.0
+FileioThread currentFile currentFileProcessTime : 29106
+Memory Free : 263
+Memory Max : 7282
+Memory Total : 3335
+Memory Used : 3072
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 18
+Netio 04. Calls remaining  this round : 10
+Netio 05. Next round calls : 270
+Netio 06. Spider id : 16
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:04:08
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:03
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Success : 3.0
+TA Success Australia : 3.0
+TA currentFileProcessTime : 74777
+
+
+[INFO] 2018-01-15 23:24:43,903: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:25:17,478: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@1d374c7e], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@34569b7c, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:25:17,478: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:25:17,478: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:25:17,559: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 40.0
+FileioThread currentFile currentFileProcessTime : 13572
+Memory Free : 984
+Memory Max : 7282
+Memory Total : 3431
+Memory Used : 2446
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 19
+Netio 04. Calls remaining  this round : 9
+Netio 05. Next round calls : 288
+Netio 06. Spider id : 16
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:04:46
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:07
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Success : 4.0
+TA Success Australia : 4.0
+TA currentFileProcessTime : 108668
+
+
+[INFO] 2018-01-15 23:25:17,675: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:25:57,041: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@35e673a5], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@69142f9b, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:25:57,205: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:25:57,205: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:25:57,217: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 44.0
+FileioThread currentFile currentFileProcessTime : 19828
+Memory Free : 946
+Memory Max : 7282
+Memory Total : 3575
+Memory Used : 2628
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 22
+Netio 04. Calls remaining  this round : 7
+Netio 05. Next round calls : 348
+Netio 06. Spider id : 17
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:05:25
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:05
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Success : 6.0
+TA Success Australia : 6.0
+TA currentFileProcessTime : 148395
+
+
+[INFO] 2018-01-15 23:25:57,221: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:26:29,009: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@17eb07de], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@5c4c5d01, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:26:29,123: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:26:29,123: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:26:29,213: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 48.0
+FileioThread currentFile currentFileProcessTime : 14762
+Memory Free : 1265
+Memory Max : 7282
+Memory Total : 3611
+Memory Used : 2345
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 24
+Netio 04. Calls remaining  this round : 5
+Netio 05. Next round calls : 375
+Netio 06. Spider id : 17
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:05:44
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:00
+TA Failed : 1
+TA Failed Files : 1
+TA Failed on  AreasOfStudy  : 1
+TA Failed on  AreasOfStudy : 1
+TA Failed on  Skills  : 1
+TA Failed on  Skills : 1
+TA Failed on JobTitle  : 1
+TA Failed on JobTitle : 1
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 8.0
+TA Success Australia : 8.0
+TA currentFileProcessTime : 770
+
+
+[INFO] 2018-01-15 23:26:29,329: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:27:00,145: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@57bac30f], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@bf12dc, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:27:00,145: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:27:00,146: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:27:00,952: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 52.0
+FileioThread currentFile currentFileProcessTime : 2266
+Memory Free : 1994
+Memory Max : 7282
+Memory Total : 3669
+Memory Used : 1674
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 26
+Netio 04. Calls remaining  this round : 3
+Netio 05. Next round calls : 376
+Netio 06. Spider id : 14
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:06:25
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:03
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 8.0
+TA Success Australia : 8.0
+TA currentFileProcessTime : 31793
+
+
+[INFO] 2018-01-15 23:27:01,212: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:27:53,217: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@58171f1b], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@1f0857b7, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:27:53,718: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:27:53,919: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:27:54,263: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 3
+FIO: Files Processed : 53.0
+FileioThread currentFile currentFileProcessTime : 1401
+Memory Free : 852
+Memory Max : 7282
+Memory Total : 3753
+Memory Used : 2900
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 27
+Netio 04. Calls remaining  this round : 2
+Netio 05. Next round calls : 376
+Netio 06. Spider id : 15
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:07:21
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:03
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 9.0
+TA Success Australia : 9.0
+TA currentFileProcessTime : 85566
+
+
+[INFO] 2018-01-15 23:27:54,413: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:28:25,434: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@35a7f1e5], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@6c6122e9, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:28:26,035: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:28:26,035: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:28:27,690: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 56.0
+FileioThread currentFile currentFileProcessTime : 27698
+Memory Free : 2032
+Memory Max : 7282
+Memory Total : 3796
+Memory Used : 1763
+Netio 01. Current Round : 1
+Netio 03. Total calls so far this round : 29
+Netio 04. Calls remaining  this round : 0
+Netio 05. Next round calls : 377
+Netio 06. Spider id : 17
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:07:50
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:06
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 11.0
+TA Success Australia : 11.0
+TA currentFileProcessTime : 117682
+
+
+[INFO] 2018-01-15 23:28:28,002: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:29:05,052: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@7b3c6191], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@2d783b81, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:29:05,056: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:29:05,056: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:29:05,365: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 62.0
+FileioThread currentFile currentFileProcessTime : 28695
+Memory Free : 1119
+Memory Max : 7282
+Memory Total : 3951
+Memory Used : 2831
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 1
+Netio 04. Calls remaining  this round : 376
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 11
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:08:33
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:05
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 11.0
+TA Success Australia : 11.0
+TA currentFileProcessTime : 156703
+
+
+[INFO] 2018-01-15 23:29:06,228: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:30:21,925: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@23966362], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@1b715f98, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:30:22,027: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:30:22,179: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:30:22,184: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 64.0
+FileioThread currentFile currentFileProcessTime : 1241
+Memory Free : 2377
+Memory Max : 7282
+Memory Total : 4104
+Memory Used : 1726
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 3
+Netio 04. Calls remaining  this round : 374
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 11
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:08:51
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:00
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 12.0
+TA Success Australia : 12.0
+TA currentFileProcessTime : 233826
+
+
+[INFO] 2018-01-15 23:30:22,253: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:31:03,361: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@37de4eda], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@5a7a607f, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:31:03,361: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:31:03,361: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:31:03,396: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 68.0
+FileioThread currentFile currentFileProcessTime : 32199
+Memory Free : 1723
+Memory Max : 7282
+Memory Total : 4178
+Memory Used : 2454
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 5
+Netio 04. Calls remaining  this round : 372
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:10:31
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:05
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 13.0
+TA Success Australia : 13.0
+TA currentFileProcessTime : 31894
+
+
+[INFO] 2018-01-15 23:31:03,419: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:31:40,245: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@2f262dbf], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@2cb1bdc2, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:31:40,246: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:31:40,248: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:31:40,371: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 70.0
+FileioThread currentFile currentFileProcessTime : 20275
+Memory Free : 1805
+Memory Max : 7282
+Memory Total : 4239
+Memory Used : 2433
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 6
+Netio 04. Calls remaining  this round : 371
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:11:08
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:04
+TA Failed : 2.0
+TA Failed Files : 2.0
+TA Failed on  AreasOfStudy  : 2.0
+TA Failed on  AreasOfStudy : 2.0
+TA Failed on  Skills  : 2.0
+TA Failed on  Skills : 2.0
+TA Failed on JobTitle  : 2.0
+TA Failed on JobTitle : 2.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 15.0
+TA Success Australia : 15.0
+TA currentFileProcessTime : 68781
+
+
+[INFO] 2018-01-15 23:31:40,542: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:32:11,238: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@2a2a5f8b], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@622c78f3, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:32:11,259: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:32:11,260: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:32:11,274: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 2
+FIO: Files Processed : 72.0
+FileioThread currentFile currentFileProcessTime : 171
+Memory Free : 1728
+Memory Max : 7282
+Memory Total : 4280
+Memory Used : 2551
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 7
+Netio 04. Calls remaining  this round : 370
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:11:39
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:07
+TA Failed : 3.0
+TA Failed Files : 3.0
+TA Failed on  AreasOfStudy  : 3.0
+TA Failed on  AreasOfStudy : 3.0
+TA Failed on  Skills  : 3.0
+TA Failed on  Skills : 3.0
+TA Failed on JobTitle  : 3.0
+TA Failed on JobTitle : 3.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 16.0
+TA Success Australia : 16.0
+TA currentFileProcessTime : 26221
+
+
+[INFO] 2018-01-15 23:32:11,359: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:33:04,511: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@4d3beb3f], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@23b61d53, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:33:05,279: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:33:05,280: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:33:05,281: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 74.0
+FileioThread currentFile currentFileProcessTime : 1202
+Memory Free : 2437
+Memory Max : 7282
+Memory Total : 4318
+Memory Used : 1880
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 8
+Netio 04. Calls remaining  this round : 369
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:12:33
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:07
+TA Failed : 3.0
+TA Failed Files : 3.0
+TA Failed on  AreasOfStudy  : 3.0
+TA Failed on  AreasOfStudy : 3.0
+TA Failed on  Skills  : 3.0
+TA Failed on  Skills : 3.0
+TA Failed on JobTitle  : 3.0
+TA Failed on JobTitle : 3.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 17.0
+TA Success Australia : 17.0
+TA currentFileProcessTime : 80241
+
+
+[INFO] 2018-01-15 23:33:05,284: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:33:47,549: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@4aee5b79], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@1bde5948, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:33:47,553: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:33:47,554: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:33:47,777: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:221) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 76.0
+FileioThread currentFile currentFileProcessTime : 41414
+Memory Free : 2039
+Memory Max : 7282
+Memory Total : 4362
+Memory Used : 2323
+Netio 01. Current Round : 2
+Netio 02. r 1 | spider 10 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2430%2C000+-+%2440%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 1
+Netio 02. r 1 | spider 11 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2440%2C000+-+%2450%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 1
+Netio 02. r 1 | spider 12 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2450%2C000+-+%2460%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 1
+Netio 02. r 1 | spider 13 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2460%2C000+-+%2470%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 4
+Netio 02. r 1 | spider 14 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2470%2C000+-+%2480%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 5
+Netio 02. r 1 | spider 15 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2480%2C000+-+%2490%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 6
+Netio 02. r 1 | spider 16 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2490%2C000+-+%24100%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 4
+Netio 02. r 1 | spider 17 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%24100%2C000+-+%24120%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 7
+Netio 02. r 2 | spider 11 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2440%2C000+-+%2450%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 3
+Netio 02. r 2 | spider 12 | https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2450%2C000+-+%2460%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 ||| Call count : 7
+Netio 03. Total calls so far this round : 10
+Netio 04. Calls remaining  this round : 367
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:13:15
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:04
+Netio: 1 Low Call Count: https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2430%2C000+-+%2440%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 : 1
+Netio: 1 Low Call Count: https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2440%2C000+-+%2450%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 : 1
+Netio: 1 Low Call Count: https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2450%2C000+-+%2460%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 : 1
+Netio: 1 Low Call Count: https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2460%2C000+-+%2470%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 : 4
+Netio: 1 Low Call Count: https://au.indeed.com/jobs?q=%28degree+or+tertiary+or+post-secondary%29+%2490%2C000+-+%24100%2C000&l=Melbourne+VIC&jt=fulltime&limit=20&fromage=7&radius=50&start=20 : 4
+Netio: Excessive Accumulated Calls: | r 2 | f au.xml | spider [17] : 108
+TA Failed : 3.0
+TA Failed Files : 3.0
+TA Failed on  AreasOfStudy  : 3.0
+TA Failed on  AreasOfStudy : 3.0
+TA Failed on  Skills  : 3.0
+TA Failed on  Skills : 3.0
+TA Failed on JobTitle  : 3.0
+TA Failed on JobTitle : 3.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 20.0
+TA Success Australia : 20.0
+TA currentFileProcessTime : 24298
+
+
+[INFO] 2018-01-15 23:33:48,145: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:34:45,400: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@12056b99], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@4ca86a50, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:34:45,401: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:34:45,402: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:34:45,456: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 82.0
+FileioThread currentFile currentFileProcessTime : 8598
+Memory Free : 2686
+Memory Max : 7282
+Memory Total : 4377
+Memory Used : 1691
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 11
+Netio 04. Calls remaining  this round : 366
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:14:05
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:07
+TA Failed : 3.0
+TA Failed Files : 3.0
+TA Failed on  AreasOfStudy  : 3.0
+TA Failed on  AreasOfStudy : 3.0
+TA Failed on  Skills  : 3.0
+TA Failed on  Skills : 3.0
+TA Failed on JobTitle  : 3.0
+TA Failed on JobTitle : 3.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 20.0
+TA Success Australia : 20.0
+TA currentFileProcessTime : 82146
+
+
+[INFO] 2018-01-15 23:34:45,482: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:36:05,307: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@65ad7ff0], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@7566c142, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:36:05,308: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:36:05,308: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:36:05,310: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 82.0
+FileioThread currentFile currentFileProcessTime : 572
+Memory Free : 2470
+Memory Max : 7282
+Memory Total : 4430
+Memory Used : 1959
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 14
+Netio 04. Calls remaining  this round : 363
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:15:33
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:05
+TA Failed : 3.0
+TA Failed Files : 3.0
+TA Failed on  AreasOfStudy  : 3.0
+TA Failed on  AreasOfStudy : 3.0
+TA Failed on  Skills  : 3.0
+TA Failed on  Skills : 3.0
+TA Failed on JobTitle  : 3.0
+TA Failed on JobTitle : 3.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 22.0
+TA Success Australia : 22.0
+TA currentFileProcessTime : 75666
+
+
+[INFO] 2018-01-15 23:36:05,316: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:36:39,869: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@402233f1], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@7a9d494d, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:36:39,869: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:36:39,901: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:36:39,960: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 4
+FIO: Files Processed : 84.0
+FileioThread currentFile currentFileProcessTime : 356
+Memory Free : 2357
+Memory Max : 7282
+Memory Total : 4429
+Memory Used : 2071
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 14
+Netio 04. Calls remaining  this round : 363
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:15:33
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:05
+TA Failed : 4.0
+TA Failed Files : 4.0
+TA Failed on  AreasOfStudy  : 4.0
+TA Failed on  AreasOfStudy : 4.0
+TA Failed on  Skills  : 4.0
+TA Failed on  Skills : 4.0
+TA Failed on JobTitle  : 4.0
+TA Failed on JobTitle : 4.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 23.0
+TA Success Australia : 23.0
+TA currentFileProcessTime : 110259
+
+
+[INFO] 2018-01-15 23:36:40,021: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+
+[DEBUG] 2018-01-15 23:37:14,124: ikoda.jobanalysis.JobAnalysisThread.getConfig(JobAnalysisThread.java:282) JobAnalysisThread  getConfig ConfigurationBeanParent [jobAnalysisModuleName=ikodatext-jobAnalysis, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=DEGREE_LEVEL, languagesForAnalysis=[LanguageForAnalysis [localeCode=en, regions=[US, Canada, UK, Australia]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@22928406], specifiedLanguage=en, databaseDescriptor=JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV, netioConfig=ConfigurationBeanNetioForJobAnalysis [urlRepository=C:\Users\jake\_fd\_filedump-en-majors\urlRepository, netIoDumpPath=C:\Users\jake\_fd\_filedump-en-majors\output, maxCallsRoundOne=10, maxCallsRoundTwo=100, maxCallsRoundThree=1, maxCallsRoundFour=1, netioMinimumCycleInMinutes=3500], fioConfig=ConfigurationBeanForFileIoGeneric [fileIoJobPostingPath=C:\Users\jake\_fd\_filedump-en-majors\_JobPosting, fileIoDonePath=C:\Users\jake\_fd\_filedump-en-majors\_done, fileIoXMLPath=C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles, fileIoResultsPath=C:\Users\jake\_fd\_filedump-en-majors\_resultListings, fileIoUndeterminedPath=C:\Users\jake\_fd\_filedump-en-majors\_undetermined, fileIoNonApplicablePath=C:\Users\jake\_fd\_filedump-en-majors\_NA], taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@735a4471, runNetio=true, runFileio=true, runTextAnalysis=true, runPersistence=false, runPersistenceReporting=false, runPersistenceChores=false, elegantStop=false, minimizeResourceUse=false, rapidRandomBrowse=false]
+
+[DEBUG] 2018-01-15 23:37:14,158: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:326) JobAnalysisThread  run updated cfg isElegantStop=false
+
+[INFO] 2018-01-15 23:37:14,158: ikoda.jobanalysis.JobAnalysisThread.doFileProcess(JobAnalysisThread.java:262) JobAnalysisThread  doFileProcess 
+
+[INFO] 2018-01-15 23:37:14,250: ikoda.jobanalysis.JobAnalysisThread.logProcess(JobAnalysisThread.java:225) JobAnalysisThread  logProcess 
+FIO Files waiting in queue : 0
+FIO: Files Processed : 90.0
+FileioThread currentFile currentFileProcessTime : 69
+Memory Free : 2059
+Memory Max : 7282
+Memory Total : 4481
+Memory Used : 2421
+Netio 01. Current Round : 2
+Netio 03. Total calls so far this round : 15
+Netio 04. Calls remaining  this round : 362
+Netio 05. Next round calls : 0
+Netio 06. Spider id : 12
+Netio 07. CurrentUrlRepository : au.xml
+Netio 09. Duration : 00:16:27
+Netio 10. Cycle Status : Running
+Netio 11. SleepTime : 00:00:03
+TA Failed : 4.0
+TA Failed Files : 4.0
+TA Failed on  AreasOfStudy  : 4.0
+TA Failed on  AreasOfStudy : 4.0
+TA Failed on  Skills  : 4.0
+TA Failed on  Skills : 4.0
+TA Failed on JobTitle  : 4.0
+TA Failed on JobTitle : 4.0
+TA Files with Text Analyzed T:0 : 0
+TA Files with Text Analyzed T:1 : 0
+TA Files with Text Analyzed T:2 : 0
+TA Files with Text Analyzed T:3 : 0
+TA Success : 25.0
+TA Success Australia : 25.0
+TA currentFileProcessTime : 411
+
+
+[INFO] 2018-01-15 23:37:14,253: ikoda.jobanalysis.JobAnalysisThread.run(JobAnalysisThread.java:318) JobAnalysisThread  run Going to sleep for 30000 millis.
+

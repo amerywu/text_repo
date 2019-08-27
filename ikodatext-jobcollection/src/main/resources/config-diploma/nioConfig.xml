@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationNetio>
+    <urlRepository>D:\_fd\_filedump-diploma\urlRepository</urlRepository>
+    <netIoDumpPath>D:\datadump\_filedump-diploma\output</netIoDumpPath>
+    <maxCallsRoundOne>30</maxCallsRoundOne>
+    <maxCallsRoundTwo>3000</maxCallsRoundTwo>
+    <maxCallsRoundThree>1</maxCallsRoundThree>
+    <maxCallsRoundFour>1</maxCallsRoundFour>
+    <netioMinimumCycleInMinutes>34689</netioMinimumCycleInMinutes>
+    <netioRunInCycle>true</netioRunInCycle>
+</configurationNetio>

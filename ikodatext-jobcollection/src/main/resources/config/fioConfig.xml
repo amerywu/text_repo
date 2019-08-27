@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationFileio>
+	<fileIoJobPostingPath>Z:\_filedump\_filedump-en-majors\_JobPosting</fileIoJobPostingPath>
+	<fileIoXMLPath>Z:\_filedump\_filedump-en-majors\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>Z:\_filedump\_filedump-en-majors\_resultListings</fileIoResultsPath>
+	<fileIoUndeterminedPath>Z:\_filedump\_filedump-en-majors\_undetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>Z:\_filedump\_filedump-en-majors\_NA</fileIoNonApplicablePath>
+	<fileIoDonePath>Z:\_filedump\_filedump-en-majors\_done</fileIoDonePath>
+	<fileIoOutBoxPath>Z:\_filedump\_filedump-en-majors\outbox</fileIoOutBoxPath>
+</configurationFileio>

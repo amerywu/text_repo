@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+
+
+    <urls>
+		<url>http://www.delhi.edu/academics/majors.php</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>academics/</firstRoundLinks>
+		<firstRoundIgnore>pdf</firstRoundIgnore>
+		<secondRoundLinks>/catalog_</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+<urls>
+		<url>http://www.ccc.edu/Pages/studentgps/index.html</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>programs/pages</firstRoundLinks>
+		<firstRoundIgnore>default.aspx</firstRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW__DUPLICATES_INSIDE_BRANCH</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+	
+
+
+
+
+
+
+
+<urls>
+		<url>http://www.bmcc.cuny.edu/academics/programs.jsp</url>
+		<website>COLLEGE_BMCC_CUNY</website>
+        <firstRoundLinks>.jsp</firstRoundLinks>
+		<firstRoundLinks>bmcc</firstRoundLinks>
+        <secondRoundLinks>view_course</secondRoundLinks>
+        <thirdRoundLinks>view_course</thirdRoundLinks>
+		<thirdRoundLinks>core_course</thirdRoundLinks>
+		<firstRoundIgnore>admissions</firstRoundIgnore>
+		<firstRoundIgnore>core_course</firstRoundIgnore>
+		<firstRoundIgnore>view_course</firstRoundIgnore>
+		<firstRoundIgnore>academics</firstRoundIgnore>
+		<firstRoundIgnore>pid=</firstRoundIgnore>
+		<firstRoundIgnore>about_bmcc</firstRoundIgnore>
+		<firstRoundIgnore>StartHere</firstRoundIgnore>
+		<firstRoundIgnore>css</firstRoundIgnore>
+		<firstRoundIgnore>index.jsp</firstRoundIgnore>
+		<firstRoundIgnore>departments.jsp</firstRoundIgnore>
+		<firstRoundIgnore>options.jsp</firstRoundIgnore>
+		<firstRoundIgnore>registrar</firstRoundIgnore>
+		<firstRoundIgnore>honors.jsp</firstRoundIgnore>
+		<firstRoundIgnore>index.jsp</firstRoundIgnore>
+		<firstRoundIgnore>directory</firstRoundIgnore>
+		<firstRoundIgnore>calendar</firstRoundIgnore>
+		<firstRoundIgnore>faculty</firstRoundIgnore>
+		<firstRoundIgnore>news/</firstRoundIgnore>
+		<firstRoundIgnore>js_library</firstRoundIgnore>
+		<secondRoundIgnore>js_library</secondRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW__DUPLICATES_INSIDE_BRANCH</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R3_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R3_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R3_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+
+	
+	<urls>
+		<url>http://www.sunyjefferson.edu/academics/programs-study</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>programs-study</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+	
+
+	
+
+
+	<urls>
+		<url>http://www.gavilan.edu/academic/index.php</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>index.php</firstRoundLinks>
+		<firstRoundIgnore>..</firstRoundIgnore>
+		<firstRoundIgnore>student/</firstRoundIgnore>
+		<firstRoundIgnore>admit/</firstRoundIgnore>
+		<secondRoundLinks>term_in=</secondRoundLinks>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+	<urls>
+		<url>http://www.coastline.edu/academics/departments/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>academics/</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>http://www.ccsf.edu/en/educational-programs/ccsf-catalog/courses-by-department.html</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>educational-programs/ccsf-catalog/</firstRoundLinks>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+
+</urlrepository>
+
+
+

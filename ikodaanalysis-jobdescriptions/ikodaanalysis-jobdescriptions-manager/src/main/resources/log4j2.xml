@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS}   %-5level %logger{36} - %msg%n" />
+			<Filters>
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</Console>
+
+		<File name="pAppender" fileName="./logs/p.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %C %L %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="cpAppender" fileName="./logs/jd.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="FileAppender" fileName="./logs/ikoda.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="fioAppender" fileName="./logs/fio.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %C %L %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="taAppender" fileName="./logs/ta.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %C %L %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="RootFileAppender" fileName="./logs/root.log" append="false">
+			<PatternLayout>
+				<Pattern>%p %d %c{3.3} %C [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File> 
+	</Appenders>
+
+<!-- #################################################################### -->
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="RootFileAppender" />
+		</Root>
+
+		<Logger name="ikoda" level="info" additivity="true">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+
+		<Logger name="ikoda.manager" level="debug" additivity="true">
+			<AppenderRef ref="cpAppender" />
+			<AppenderRef ref="Console" />
+		</Logger>
+		<Logger name="ikoda.persistence" level="debug" additivity="false">
+			<AppenderRef ref="pAppender" />
+
+		</Logger>
+
+
+		<Logger name="ikoda.fileio" level="debug" additivity="false">
+			<AppenderRef ref="fioAppender" />
+		</Logger>
+
+		<Logger name="ikoda.textanalysis" level="info" additivity="false">
+			<AppenderRef ref="taAppender" />
+		</Logger>
+
+		<Logger name="ikoda.test" level="info" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="jake.app" level="info" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger> 
+		
+		
+		
+	</Loggers>
+</Configuration>

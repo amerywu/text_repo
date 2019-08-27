@@ -1,0 +1,1 @@
+java -cp ./target/ikodatext-jobcollection-0.0.1-SNAPSHOT.jar;./target/packaged-resources ikoda.jobanalysis.JobAnalysisApplication

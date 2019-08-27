@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationTextAnalysis>
+	<nerPropertiesPath>locations_en.txt</nerPropertiesPath>
+	<textAnalysisFailedPath>Z:\_filedump\_filedump-en-majors\_textAnalysisFailed</textAnalysisFailedPath>
+	<textAnalysisInfoBoxPath>Z:\_filedump\_filedump-en-majors\_infoBoxes</textAnalysisInfoBoxPath>
+	<textAnalysisDonePath>Z:\_filedump\_filedump-en-majors\analyzed</textAnalysisDonePath>
+	<taThreadCount>4</taThreadCount>
+</configurationTextAnalysis>

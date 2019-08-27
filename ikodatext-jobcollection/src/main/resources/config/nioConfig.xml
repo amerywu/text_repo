@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationNetio>
+    <urlRepository>Z:\_fd\_filedump-en-majors\urlRepository</urlRepository>
+    <netIoDumpPath>Z:\_filedump\_filedump-en-majors\output</netIoDumpPath>
+    <maxCallsRoundOne>5</maxCallsRoundOne>
+    <maxCallsRoundTwo>50</maxCallsRoundTwo>
+    <maxCallsRoundThree>1</maxCallsRoundThree>
+    <maxCallsRoundFour>1</maxCallsRoundFour>
+    <netioMinimumCycleInMinutes>3500</netioMinimumCycleInMinutes>
+    <netioRunInCycle>false</netioRunInCycle>
+</configurationNetio>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <jobAnalysisModuleName>modname</jobAnalysisModuleName>
+    <databaseDescriptor>dbdes</databaseDescriptor>
+    <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>sfad</analysisSubType>
+    <languagesForAnalysis>
+        <localeCode>en</localeCode>
+        <regions>canada</regions>
+        <regions>us</regions>
+    </languagesForAnalysis>
+    <languagesForAnalysis>
+        <localeCode>zh_CN</localeCode>
+        <regions>china</regions>
+    </languagesForAnalysis>
+    <openCpuCalls>
+        <javaCallingClass>com.whatever.whatebver</javaCallingClass>
+        <openCpuUrl>http://www.safdsadfsda.ca</openCpuUrl>
+        <openCpuScheme>scheme</openCpuScheme>
+        <openCpuRootPath>/dte/jut</openCpuRootPath>
+        <openCpuApp>appname</openCpuApp>
+        <openCpuFunction>myFunction</openCpuFunction>
+        <openCpuPort>3421</openCpuPort>
+        <openCpuArg1>arg1</openCpuArg1>
+        <openCpuArg8>arg8</openCpuArg8>
+    </openCpuCalls>
+    <specifiedLanguage>en</specifiedLanguage>
+    <runNetio>true</runNetio>
+    <runFileio>true</runFileio>
+    <runTextAnalysis>false</runTextAnalysis>
+    <runPersistenceReporting>true</runPersistenceReporting>
+    <runPersistence>true</runPersistence>
+    <runPersistenceChores>true</runPersistenceChores>
+    <elegantStop>true</elegantStop>
+    <minimizeResourceUse>true</minimizeResourceUse>
+    <rapidRandomBrowse>true</rapidRandomBrowse>
+</configuration>

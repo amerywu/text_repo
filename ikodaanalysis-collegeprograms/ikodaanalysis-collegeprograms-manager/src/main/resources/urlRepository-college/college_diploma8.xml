@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+<urls>
+		<url>https://www.dtcc.edu/academics/programs-study</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/academics/programs-study/</firstRoundLinks>
+		<firstRoundIgnore>programs-study?</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<secondRoundIgnore>packet</secondRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+
+<urls>
+		<url>http://www.tunxis.edu/academics/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/completion/</firstRoundLinks>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<secondRoundIgnore>packet</secondRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+
+
+<urls>
+		<url>http://www.housatonic.edu/degrees-and-certificates/degree-certificate-offerings</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/preview_program.php?catoid=</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+
+<urls>
+		<url>http://www.gatewayct.edu/Programs-Courses</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/Programs-Courses/Associate-Degrees</firstRoundLinks>
+		 <firstRoundLinks>/Programs-Courses/Certificate-Programs</firstRoundLinks>
+		 <firstRoundLinks>/Programs-Courses/Programs-and-Courses/</firstRoundLinks>
+		 <firstRoundLinks>Divisions-Departments/</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+<urls>
+		<url>https://www.capitalcc.edu/academics/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/academics/degrees/</firstRoundLinks>
+		 <firstRoundLinks>/academics/certificates/</firstRoundLinks>
+		 <firstRoundLinks>.pdf</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+
+
+<urls>
+		<url>https://www.paradisevalley.edu/programs</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/programs/</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+
+</urlrepository>
+
+
+

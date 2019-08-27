@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationTextAnalysis>
+
+	<csvPath>Z:\_filedump\jobAnalysis</csvPath>  
+	<csvForITokenNames>NOUN0</csvForITokenNames>
+	<csvForITokenNames>NOUN1</csvForITokenNames>
+	<csvForITokenNames>NOUN2</csvForITokenNames>   
+	<csvForITokenNames>NOUN3</csvForITokenNames>
+	<csvForITokenNames>VERB0</csvForITokenNames> 
+	<csvForITokenNames>VERB1</csvForITokenNames> 
+	<csvForITokenNames>VERB2</csvForITokenNames> 
+	<csvForITokenNames>VERB3</csvForITokenNames> 
+	<csvForITokenNames>ADJECTIVE1</csvForITokenNames> 
+	<csvForITokenNames>ADJECTIVE2</csvForITokenNames> 
+	<csvForITokenNames>ADJECTIVE3</csvForITokenNames> 
+	<csvForITokenNames>ADJECTIVE0</csvForITokenNames> 
+	
+	
+	
+	<columnsToExcludeFromLibSvm>AA_Major0</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major1</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major10</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major11</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major12</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major13</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major14</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major2</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major3</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major4</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major5</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major6</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major7</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major8</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>AA_Major9</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>aa_region</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>aa_location</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>aa_jobtitle</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>zz_TARGET</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>A_RowId</columnsToExcludeFromLibSvm> 
+	<columnsToExcludeFromLibSvm>LEMMATIZEDSENTENCE</columnsToExcludeFromLibSvm>
+	<columnsToExcludeFromLibSvm>RAWSENTENCE</columnsToExcludeFromLibSvm>
+	
+	<projectPrefix>JOBDESCRIPTIONS</projectPrefix>
+	<maxNumberOfDocuments>45000</maxNumberOfDocuments>
+	<maxNumberOfCsvRowsPerFile>25000</maxNumberOfCsvRowsPerFile>
+	<targetColumnName>aa_label</targetColumnName>
+	
+        <configProperties>
+			<property>
+				<key>maxRowPerBatch</key>
+				<value>1000</value>
+			</property>
+
+	</configProperties>
+</configurationTextAnalysis>

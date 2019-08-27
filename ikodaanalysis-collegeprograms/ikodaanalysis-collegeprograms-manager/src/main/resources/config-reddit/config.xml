@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+
+
+
+
+
+    <applicationMainModuleName>ikodaanalysis-collegeprograms-manager</applicationMainModuleName>
+    <databaseDescriptor>REDDIT_CONFIGURATION</databaseDescriptor>
+    <analysisType>REDDIT_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>REDDIT_SUBTYPE</analysisSubType>
+	<specifiedLanguage>en</specifiedLanguage>
+	<languagesForAnalysis>
+		<localeCode>en</localeCode>
+		<regions>US</regions>
+		<regions>Canada</regions>
+		<regions>UK</regions>
+		<regions>Australia</regions>
+	</languagesForAnalysis> 
+
+	
+    
+	<runNetio>true</runNetio>
+	<runFileio>true</runFileio>
+	<runTextAnalysis>true</runTextAnalysis>
+	<runPersistenceReporting>false</runPersistenceReporting>
+	<runPersistence>false</runPersistence>
+	<runPersistenceChores>false</runPersistenceChores>
+	
+    <elegantStop>true</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>false</minimizeResourceUse>
+    <rapidRandomBrowse>false</rapidRandomBrowse>
+	
+</configuration>

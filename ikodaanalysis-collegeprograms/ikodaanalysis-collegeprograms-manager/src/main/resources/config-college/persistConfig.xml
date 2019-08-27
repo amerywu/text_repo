@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationPersistence>
+	<persistenceDonePath>Z:\_fd\_filedump_college\_persistencedone</persistenceDonePath>
+	<persistenceFailedPath>Z:\_fd\_filedump_college\_persistencefailed</persistenceFailedPath>
+    <persistIfCountDetailLevel>4</persistIfCountDetailLevel>
+	
+	
+	<qualificationMap>mmconfig</qualificationMap>
+	
+	<persistIfCountDetailLevel>3</persistIfCountDetailLevel>
+	<persistIfCountAreasOfStudy>1</persistIfCountAreasOfStudy>
+	<persistIfValueMinimumSalary>5000</persistIfValueMinimumSalary>
+	<persistIfCountCertification>0</persistIfCountCertification>
+
+</configurationPersistence>

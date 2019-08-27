@@ -1,0 +1,514 @@
+[INFO] 2018-01-15 23:20:30,292: ikoda.fileio.FileIoThread.runFileIo(FileIoThread.java:284) FileIoThread  runFileIo java.util.concurrent.locks.ReentrantLock@1b285dd8[Unlocked]
+
+[INFO] 2018-01-15 23:20:30,306: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:20:30,315: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:20:30,673: ikoda.fileio.FileIoThread.run(FileIoThread.java:231) FileIoThread  run starting thread
+
+[INFO] 2018-01-15 23:20:30,951: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAURetentionManagerSixDegreesExecutive1516086389389.txt
+
+[INFO] 2018-01-15 23:20:31,507: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_RetentionManagerSixDegreesExecutiveINDEEDAU1516086389393.txt
+
+[INFO] 2018-01-15 23:20:31,618: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:20:31,946: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:20:32,055: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:20:32,208: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:21:03,434: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:03,440: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:03,442: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary3000040000JobsinMelbourneVICwithSalariesIndeedcom1516087247577.txt
+
+[INFO] 2018-01-15 23:21:03,710: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary4000050000JobsinMelbourneVICwithSalariesIndeedcom1516087254444.txt
+
+[INFO] 2018-01-15 23:21:03,981: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary3000040000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087247585.txt
+
+[INFO] 2018-01-15 23:21:04,269: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:04,566: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary4000050000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087254447.txt
+
+[INFO] 2018-01-15 23:21:04,634: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:04,876: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:05,121: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:05,147: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary5000060000JobsinMelbourneVICwithSalariesIndeedcom1516087264809.txt
+
+[INFO] 2018-01-15 23:21:05,496: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary5000060000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087264816.txt
+
+[INFO] 2018-01-15 23:21:05,508: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:05,779: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:06,319: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:06,510: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:21:36,692: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:36,790: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:36,927: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcom1516087271779.txt
+
+[INFO] 2018-01-15 23:21:37,272: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcom1516087289699.txt
+
+[INFO] 2018-01-15 23:21:37,555: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087271784.txt
+
+[INFO] 2018-01-15 23:21:37,844: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:50,928: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087289705.txt
+
+[INFO] 2018-01-15 23:21:50,952: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:51,172: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:51,229: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:51,246: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087297542.txt
+
+[INFO] 2018-01-15 23:21:51,505: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087297551.txt
+
+[INFO] 2018-01-15 23:21:51,584: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:21:51,920: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:21:52,080: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:21:52,267: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:22:46,949: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:22:47,187: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:22:47,277: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087320667.txt
+
+[INFO] 2018-01-15 23:22:47,522: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcom1516087327652.txt
+
+[INFO] 2018-01-15 23:22:47,963: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcom1516087334252.txt
+
+[INFO] 2018-01-15 23:22:48,505: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcom1516087313062.txt
+
+[INFO] 2018-01-15 23:22:48,759: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087320676.txt
+
+[INFO] 2018-01-15 23:22:49,007: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:22:49,392: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087327663.txt
+
+[INFO] 2018-01-15 23:22:49,788: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:22:50,218: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087334257.txt
+
+[INFO] 2018-01-15 23:22:50,385: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:22:53,649: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087313074.txt
+
+[INFO] 2018-01-15 23:22:53,665: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:22:53,940: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:22:53,974: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:22:53,975: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcom1516087369331.txt
+
+[INFO] 2018-01-15 23:22:54,225: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087369337.txt
+
+[INFO] 2018-01-15 23:22:54,261: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:22:54,557: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:22:54,617: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:22:54,618: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:23:24,684: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:23:25,713: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:23:25,833: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcom1516087381963.txt
+
+[INFO] 2018-01-15 23:23:26,414: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcom1516087392981.txt
+
+[INFO] 2018-01-15 23:23:27,033: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087404295.txt
+
+[INFO] 2018-01-15 23:23:27,431: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087381970.txt
+
+[INFO] 2018-01-15 23:23:27,595: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:23:27,947: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087393018.txt
+
+[INFO] 2018-01-15 23:23:27,992: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:23:28,320: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087404300.txt
+
+[INFO] 2018-01-15 23:23:28,435: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:23:28,775: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:23:28,830: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:23:28,893: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:24:12,735: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:24:13,109: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:24:13,125: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087434795.txt
+
+[INFO] 2018-01-15 23:24:13,457: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087434801.txt
+
+[INFO] 2018-01-15 23:24:13,698: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:24:14,481: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:24:15,523: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:24:15,599: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:24:59,186: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:24:59,326: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:24:59,367: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087456941.txt
+
+[INFO] 2018-01-15 23:24:59,592: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087478150.txt
+
+[INFO] 2018-01-15 23:24:59,874: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcom1516087481205.txt
+
+[INFO] 2018-01-15 23:25:01,027: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087456945.txt
+
+[INFO] 2018-01-15 23:25:01,117: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:01,450: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087478154.txt
+
+[INFO] 2018-01-15 23:25:01,495: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:01,845: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087481210.txt
+
+[INFO] 2018-01-15 23:25:01,901: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:02,234: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:25:02,758: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:25:02,891: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcom1516087499846.txt
+
+[INFO] 2018-01-15 23:25:03,241: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087499851.txt
+
+[INFO] 2018-01-15 23:25:03,582: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:03,906: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:25:04,020: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:25:04,086: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:25:35,702: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:25:35,728: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:25:35,729: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087519252.txt
+
+[INFO] 2018-01-15 23:25:35,982: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087522728.txt
+
+[INFO] 2018-01-15 23:25:36,329: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087519258.txt
+
+[INFO] 2018-01-15 23:25:36,500: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:36,890: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087522732.txt
+
+[INFO] 2018-01-15 23:25:37,008: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:25:37,377: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:25:37,633: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:25:37,644: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:26:12,728: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:26:12,800: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:26:12,908: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087538404.txt
+
+[INFO] 2018-01-15 23:26:13,176: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087559154.txt
+
+[INFO] 2018-01-15 23:26:13,554: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087538412.txt
+
+[INFO] 2018-01-15 23:26:13,681: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:26:13,982: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087559158.txt
+
+[INFO] 2018-01-15 23:26:14,069: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:26:14,361: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:26:14,379: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:26:14,482: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:26:54,916: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:26:56,125: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:26:56,130: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087574574.txt
+
+[INFO] 2018-01-15 23:26:56,389: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcom1516087590716.txt
+
+[INFO] 2018-01-15 23:26:56,836: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087574577.txt
+
+[INFO] 2018-01-15 23:26:57,136: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:26:57,563: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary6000070000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087590724.txt
+
+[INFO] 2018-01-15 23:26:57,580: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:26:57,880: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:26:58,219: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:26:58,569: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:27:52,518: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:27:53,319: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:27:53,746: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcom1516087618240.txt
+
+[INFO] 2018-01-15 23:27:54,347: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcom1516087626444.txt
+
+[INFO] 2018-01-15 23:27:55,164: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary7000080000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087618244.txt
+
+[INFO] 2018-01-15 23:27:57,211: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:27:57,658: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary8000090000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087646170.txt
+
+[INFO] 2018-01-15 23:27:57,881: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:27:58,337: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:27:58,503: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:27:58,872: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:28:29,116: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:28:32,794: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:28:32,853: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcom1516087704309.txt
+
+[INFO] 2018-01-15 23:28:33,145: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1xml_INDEEDAUDegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcom1516087679476.txt
+
+[INFO] 2018-01-15 23:28:33,608: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary100000120000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087704314.txt
+
+[INFO] 2018-01-15 23:28:33,678: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:28:34,035: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 1_DegreeTertiaryPostsecondary90000100000JobsinMelbourneVICwithSalariesIndeedcomINDEEDAU1516087679481.txt
+
+[INFO] 2018-01-15 23:28:34,152: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:28:34,812: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:28:35,163: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:28:35,345: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAURedoxJobsGraduateSalesConsultantChemicalsIndustrialApplyonline1516087714747.txt
+
+[INFO] 2018-01-15 23:28:35,729: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_RedoxJobsGraduateSalesConsultantChemicalsIndustrialApplyonlineINDEEDAU1516087714752.txt
+
+[INFO] 2018-01-15 23:28:35,850: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:28:36,361: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:28:38,050: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:28:39,541: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:29:09,675: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:29:09,973: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:29:10,406: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUFacilitatedGroupJobsMarketingAssistantApplyonline1516087749136.txt
+
+[INFO] 2018-01-15 23:29:11,363: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_FacilitatedGroupJobsMarketingAssistantApplyonlineINDEEDAU1516087749141.txt
+
+[INFO] 2018-01-15 23:29:11,714: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:29:12,500: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:29:13,472: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:29:13,892: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:30:20,939: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:30:22,956: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:30:24,147: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUExecutiveSecretaryjobSmileMeUpMelbourneVICIndeedcom1516087760779.txt
+
+[INFO] 2018-01-15 23:30:29,701: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_ExecutiveSecretaryjobSmileMeUpMelbourneVICIndeedcomINDEEDAU1516087760781.txt
+
+[INFO] 2018-01-15 23:30:29,831: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:30:30,170: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:30:30,205: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:30:30,246: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUAccountsOfficer1516087822965.txt
+
+[INFO] 2018-01-15 23:30:30,624: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_AccountsOfficerINDEEDAU1516087822968.txt
+
+[INFO] 2018-01-15 23:30:30,702: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:30:31,162: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:30:34,360: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:30:36,078: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:31:19,169: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:31:19,257: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:31:19,258: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUJuniorAccountantBookkeeper1516087842080.txt
+
+[INFO] 2018-01-15 23:31:19,506: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_JuniorAccountantBookkeeperINDEEDAU1516087842100.txt
+
+[INFO] 2018-01-15 23:31:19,635: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:31:19,973: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:31:20,928: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:31:21,021: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:32:10,782: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:32:10,844: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:32:10,845: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUCareerCompanyAlimakHekLiftsIndustrialHeavyGoodsTemporaryHoistsWorkPlatforms1516087902741.txt
+
+[INFO] 2018-01-15 23:32:11,089: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUTECHNICALSUPPORTSPECIALIST1516087881132.txt
+
+[INFO] 2018-01-15 23:32:11,491: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_CareerCompanyAlimakHekLiftsIndustrialHeavyGoodsTemporaryHoistsWorkPlatformsINDEEDAU1516087902746.txt
+
+[INFO] 2018-01-15 23:32:11,536: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:32:11,896: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_TECHNICALSUPPORTSPECIALISTINDEEDAU1516087881136.txt
+
+[INFO] 2018-01-15 23:32:11,978: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:32:32,324: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:32:32,395: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:32:32,429: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:33:04,078: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:33:04,511: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:33:05,261: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUClientFacingGraduateRoleNorthMelbourne1516087953323.txt
+
+[INFO] 2018-01-15 23:33:05,702: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_ClientFacingGraduateRoleNorthMelbourneINDEEDAU1516087953325.txt
+
+[INFO] 2018-01-15 23:33:05,762: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:33:06,140: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[WARN] 2018-01-15 23:33:19,084: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:200) FileIoThread  listFiles Failed to acquire lock
+
+[INFO] 2018-01-15 23:33:19,108: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:33:49,163: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:33:50,165: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:33:50,349: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUIntermediateAccountantjobtridentfinancialgroupMelbourneEasternSuburbsVICIndeedcom1516087985956.txt
+
+[INFO] 2018-01-15 23:33:51,117: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUMarketingAssistant1516088002014.txt
+
+[INFO] 2018-01-15 23:33:51,981: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_IntermediateAccountantjobtridentfinancialgroupMelbourneEasternSuburbsVICIndeedcomINDEEDAU1516087985959.txt
+
+[INFO] 2018-01-15 23:33:52,024: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:33:52,379: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_MarketingAssistantINDEEDAU1516088002016.txt
+
+[INFO] 2018-01-15 23:33:52,653: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:33:53,226: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:33:54,501: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:33:54,623: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUGraduateITConsultingRoleMelbourne1516088030856.txt
+
+[INFO] 2018-01-15 23:33:55,194: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_GraduateITConsultingRoleMelbourneINDEEDAU1516088030859.txt
+
+[INFO] 2018-01-15 23:33:55,304: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:34:37,805: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[WARN] 2018-01-15 23:34:45,228: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:200) FileIoThread  listFiles Failed to acquire lock
+
+[INFO] 2018-01-15 23:34:45,314: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:36:04,736: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:36:05,330: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:36:05,496: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUEducationSalesChangeTheWorldOneEnrolmentAtATime1516088103253.txt
+
+[INFO] 2018-01-15 23:36:39,545: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUKickstartyourcorporatecareerEntrylevelgraduatepositionMelbourne1516088113075.txt
+
+[INFO] 2018-01-15 23:36:40,095: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUKindergartenTeacherPointCook1516088087540.txt
+
+[INFO] 2018-01-15 23:36:40,345: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_EducationSalesChangeTheWorldOneEnrolmentAtATimeINDEEDAU1516088103343.txt
+
+[INFO] 2018-01-15 23:36:40,391: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:36:40,851: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_KickstartyourcorporatecareerEntrylevelgraduatepositionMelbourneINDEEDAU1516088113086.txt
+
+[INFO] 2018-01-15 23:36:41,037: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:36:41,409: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_KindergartenTeacherPointCookINDEEDAU1516088087542.txt
+
+[INFO] 2018-01-15 23:36:41,788: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:36:42,131: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:36:43,008: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:36:43,099: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUGraduateAccountManagerMelbourneVIC1516088202049.txt
+
+[INFO] 2018-01-15 23:36:43,387: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_GraduateAccountManagerMelbourneVICINDEEDAU1516088202053.txt
+
+[INFO] 2018-01-15 23:36:43,459: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:36:43,764: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:36:43,826: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:36:43,960: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:37:14,089: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:37:14,952: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:37:15,078: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2xml_INDEEDAUAccountCoordinatorMelbourneVICOmnicomMediaGroupCareers1516088234395.txt
+
+[INFO] 2018-01-15 23:37:15,462: ikoda.fileio.Indeed.processFile(Indeed.java:67) Indeed  processFile Processing File: 2_AccountCoordinatorMelbourneVICOmnicomMediaGroupCareersINDEEDAU1516088234413.txt
+
+[INFO] 2018-01-15 23:37:15,563: ikoda.fileio.Indeed.processFile(Indeed.java:87) Indeed  processFile Processed File: 
+
+[INFO] 2018-01-15 23:37:15,907: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+
+[INFO] 2018-01-15 23:37:15,990: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:196) FileIoThread  listFiles done
+
+[INFO] 2018-01-15 23:37:16,049: ikoda.fileio.FileIoThread.doFileProcess(FileIoThread.java:88) FileIoThread  doFileProcess Files done but waiting on dependent thread
+
+[INFO] 2018-01-15 23:37:55,872: ikoda.fileio.FileIoThread.listFiles(FileIoThread.java:158) FileIoThread  listFiles started ......
+

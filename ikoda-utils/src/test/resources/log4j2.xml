@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} [%C %L] %logger{36} %-5level  - %msg%n" />
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+		</Console>
+		<File name="FileAppender" fileName="./logs/util.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %c{3.} %C %L [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+			<ThresholdFilter level="debug" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+			
+		</File>
+		<File name="RootFileAppender" fileName="./logs/root.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %c{3.} %C %L [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="INFO" onMatch="ACCEPT"
+					onMismatch="DENY" />
+			</Filters>
+		</File>
+	</Appenders>
+
+
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RootFileAppender" />
+		</Root>
+
+		<Logger name="ikoda" level="debug" additivity="true">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+			<AppenderRef ref="RootFileAppender" />
+		</Logger>
+		<Logger name="jake.app" level="debug" additivity="true">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.fileio" level="debug" additivity="true">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.netio" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.collegeanalysis" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.textanalysis" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.possibletoken" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.possibletoken1" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.persistence" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.persistencechores" level="debug"
+			additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.persistencereporting" level="debug"
+			additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="ikoda.test" level="debug" additivity="false">
+
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+
+		<Root level="info">
+			<AppenderRef ref="Console" />
+		</Root>
+	</Loggers>
+</Configuration>

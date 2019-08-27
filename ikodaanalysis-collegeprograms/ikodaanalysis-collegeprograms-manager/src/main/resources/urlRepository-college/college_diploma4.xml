@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+<urls>
+		<url>http://www.sunydutchess.edu/academics/catalog/current/programs/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>current/programs</firstRoundLinks>
+		<firstRoundIgnore>.pdf</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+   <urls>
+		<url>http://www.triton.edu/degrees/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>CollegeCatalog/</firstRoundLinks>
+		<firstRoundIgnore>index.htm</firstRoundIgnore>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	<urls>
+		<url>https://www.cerrocoso.edu/academics</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>academics/</firstRoundLinks>
+		<firstRoundIgnore>.pdf</firstRoundIgnore>
+		<secondRoundLinks>programs/</secondRoundLinks>
+		<secondRoundLinks>download</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+
+<urls>
+		<url>https://www.morainevalley.edu/academics/academic-programs/academic-programs-table/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>Catalog/Career-Programs</firstRoundLinks>
+		<secondRoundLinks>Catalog/Courses</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		</urls>
+	
+
+     <urls>
+		<url>http://www.cabrillo.edu/home/programs/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>academics/</firstRoundLinks>
+		<firstRoundIgnore>.pdf</firstRoundIgnore>
+		<firstRoundIgnore>brochure</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_URI_OMMIT</key>
+				<value>/catalog</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+<urls>
+		<url>http://www.delta.edu/programs/current/index.html</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>programs/current</firstRoundLinks>
+		<secondRoundLinks>details.html</secondRoundLinks>
+		<firstRoundIgnore>..</firstRoundIgnore>
+		<secondRoundIgnore>..</secondRoundIgnore>
+		<thirdRoundLinks>current/courses</thirdRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+</urlrepository>
+
+
+

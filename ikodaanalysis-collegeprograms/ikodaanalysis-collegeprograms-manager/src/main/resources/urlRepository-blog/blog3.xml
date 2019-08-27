@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+<urls>
+		<url>https://www.reddit.com/r/Physics/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>Physics/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/ChemicalEngineering/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>ChemicalEngineering/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	 
+<urls>
+		<url>https://www.reddit.com/r/CriminalJustice/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>CriminalJustice/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/law/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>law/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/ProtectAndServe/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>ProtectAndServe/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>https://www.reddit.com/r/sociology/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>sociology/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/business/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>business/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/BusinessIntelligence/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>BusinessIntelligence/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+</urlrepository>

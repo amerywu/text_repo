@@ -1,0 +1,8 @@
+ A Master's degree would be a good thing to have.
+ A doctoral degree is required.
+ An MBA would be nice.
+ An associate degree is good.
+ Candidate 1 must have a bachelor's degree.
+ Candidate 2 must have a Bachelor's degree.
+  Candidate 3 must have a Bachelor's Degree.
+  Candidate 4 must have a Bachelor Degree.

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<majormapconfiguration>
+	<databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DIPLOMA_LEVEL</databaseDescriptor>
+	<majorMapEntry>
+		<ikodamajor>French</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>法语</localIkodamajor>
+		<relatedMajors>法文</relatedMajors>
+		<relatedMajors>法语</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Philosophy</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>哲学</localIkodamajor>
+		<relatedMajors>哲学</relatedMajors>
+		<relatedMajors>法律</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>German</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>德语</localIkodamajor>
+		<relatedMajors>德语</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>History</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>历史</localIkodamajor>
+		<relatedMajors>历史</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Italian</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>意大利语</localIkodamajor>
+		<relatedMajors>意大利语</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Classics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>古典</localIkodamajor>
+		<relatedMajors>古典</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+		<relatedMajors>历史</relatedMajors>
+		<relatedMajors>法律</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>English</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>英语</localIkodamajor>
+		<relatedMajors>英语</relatedMajors>
+		<relatedMajors>英文</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Religion</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>中教学</localIkodamajor>
+		<relatedMajors>中教学</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Spanish</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>西班牙语</localIkodamajor>
+		<relatedMajors>西班牙语</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Anthropology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>人类学</localIkodamajor>
+		<relatedMajors>人类学</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Archaeology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>挖古学</localIkodamajor>
+		<relatedMajors>挖古学</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+
+
+
+
+
+
+
+
+
+
+
+		<!-- health science -->
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Nursing</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>护理学</localIkodamajor>
+		<relatedMajors>护理学</relatedMajors>
+		<relatedMajors>护理</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Health Science</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>医学</localIkodamajor>
+		<relatedMajors>医学</relatedMajors>
+		<relatedMajors>健身</relatedMajors>
+		<relatedMajors>医药</relatedMajors>
+		<relatedMajors>护理</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Kinesiology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>运动学</localIkodamajor>
+		<relatedMajors>运动学</relatedMajors>
+		<relatedMajors>健身</relatedMajors>
+		<relatedMajors>运动</relatedMajors>
+
+	</majorMapEntry>
+
+	<!-- art -->
+	<majorMapEntry>
+		<ikodamajor>Architecture</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>建筑学</localIkodamajor>
+		<relatedMajors>建筑学</relatedMajors>
+		<relatedMajors>建筑</relatedMajors>
+		<relatedMajors>建筑设计</relatedMajors>
+		<relatedMajors>景观设计</relatedMajors>
+		<relatedMajors>园林设计</relatedMajors>
+		<relatedMajors>室内</relatedMajors>
+		<relatedMajors>室内设计</relatedMajors>
+
+
+
+
+
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Digital Media</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>电影与数字媒体</localIkodamajor>
+		<relatedMajors>电影与数字媒体</relatedMajors>
+		<relatedMajors>传播</relatedMajors>
+		<relatedMajors>电影</relatedMajors>
+		<relatedMajors>数字媒体</relatedMajors>
+		<relatedMajors>动画</relatedMajors>
+		<relatedMajors>设计</relatedMajors>
+		<relatedMajors>摄像</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Performance Art</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>表演艺术</localIkodamajor>
+		<relatedMajors>表演艺术</relatedMajors>
+		<relatedMajors>演戏</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Visual Art</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>美术</localIkodamajor>
+		<relatedMajors>美术</relatedMajors>
+		<relatedMajors>艺术</relatedMajors>
+		<relatedMajors>时装</relatedMajors>
+		<relatedMajors>设计</relatedMajors>
+		<relatedMajors>纺织</relatedMajors>
+		<relatedMajors>服装</relatedMajors>
+		<relatedMajors>摄像</relatedMajors>
+		<relatedMajors>动画</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Dance</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>舞蹈</localIkodamajor>
+		<relatedMajors>舞蹈</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Music</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>音乐</localIkodamajor>
+		<relatedMajors>音乐</relatedMajors>
+		<relatedMajors>钢琴</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+	<!-- social science -->
+
+
+	<majorMapEntry>
+		<ikodamajor>Education</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>教育</localIkodamajor>
+		<relatedMajors>教育</relatedMajors>
+		<relatedMajors>师范</relatedMajors>
+		<relatedMajors>幼教</relatedMajors>
+		<relatedMajors>教学</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Psychology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>心理学</localIkodamajor>
+		<relatedMajors>心理学</relatedMajors>
+		<relatedMajors>咨询</relatedMajors>
+
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Sociology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>社会学</localIkodamajor>
+		<relatedMajors>社会学</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Geography</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>地理</localIkodamajor>
+		<relatedMajors>地理</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Asian Studies</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>亚洲研究</localIkodamajor>
+		<relatedMajors>亚洲研究</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Politics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>政治学</localIkodamajor>
+		<relatedMajors>政治学</relatedMajors>
+		<relatedMajors>政治</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Criminology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>犯罪学</localIkodamajor>
+		<relatedMajors>犯罪学</relatedMajors>
+		<relatedMajors>公安</relatedMajors>
+		<relatedMajors>法律</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>International Studies</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>国际研究</localIkodamajor>
+		<relatedMajors>国际研究</relatedMajors>
+		<relatedMajors>文科</relatedMajors>
+	</majorMapEntry>
+
+
+	<!-- business -->
+
+	<majorMapEntry>
+		<ikodamajor>Business</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>商学</localIkodamajor>
+		<relatedMajors>商学</relatedMajors>
+		<relatedMajors>审计</relatedMajors>
+		<relatedMajors>财务</relatedMajors>
+		<relatedMajors>金融</relatedMajors>
+		<relatedMajors>人力</relatedMajors>
+		<relatedMajors>人力 资源</relatedMajors>
+		<relatedMajors>经济</relatedMajors>
+		<relatedMajors>企业 管理</relatedMajors>
+		<relatedMajors>财务 管理</relatedMajors>
+		<relatedMajors>证券</relatedMajors>
+		<relatedMajors>财会</relatedMajors>
+		<relatedMajors>数据分析</relatedMajors>
+		<relatedMajors>房地产</relatedMajors>
+		<relatedMajors>HR</relatedMajors>
+		<relatedMajors>旅游</relatedMajors>
+		<relatedMajors>航空</relatedMajors>
+		<relatedMajors>组织</relatedMajors>
+		<relatedMajors>房地产</relatedMajors>
+		<relatedMajors>品牌</relatedMajors>
+		<relatedMajors>贸易</relatedMajors>
+		<relatedMajors>外贸</relatedMajors>
+		<relatedMajors>理财</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Economics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>经济学</localIkodamajor>
+		<relatedMajors>经济学</relatedMajors>
+		<relatedMajors>审计</relatedMajors>
+		<relatedMajors>财务</relatedMajors>
+		<relatedMajors>金融</relatedMajors>
+		<relatedMajors>财务管理</relatedMajors>
+		<relatedMajors>证券</relatedMajors>
+		<relatedMajors>财会</relatedMajors>
+		<relatedMajors>数据分析</relatedMajors>
+		<relatedMajors>财税</relatedMajors>
+		<relatedMajors>理财</relatedMajors>
+
+
+
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Marketing</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>市场营销</localIkodamajor>
+		<relatedMajors>市场营销</relatedMajors>
+		<relatedMajors>销售</relatedMajors>
+		<relatedMajors>广告</relatedMajors>
+		<relatedMajors>品牌</relatedMajors>
+		<relatedMajors>贸易</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Accounting</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>会计</localIkodamajor>
+		<relatedMajors>会计</relatedMajors>
+		<relatedMajors>审计</relatedMajors>
+		<relatedMajors>财务</relatedMajors>
+		<relatedMajors>金融</relatedMajors>
+		<relatedMajors>证券</relatedMajors>
+		<relatedMajors>财会</relatedMajors>
+		<relatedMajors>数据分析</relatedMajors>
+		<relatedMajors>财税</relatedMajors>
+		<relatedMajors>理财</relatedMajors>
+		<relatedMajors>证券</relatedMajors>
+
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Communications</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>沟通学</localIkodamajor>
+		<relatedMajors>沟通学</relatedMajors>
+		<relatedMajors>通信</relatedMajors>
+		<relatedMajors>咨询</relatedMajors>
+		<relatedMajors>公关</relatedMajors>
+		<relatedMajors>新闻</relatedMajors>
+		<relatedMajors>配音</relatedMajors>
+		<relatedMajors>沟通</relatedMajors>
+		<relatedMajors>传媒</relatedMajors>
+		<relatedMajors>广告</relatedMajors>
+		<relatedMajors>配音</relatedMajors>
+		<relatedMajors>传播</relatedMajors>
+		<relatedMajors>媒体</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<!-- science -->
+	<majorMapEntry>
+		<ikodamajor>Mathematics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>数学</localIkodamajor>
+		<relatedMajors>数学</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Biology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>生物学</localIkodamajor>
+		<relatedMajors>生物学</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>园艺</relatedMajors>
+		<relatedMajors>微生物学</relatedMajors>
+		<relatedMajors>微生物</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Computer Science</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>计算机</localIkodamajor>
+		<relatedMajors>计算机</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>咨询</relatedMajors>
+		<relatedMajors>软件</relatedMajors>
+		<relatedMajors>网络</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+		<relatedMajors>数据库</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Physics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>物理</localIkodamajor>
+		<relatedMajors>物理</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Chemistry</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>化学</localIkodamajor>
+		<relatedMajors>化学</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Statistics</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>统计</localIkodamajor>
+		<relatedMajors>统计</relatedMajors>
+		<relatedMajors>数据分析</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Environmental Science</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>环境科学</localIkodamajor>
+		<relatedMajors>环境科学</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Neuroscience</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>神经系统科学</localIkodamajor>
+		<relatedMajors>神经系统科学</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Geology</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>地质（地球科学）</localIkodamajor>
+		<relatedMajors>地质（地球科学）</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>能源</relatedMajors>
+		<relatedMajors>科学</relatedMajors>
+	</majorMapEntry>
+
+
+	<!-- engineering -->
+
+
+	<majorMapEntry>
+		<ikodamajor>Civil Engineering</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>土木工程</localIkodamajor>
+		<relatedMajors>土木工程</relatedMajors>
+		<relatedMajors>土建</relatedMajors>
+		<relatedMajors>工程</relatedMajors>
+		<relatedMajors>工程管理</relatedMajors>
+		<relatedMajors>工程造价</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>技能</relatedMajors>
+		<relatedMajors>建设</relatedMajors>
+		<relatedMajors>渠道</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+		<relatedMajors>施工</relatedMajors>
+
+
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Electrical Engineering</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>电子工程</localIkodamajor>
+		<relatedMajors>电子工程</relatedMajors>
+		<relatedMajors>工程管理</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>技能</relatedMajors>
+		<relatedMajors>电力</relatedMajors>
+		<relatedMajors>工程</relatedMajors>
+		<relatedMajors>音响</relatedMajors>
+		<relatedMajors>自动化</relatedMajors>
+		<relatedMajors>机电</relatedMajors>
+		<relatedMajors>电路</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Engineering</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>工程</localIkodamajor>
+		<relatedMajors>工程</relatedMajors>
+		<relatedMajors>土建</relatedMajors>
+		<relatedMajors>工程造价</relatedMajors>
+		<relatedMajors>工程管理</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>技能</relatedMajors>
+		<relatedMajors>建设</relatedMajors>
+		<relatedMajors>自动化</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+		<relatedMajors>施工</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Mechanical Engineering</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>机械工程</localIkodamajor>
+		<relatedMajors>机械工程</relatedMajors>
+		<relatedMajors>工程造价</relatedMajors>
+		<relatedMajors>工程管理</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>技能</relatedMajors>
+		<relatedMajors>电力</relatedMajors>
+		<relatedMajors>机械</relatedMajors>
+		<relatedMajors>自动化</relatedMajors>
+		<relatedMajors>机电</relatedMajors>
+		<relatedMajors>电路</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Chemical Engineering</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>化学工程</localIkodamajor>
+		<relatedMajors>化学工程</relatedMajors>
+		<relatedMajors>工程造价</relatedMajors>
+		<relatedMajors>工程管理</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Materials Science</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<localIkodamajor>材料科学</localIkodamajor>
+		<relatedMajors>材料科学</relatedMajors>
+		<relatedMajors>工程造价</relatedMajors>
+		<relatedMajors>理工</relatedMajors>
+		<relatedMajors>能源</relatedMajors>
+		<relatedMajors>工科</relatedMajors>
+	</majorMapEntry>
+</majormapconfiguration>

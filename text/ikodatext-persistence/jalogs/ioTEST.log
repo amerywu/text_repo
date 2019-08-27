@@ -1,0 +1,613 @@
+[INFO] 2016-12-29 16:58:16,725: ikoda.persistence.test.tests.TestPersistence.testtIkodaDegree(TestPersistence.java:259) TestPersistence  testtIkodaDegree testtIkodaDegree
+
+[DEBUG] 2016-12-29 16:58:17,059: ikoda.persistence.test.tests.TestPersistence.testtIkodaDegree(TestPersistence.java:261) TestPersistence  testtIkodaDegree ikodadegree count50
+
+[INFO] 2016-12-29 16:58:19,837: ikoda.persistence.test.tests.TestPersistence.testtIkodaDegree(TestPersistence.java:301) TestPersistence  testtIkodaDegree 
+
+sociologyId 40
+ 
+ Specified degree connected with Sociology:  Behavioural Sciences
+
+
+
+
+ 
+ Specified degree connected with Sociology:  Sociology
+
+
+Sociology | avg:  54604 | median:  55000
+Sociology | avg:  65419 | median:  75000
+Sociology | avg:  33900 | median:  27500
+
+
+SociologyJob Title:  Drug And Alcohol Counselor | avg:  null | median:  null
+SociologyJob Title:  Training Specialist | avg:  null | median:  null
+SociologyJob Title:  Increase Knowledge Of Care Planner | avg:  null | median:  null
+SociologyJob Title:  Analyst Manager | avg:  null | median:  null
+SociologyJob Title:  Content Optimization Specialist | avg:  null | median:  null
+SociologyJob Title:  Temporary School And Student | avg:  null | median:  null
+SociologyJob Title:  Program Manager | avg:  null | median:  null
+SociologyJob Title:  EAP And Gambling Counselor | avg:  null | median:  null
+SociologyJob Title:  Human Resources Generalist | avg:  43749 | median:  null
+SociologyJob Title:  Job Code Title : SOCIAL AFFAIRS OFFICER | avg:  null | median:  null
+SociologyJob Title:  Research Assistant | avg:  27334 | median:  null
+SociologyJob Title:  Program Analyst | avg:  null | median:  null
+SociologyJob Title:  Community Development Coordinator | avg:  null | median:  null
+SociologyJob Title:  Criteria For Selection Of Individual Consultant | avg:  null | median:  null
+SociologyJob Title:  CHILD WELFARE SPECIALIST | avg:  null | median:  null
+SociologyJob Title:  Manager | avg:  null | median:  null
+SociologyJob Title:  Partnership Specialist | avg:  null | median:  null
+SociologyJob Title:  Mobility Consultant | avg:  null | median:  null
+SociologyJob Title:  Job Description - Mobility Consultant | avg:  null | median:  null
+SociologyJob Title:  Program Specialist | avg:  null | median:  null
+SociologyJob Title:  Case Manager | avg:  null | median:  null
+SociologyJob Title:  Regional Director | avg:  65000 | median:  null
+SociologyJob Title:  Social Planner | avg:  null | median:  null
+SociologyJob Title:  Substance Abuse Prevention Coordinator | avg:  null | median:  null
+SociologyJob Title:  Program Director | avg:  null | median:  null
+SociologyJob Title:  MFT MSW Practicum Or Intern | avg:  32500 | median:  null
+SociologyJob Title:  Adjunct Instructor | avg:  null | median:  null
+SociologyJob Title:  Position Of Adoption Subsidy Supervisor | avg:  null | median:  null
+SociologyJob Title:  Senior Manager | avg:  null | median:  null
+SociologyJob Title:  Statistician | avg:  null | median:  null
+SociologyJob Title:  Behavior Therapist | avg:  null | median:  null
+SociologyJob Title:  Child Development Specialist | avg:  null | median:  null
+SociologyJob Title:  Research And Information Analyst | avg:  null | median:  null
+SociologyJob Title:  Education Coordinator | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Public Policy
+
+
+Public Policy | avg:  78289 | median:  75000
+Public Policy | avg:  46000 | median:  32500
+Public Policy | avg:  86171 | median:  85000
+
+
+Public PolicyJob Title:  Student | avg:  null | median:  null
+Public PolicyJob Title:  Research Scientist | avg:  85000 | median:  null
+Public PolicyJob Title:  Program Coordinator | avg:  null | median:  null
+Public PolicyJob Title:  Federal Contractor | avg:  null | median:  null
+Public PolicyJob Title:  Director | avg:  null | median:  null
+Public PolicyJob Title:  - Non Manager | avg:  null | median:  null
+Public PolicyJob Title:  Assistant Director | avg:  85000 | median:  null
+Public PolicyJob Title:  Director | avg:  110000 | median:  null
+Public PolicyJob Title:  Investigator | avg:  68333 | median:  null
+Public PolicyJob Title:  Program Analyst | avg:  null | median:  null
+Public PolicyJob Title:  Trade Analyst | avg:  null | median:  null
+Public PolicyJob Title:  Policy Analyst | avg:  85000 | median:  null
+Public PolicyJob Title:  Senior Analyst | avg:  null | median:  null
+Public PolicyJob Title:  Successful Investigator | avg:  null | median:  null
+Public PolicyJob Title:  CONFIDENTIAL INVESTIGATOR | avg:  75000 | median:  null
+Public PolicyJob Title:  GHRS NYM Retirement Professional Assistant | avg:  null | median:  null
+Public PolicyJob Title:  Advanced Computer Skills In MS Internet Explorer | avg:  null | median:  null
+Public PolicyJob Title:  Assistant Manager | avg:  32500 | median:  null
+Public PolicyJob Title:  International Consultant | avg:  92502 | median:  null
+Public PolicyJob Title:  Policy Advisor | avg:  null | median:  null
+Public PolicyJob Title:  Agency Representative | avg:  null | median:  null
+Public PolicyJob Title:  Recruitment Section Manager | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Social Work
+
+
+Social Work | avg:  48299 | median:  47500
+Social Work | avg:  59108 | median:  57500
+Social Work | avg:  52026 | median:  55000
+
+
+Social WorkJob Title:  Services Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Program Budget And Monitor | avg:  null | median:  null
+Social WorkJob Title:  Program Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Increase Knowledge Of Care Planner | avg:  null | median:  null
+Social WorkJob Title:  Completion Of 40-hour Domestic Violence Counselor | avg:  null | median:  null
+Social WorkJob Title:  Human Services Worker | avg:  null | median:  null
+Social WorkJob Title:  Student | avg:  null | median:  null
+Social WorkJob Title:  Effective Collaborative And Constructive Liaison | avg:  null | median:  null
+Social WorkJob Title:  Available For On-call Rotation : Monitor | avg:  null | median:  null
+Social WorkJob Title:  Education Officer | avg:  null | median:  null
+Social WorkJob Title:  Mental Health Advisor | avg:  50594 | median:  null
+Social WorkJob Title:  Capacity Building Specialist | avg:  null | median:  null
+Social WorkJob Title:  Newcomers Information And Support Worker | avg:  null | median:  null
+Social WorkJob Title:  Quality Improvement Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Care Coordinator | avg:  50000 | median:  null
+Social WorkJob Title:  Marriage And Family Therapist | avg:  null | median:  null
+Social WorkJob Title:  Valid Wisconsin Driver | avg:  null | median:  null
+Social WorkJob Title:  Research Analyst | avg:  65000 | median:  null
+Social WorkJob Title:  Help Desk Representative | avg:  null | median:  null
+Social WorkJob Title:  Telephonic Clinical Counselor | avg:  null | median:  null
+Social WorkJob Title:  Child Development - Part Time Faculty | avg:  null | median:  null
+Social WorkJob Title:  Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Relations Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Family Response Specialist | avg:  null | median:  null
+Social WorkJob Title:  Home Study Writer | avg:  null | median:  null
+Social WorkJob Title:  Administrative Liaison | avg:  null | median:  null
+Social WorkJob Title:  Services Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Prevention Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Service Facilitator | avg:  null | median:  null
+Social WorkJob Title:  Family Specialist | avg:  36750 | median:  null
+Social WorkJob Title:  Advanced Practitioner | avg:  38799 | median:  38894
+Social WorkJob Title:  Assistant Team Manager | avg:  62000 | median:  null
+Social WorkJob Title:  Driver | avg:  null | median:  null
+Social WorkJob Title:  Specialist Consultant | avg:  null | median:  null
+Social WorkJob Title:  Senior Practitioner | avg:  null | median:  null
+Social WorkJob Title:  Team Manager | avg:  62855 | median:  61250
+Social WorkJob Title:  Lead Family Worker | avg:  null | median:  null
+Social WorkJob Title:  Probation Officer | avg:  53502 | median:  null
+Social WorkJob Title:  Programme Coordinator | avg:  42170 | median:  null
+Social WorkJob Title:  Assistant Director | avg:  null | median:  null
+Social WorkJob Title:  Assistant Wellness Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Compliance Specialist | avg:  null | median:  null
+Social WorkJob Title:  Conflict Resolution Counselor | avg:  null | median:  null
+Social WorkJob Title:  Counselor | avg:  null | median:  null
+Social WorkJob Title:  Job Prep And Placement Counselor | avg:  null | median:  null
+Social WorkJob Title:  Mental Health Clinician | avg:  65000 | median:  null
+Social WorkJob Title:  Program Analyst | avg:  null | median:  null
+Social WorkJob Title:  Program Director | avg:  56250 | median:  null
+Social WorkJob Title:  Support Coordinator | avg:  42500 | median:  null
+Social WorkJob Title:  Team Leader | avg:  57500 | median:  null
+Social WorkJob Title:  Youth Offending Service Officer | avg:  41881 | median:  null
+Social WorkJob Title:  Trauma-Informed Early Care And Education Case Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Unit Supervisor | avg:  37500 | median:  null
+Social WorkJob Title:  Case Manager | avg:  53750 | median:  53750
+Social WorkJob Title:  Community Development Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Finance Analyst | avg:  null | median:  null
+Social WorkJob Title:  Front End Developer | avg:  null | median:  null
+Social WorkJob Title:  JVC Outreach Animator | avg:  null | median:  null
+Social WorkJob Title:  Professional Lead | avg:  null | median:  null
+Social WorkJob Title:  Project Manager | avg:  null | median:  null
+Social WorkJob Title:  Social Worker Case Manager | avg:  null | median:  null
+Social WorkJob Title:  Youth Engagement Specialist | avg:  42500 | median:  null
+Social WorkJob Title:  Student | avg:  null | median:  null
+Social WorkJob Title:  Chief Quality Officer | avg:  null | median:  null
+Social WorkJob Title:  CHILD WELFARE SPECIALIST | avg:  null | median:  null
+Social WorkJob Title:  Printer | avg:  null | median:  null
+Social WorkJob Title:  Early Care And Education Case Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Assessment And Referral Specialist | avg:  null | median:  null
+Social WorkJob Title:  Manager - Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Service Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Employment Specialist | avg:  null | median:  null
+Social WorkJob Title:  Partnership Specialist | avg:  null | median:  null
+Social WorkJob Title:  Education Supervisor | avg:  37500 | median:  null
+Social WorkJob Title:  Family Therapist | avg:  47500 | median:  null
+Social WorkJob Title:  Recruitment Specialist | avg:  null | median:  null
+Social WorkJob Title:  Strategy Officer | avg:  36784 | median:  null
+Social WorkJob Title:  Seniors Activity Leader | avg:  null | median:  null
+Social WorkJob Title:  Mental Health Officer | avg:  null | median:  null
+Social WorkJob Title:  ADVISOR I - CAREER ADVISOR | avg:  null | median:  null
+Social WorkJob Title:  Clinical Lead | avg:  65000 | median:  null
+Social WorkJob Title:  Child And Youth Mentoring Manager | avg:  65000 | median:  null
+Social WorkJob Title:  IBDSF Executive | avg:  null | median:  null
+Social WorkJob Title:  Instructional Aide | avg:  null | median:  null
+Social WorkJob Title:  Internship Coordinator | avg:  55000 | median:  null
+Social WorkJob Title:  Living Manager | avg:  null | median:  null
+Social WorkJob Title:  Parent Consultant | avg:  null | median:  null
+Social WorkJob Title:  Program Specialist | avg:  null | median:  null
+Social WorkJob Title:  Residential Services Worker | avg:  null | median:  null
+Social WorkJob Title:  Probation Therapist | avg:  null | median:  null
+Social WorkJob Title:  Academic Advisor | avg:  null | median:  null
+Social WorkJob Title:  Social Worker | avg:  49166 | median:  55000
+Social WorkJob Title:  Family Support Worker | avg:  47500 | median:  null
+Social WorkJob Title:  EAP Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Housing Advocate | avg:  null | median:  null
+Social WorkJob Title:  Interest Assessor | avg:  63750 | median:  null
+Social WorkJob Title:  Manager | avg:  null | median:  null
+Social WorkJob Title:  MFT MSW Practicum Or Intern | avg:  32500 | median:  null
+Social WorkJob Title:  Rights Officer | avg:  40445 | median:  null
+Social WorkJob Title:  Transitions Social Worker | avg:  53335 | median:  null
+Social WorkJob Title:  Addictions Counselor | avg:  null | median:  null
+Social WorkJob Title:  Mental Health Consultant | avg:  null | median:  null
+Social WorkJob Title:  Local Authority Designated Officer | avg:  null | median:  null
+Social WorkJob Title:  Mental Health Therapist | avg:  75000 | median:  null
+Social WorkJob Title:  Seniors Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Substance Abuse Prevention Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Job Description - EAP Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Concurrent Aboriginal Liaison | avg:  null | median:  null
+Social WorkJob Title:  Service Coordinator | avg:  null | median:  null
+Social WorkJob Title:  HCBS Family Coordinator | avg:  null | median:  null
+Social WorkJob Title:  And Rbt = Case + Manager | avg:  null | median:  null
+Social WorkJob Title:  BOM Engineer | avg:  null | median:  null
+Social WorkJob Title:  Solution Architect | avg:  null | median:  null
+Social WorkJob Title:  Support Specialist | avg:  55000 | median:  null
+Social WorkJob Title:  ABA Therapist | avg:  null | median:  null
+Social WorkJob Title:  Administrative Assistant | avg:  null | median:  null
+Social WorkJob Title:  Anger Management Class Facilitator | avg:  null | median:  null
+Social WorkJob Title:  Beacon Director | avg:  null | median:  null
+Social WorkJob Title:  Child Care Social Work Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Case Manager | avg:  null | median:  null
+Social WorkJob Title:  Community Developer | avg:  null | median:  null
+Social WorkJob Title:  COUNSELOR | avg:  null | median:  null
+Social WorkJob Title:  Court Advocate | avg:  47500 | median:  null
+Social WorkJob Title:  Crisis Counselor | avg:  42500 | median:  null
+Social WorkJob Title:  Diabetes Integrated Community Representative | avg:  null | median:  null
+Social WorkJob Title:  Housing Support Worker | avg:  null | median:  null
+Social WorkJob Title:  Learning Tutor | avg:  null | median:  null
+Social WorkJob Title:  Project Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Agency Representative | avg:  null | median:  null
+Social WorkJob Title:  Assistant Marketing Director | avg:  null | median:  null
+Social WorkJob Title:  Family Court Advisor | avg:  null | median:  null
+Social WorkJob Title:  Global FMCG Manufacturer | avg:  null | median:  null
+Social WorkJob Title:  Jobs Search : Social Care Assessor | avg:  null | median:  null
+Social WorkJob Title:  Job : GROUP WORKER | avg:  null | median:  null
+Social WorkJob Title:  Independant Reviewing Officer | avg:  null | median:  null
+Social WorkJob Title:  Lettings Negotiator | avg:  null | median:  null
+Social WorkJob Title:  Mobile | avg:  null | median:  null
+Social WorkJob Title:  Operational Manager | avg:  null | median:  null
+Social WorkJob Title:  Perm Finance Manager | avg:  null | median:  null
+Social WorkJob Title:  Position Of Adoption Subsidy Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Practice Manager | avg:  null | median:  null
+Social WorkJob Title:  Bilingual Clinical Recruiter | avg:  null | median:  null
+Social WorkJob Title:  Senior Security Consultant | avg:  null | median:  null
+Social WorkJob Title:  Social Care Assessor | avg:  null | median:  null
+Social WorkJob Title:  Support Worker | avg:  null | median:  null
+Social WorkJob Title:  Vitality Ambassador | avg:  null | median:  null
+Social WorkJob Title:  Vocational Rehabilitation Counselor | avg:  null | median:  null
+Social WorkJob Title:  Case Manager | avg:  45833 | median:  42500
+Social WorkJob Title:  Locum Senior Practitioner | avg:  65000 | median:  null
+Social WorkJob Title:  Bilingual Masters Level Therapist | avg:  null | median:  null
+Social WorkJob Title:  Child Development Specialist | avg:  null | median:  null
+Social WorkJob Title:  Program Manager | avg:  55872 | median:  null
+Social WorkJob Title:  Intake Coordinator | avg:  null | median:  null
+Social WorkJob Title:  Research Associate | avg:  null | median:  null
+Social WorkJob Title:  Social Worker | avg:  64047 | median:  75000
+Social WorkJob Title:  Bilingual Therapist | avg:  37500 | median:  null
+Social WorkJob Title:  In-Home Outreach Counselor | avg:  37500 | median:  null
+Social WorkJob Title:  Parent Educator | avg:  null | median:  null
+Social WorkJob Title:  Social Worker | avg:  50690 | median:  65000
+Social WorkJob Title:  Job Development Supervisor | avg:  null | median:  null
+Social WorkJob Title:  Occupational Therapist | avg:  null | median:  null
+Social WorkJob Title:  Team Leader | avg:  34999 | median:  null
+Social WorkJob Title:  Trauma Therapist | avg:  58000 | median:  null
+Social WorkJob Title:  N0249388 - Home Sales Consultant | avg:  null | median:  null
+Social WorkJob Title:  Records Systems Officer | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Behavioral Sciences
+
+
+Behavioral Sciences | avg:  40625 | median:  37500
+Behavioral Sciences | avg:  null | median:  75000
+
+
+Behavioral SciencesJob Title:  Team Leader | avg:  null | median:  null
+Behavioral SciencesJob Title:  Case Manager | avg:  null | median:  null
+Behavioral SciencesJob Title:  Community Mental Health Worker | avg:  null | median:  null
+Behavioral SciencesJob Title:  Bilingual Case Management Specialist | avg:  null | median:  null
+Behavioral SciencesJob Title:  ABA Therapist | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Behavioral Science
+
+
+Behavioral Science | avg:  null | median:  75000
+Behavioral Science | avg:  60870 | median:  75000
+Behavioral Science | avg:  36250 | median:  32500
+
+
+Behavioral ScienceJob Title:  ABA Therapist | avg:  null | median:  null
+Behavioral ScienceJob Title:  Education Specialist Case Manager | avg:  null | median:  null
+Behavioral ScienceJob Title:  Therapist | avg:  null | median:  null
+Behavioral ScienceJob Title:  Vice President | avg:  75000 | median:  null
+Behavioral ScienceJob Title:  COUNSELOR | avg:  null | median:  null
+Behavioral ScienceJob Title:  ABA Behavior Technician | avg:  37500 | median:  null
+ 
+ Specified degree connected with Sociology:  Behavioural Or Social Sciences
+
+
+
+
+ 
+ Specified degree connected with Sociology:  Behavioural Science
+
+
+Behavioural Science | avg:  65000 | median:  65000
+Behavioural Science | avg:  51000 | median:  55000
+
+
+Behavioural ScienceJob Title:  Group Dynamics, Consulting Methods, Executive | avg:  null | median:  null
+Behavioural ScienceJob Title:  Service Designer | avg:  null | median:  null
+Behavioural ScienceJob Title:  Research Analyst | avg:  null | median:  null
+Behavioural ScienceJob Title:  Parent Family Engagement Specialist | avg:  null | median:  null
+Behavioural ScienceJob Title:  Research Analyst | avg:  null | median:  null
+Behavioural ScienceJob Title:  Behavioural Insights Analyst | avg:  null | median:  null
+Behavioural ScienceJob Title:  Organisational Development Coaching Consultant | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Human Services Related Field
+
+
+
+
+ 
+ Specified degree connected with Sociology:  Social Science
+
+
+Social Science | avg:  38278 | median:  37500
+Social Science | avg:  72283 | median:  75000
+Social Science | avg:  51569 | median:  47500
+
+
+Social ScienceJob Title:  Business Systems Analyst | avg:  null | median:  null
+Social ScienceJob Title:  Public Affairs Advisor | avg:  66748 | median:  null
+Social ScienceJob Title:  Researcher | avg:  38632 | median:  null
+Social ScienceJob Title:  Research Assistant | avg:  46500 | median:  null
+Social ScienceJob Title:  History Instructor | avg:  null | median:  null
+Social ScienceJob Title:  Facility Compliance Supervisor | avg:  null | median:  null
+Social ScienceJob Title:  Associate Director | avg:  76250 | median:  null
+Social ScienceJob Title:  Environment And Social Consultant | avg:  37317 | median:  null
+Social ScienceJob Title:  High Quality Initial Teacher | avg:  null | median:  null
+Social ScienceJob Title:  Accountability Officer | avg:  null | median:  null
+Social ScienceJob Title:  Policy Analyst | avg:  33605 | median:  null
+Social ScienceJob Title:  International Research Funding Officer | avg:  28215 | median:  null
+Social ScienceJob Title:  D5 - Experience Of Using Specialist | avg:  null | median:  null
+Social ScienceJob Title:  Award Winning London-based Specialist | avg:  null | median:  null
+Social ScienceJob Title:  Applicants For Part-time Salaried Instructor | avg:  null | median:  null
+Social ScienceJob Title:  Job Code Title : HUMANITARIAN AFFAIRS OFFICER | avg:  null | median:  null
+Social ScienceJob Title:  Job Code Title : SOCIAL AFFAIRS OFFICER | avg:  null | median:  null
+Social ScienceJob Title:  Research Assistant | avg:  null | median:  null
+Social ScienceJob Title:  Associate | avg:  null | median:  null
+Social ScienceJob Title:  Analyst | avg:  93751 | median:  null
+Social ScienceJob Title:  Mental Health Clinician | avg:  65000 | median:  null
+Social ScienceJob Title:  Youth Engagement Specialist | avg:  42500 | median:  null
+Social ScienceJob Title:  Finance Analyst | avg:  null | median:  null
+Social ScienceJob Title:  Board And Council Director And Council Manager | avg:  null | median:  null
+Social ScienceJob Title:  Sociocultural Threat Analyst | avg:  37363 | median:  null
+Social ScienceJob Title:  Research And Surveillance Coordinator | avg:  null | median:  null
+Social ScienceJob Title:  Admissions Counselor | avg:  null | median:  null
+Social ScienceJob Title:  Data Visualization Designer | avg:  47500 | median:  null
+Social ScienceJob Title:  Research Analyst | avg:  null | median:  null
+Social ScienceJob Title:  EXAM ADMINISTRATOR | avg:  null | median:  null
+Social ScienceJob Title:  Program Specialist | avg:  null | median:  null
+Social ScienceJob Title:  Programmes Officer | avg:  36668 | median:  null
+Social ScienceJob Title:  Insight Manager | avg:  38722 | median:  null
+Social ScienceJob Title:  Graduate Teaching Assistant | avg:  32099 | median:  null
+Social ScienceJob Title:  Job Application For Director | avg:  null | median:  null
+Social ScienceJob Title:  Substance Abuse Prevention Coordinator | avg:  null | median:  null
+Social ScienceJob Title:  Research Coordinator | avg:  null | median:  null
+Social ScienceJob Title:  Addiction Specialist | avg:  null | median:  null
+Social ScienceJob Title:  Graduate Internal Communications Assistant | avg:  null | median:  null
+Social ScienceJob Title:  NYSDOH Laboratory Director | avg:  null | median:  null
+Social ScienceJob Title:  Research Associate | avg:  null | median:  null
+Social ScienceJob Title:  Risk Analyst | avg:  null | median:  null
+Social ScienceJob Title:  Sociocultural Analyst | avg:  null | median:  null
+Social ScienceJob Title:  Economic And Social Development Consultant | avg:  33027 | median:  null
+Social ScienceJob Title:  Research Analyst | avg:  null | median:  null
+Social ScienceJob Title:  Associate Director | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Social Sciences
+
+
+Social Sciences | avg:  61965 | median:  55000
+Social Sciences | avg:  57627 | median:  55000
+Social Sciences | avg:  33067 | median:  32546
+
+
+Social SciencesJob Title:  Experience Specialist | avg:  null | median:  null
+Social SciencesJob Title:  Analyst Manager | avg:  null | median:  null
+Social SciencesJob Title:  Assistant Manager | avg:  55000 | median:  null
+Social SciencesJob Title:  Forensic Genealogical Researcher | avg:  null | median:  null
+Social SciencesJob Title:  Research Assistant | avg:  30806 | median:  null
+Social SciencesJob Title:  Program Manager | avg:  null | median:  null
+Social SciencesJob Title:  Project Officer | avg:  75000 | median:  null
+Social SciencesJob Title:  Program Coordinator | avg:  null | median:  null
+Social SciencesJob Title:  Help Desk Representative | avg:  null | median:  null
+Social SciencesJob Title:  Project Administrator | avg:  null | median:  null
+Social SciencesJob Title:  Survey Specialist | avg:  null | median:  null
+Social SciencesJob Title:  High Quality Initial Teacher | avg:  null | median:  null
+Social SciencesJob Title:  Post Level : Intern | avg:  null | median:  null
+Social SciencesJob Title:  Communications And Campaigns Manager | avg:  42500 | median:  null
+Social SciencesJob Title:  Oxide Operator | avg:  null | median:  null
+Social SciencesJob Title:  Senior Legal Officer | avg:  85000 | median:  null
+Social SciencesJob Title:  Developmental Service Worker | avg:  null | median:  null
+Social SciencesJob Title:  JVC Outreach Animator | avg:  null | median:  null
+Social SciencesJob Title:  Program Facilitator | avg:  37500 | median:  null
+Social SciencesJob Title:  Research Analyst | avg:  59166 | median:  null
+Social SciencesJob Title:  Successful Investigator | avg:  null | median:  null
+Social SciencesJob Title:  CONFIDENTIAL INVESTIGATOR | avg:  75000 | median:  null
+Social SciencesJob Title:  Monitor | avg:  null | median:  null
+Social SciencesJob Title:  Full-time News Assignment Editor | avg:  null | median:  null
+Social SciencesJob Title:  Research Assistant | avg:  48333 | median:  null
+Social SciencesJob Title:  Data Analyst | avg:  null | median:  null
+Social SciencesJob Title:  National Director | avg:  null | median:  null
+Social SciencesJob Title:  Probation Therapist | avg:  null | median:  null
+Social SciencesJob Title:  Training Coordinator | avg:  null | median:  null
+Social SciencesJob Title:  Lead | avg:  null | median:  null
+Social SciencesJob Title:  Account Manager | avg:  null | median:  null
+Social SciencesJob Title:  Coordinator | avg:  null | median:  null
+Social SciencesJob Title:  Monitoring And Evaluation Officer | avg:  31789 | median:  null
+Social SciencesJob Title:  Programme Officer | avg:  null | median:  null
+Social SciencesJob Title:  Job Code Title : Programme Management Officer | avg:  null | median:  null
+Social SciencesJob Title:  Support Worker | avg:  null | median:  null
+Social SciencesJob Title:  Content Creation Coordinator | avg:  68809 | median:  null
+Social SciencesJob Title:  Rehabilitation Consultant | avg:  null | median:  null
+Social SciencesJob Title:  Support Engineer | avg:  null | median:  null
+Social SciencesJob Title:  Student | avg:  null | median:  null
+ 
+ Specified degree connected with Sociology:  Behavioral Or Social Sciences
+
+
+
+
+ 
+ Specified degree connected with Sociology:  Law
+
+
+Law | avg:  75212 | median:  75000
+Law | avg:  84491 | median:  85000
+Law | avg:  51090 | median:  47500
+
+
+LawJob Title:  Relations Manager | avg:  null | median:  null
+LawJob Title:  General | avg:  null | median:  null
+LawJob Title:  Admissions Manager | avg:  null | median:  null
+LawJob Title:  Pharmaceutical Policy Consultant | avg:  null | median:  null
+LawJob Title:  Senior Manager | avg:  null | median:  null
+LawJob Title:  Bachelors Or Juris Doctor | avg:  null | median:  null
+LawJob Title:  Tax Manager | avg:  95000 | median:  null
+LawJob Title:  Contracts And Proposal Specialist | avg:  null | median:  null
+LawJob Title:  Fraud Prevention Analyst | avg:  null | median:  null
+LawJob Title:  Job Description - Paralegal | avg:  null | median:  null
+LawJob Title:  Business Drop Technician | avg:  null | median:  null
+LawJob Title:  Job Title : Manager | avg:  null | median:  null
+LawJob Title:  Capacity Building Specialist | avg:  null | median:  null
+LawJob Title:  Key Development Officer | avg:  null | median:  null
+LawJob Title:  Coordinator Of Student | avg:  null | median:  null
+LawJob Title:  Agency Representative | avg:  null | median:  null
+LawJob Title:  Exciting Summer Graduate Intern | avg:  null | median:  null
+LawJob Title:  Political Affairs Officer | avg:  null | median:  null
+LawJob Title:  Intellectual Property - IP - Manager | avg:  33064 | median:  null
+LawJob Title:  Job Printer | avg:  35000 | median:  null
+LawJob Title:  Contract Specialist | avg:  57364 | median:  null
+LawJob Title:  Senior Financial Crime Manager | avg:  null | median:  null
+LawJob Title:  Director | avg:  null | median:  null
+LawJob Title:  EU VAT Analyst | avg:  47486 | median:  null
+LawJob Title:  Conflicts And AML Analyst | avg:  32101 | median:  null
+LawJob Title:  Senior Executive | avg:  null | median:  null
+LawJob Title:  New #job : Design And Creative Art Worker | avg:  null | median:  null
+LawJob Title:  Interim Information Rights And Access Manager | avg:  null | median:  null
+LawJob Title:  HR Advisor | avg:  63750 | median:  null
+LawJob Title:  HR Manager | avg:  46252 | median:  null
+LawJob Title:  Project Manager | avg:  75000 | median:  null
+LawJob Title:  Trade Compliance Director | avg:  64461 | median:  null
+LawJob Title:  Organisation - President | avg:  null | median:  null
+LawJob Title:  Position Title : Online Product Support Executive | avg:  null | median:  null
+LawJob Title:  Lateral Partner And Associate | avg:  95000 | median:  null
+LawJob Title:  Quantity Surveyor | avg:  63752 | median:  null
+LawJob Title:  Economist | avg:  37500 | median:  null
+LawJob Title:  Risk And Compliance Assistant | avg:  36250 | median:  null
+LawJob Title:  Administrative Assistant | avg:  32500 | median:  null
+LawJob Title:  Service Delivery Manager | avg:  null | median:  null
+LawJob Title:  Administrative Officer | avg:  85000 | median:  null
+LawJob Title:  Assistant Director | avg:  85000 | median:  null
+LawJob Title:  College Instructor | avg:  null | median:  null
+LawJob Title:  Contract Management Specialist | avg:  null | median:  null
+LawJob Title:  Investigator | avg:  68333 | median:  null
+LawJob Title:  Privacy Officer | avg:  null | median:  null
+LawJob Title:  Protection Officer | avg:  74375 | median:  null
+LawJob Title:  Relations Representative | avg:  null | median:  null
+LawJob Title:  Senior Legal Officer | avg:  85000 | median:  null
+LawJob Title:  Senior Director | avg:  null | median:  null
+LawJob Title:  Summer Graduate Intern | avg:  null | median:  null
+LawJob Title:  Trade Analyst | avg:  null | median:  null
+LawJob Title:  Associate Editor | avg:  42500 | median:  null
+LawJob Title:  Data Governance And Privacy Officer | avg:  110000 | median:  null
+LawJob Title:  Intellectual Property Officer | avg:  null | median:  null
+LawJob Title:  Information Rights And Access Manager | avg:  50595 | median:  null
+LawJob Title:  Paralegal | avg:  35530 | median:  null
+LawJob Title:  Public-Private Partnerships - PPP - Advisor | avg:  null | median:  null
+LawJob Title:  Successful Investigator | avg:  null | median:  null
+LawJob Title:  Job Code Title : ADMINISTRATIVE OFFICER | avg:  null | median:  null
+LawJob Title:  NYS Governor | avg:  null | median:  null
+LawJob Title:  Advanced Computer Skills In MS Internet Explorer | avg:  null | median:  null
+LawJob Title:  CONFIDENTIAL INVESTIGATOR | avg:  75000 | median:  null
+LawJob Title:  Career Opportunities : Privacy Officer | avg:  null | median:  null
+LawJob Title:  Program Director | avg:  null | median:  null
+LawJob Title:  Director | avg:  null | median:  null
+LawJob Title:  Compliance Specialist | avg:  42500 | median:  null
+LawJob Title:  Senior Fund Tax Consultant | avg:  73335 | median:  null
+LawJob Title:  Title : Director | avg:  null | median:  null
+LawJob Title:  Senior Analyst | avg:  75005 | median:  null
+LawJob Title:  Associate Vice-President Faculty | avg:  95000 | median:  null
+LawJob Title:  Assistant Dean | avg:  null | median:  null
+LawJob Title:  PROGRAM MANAGER | avg:  65000 | median:  null
+LawJob Title:  Compliance Specialist | avg:  85000 | median:  null
+LawJob Title:  Compliance Officer | avg:  null | median:  null
+LawJob Title:  Legal Assistant | avg:  21752 | median:  null
+LawJob Title:  Rights Officer | avg:  40445 | median:  null
+LawJob Title:  Research Analyst | avg:  52502 | median:  null
+LawJob Title:  Contract Administrator | avg:  36466 | median:  null
+LawJob Title:  Contract Manager | avg:  72750 | median:  null
+LawJob Title:  Editor | avg:  27490 | median:  null
+LawJob Title:  Paralegal | avg:  null | median:  null
+LawJob Title:  Money Laundering Reporting Officer | avg:  73750 | median:  null
+LawJob Title:  PSL Paralegal | avg:  null | median:  null
+LawJob Title:  Research Librarian | avg:  39444 | median:  null
+LawJob Title:  Work Allocation Manager | avg:  31876 | median:  null
+LawJob Title:  Group Chief | avg:  null | median:  null
+LawJob Title:  Covering Message For Paralegal | avg:  null | median:  null
+LawJob Title:  Service Coordinator | avg:  null | median:  null
+LawJob Title:  Chief Compliance | avg:  null | median:  null
+LawJob Title:  Contracts Manager | avg:  66666 | median:  null
+LawJob Title:  Patent Attorney | avg:  45833 | median:  null
+LawJob Title:  Securities Law Associate | avg:  null | median:  null
+LawJob Title:  Tender And Contracting Manager | avg:  65000 | median:  null
+LawJob Title:  Job Segment : General | avg:  null | median:  null
+LawJob Title:  Cassels Brock : Securities Law Associate | avg:  null | median:  null
+LawJob Title:  Assistant Costs Management Executive | avg:  36250 | median:  null
+LawJob Title:  Case Manager | avg:  null | median:  null
+LawJob Title:  Compliance Analyst | avg:  null | median:  null
+LawJob Title:  Graduate Chemist | avg:  null | median:  null
+LawJob Title:  Online Product Support Executive | avg:  null | median:  null
+LawJob Title:  Professional Recruiting Manager | avg:  null | median:  null
+LawJob Title:  Programme Officer | avg:  null | median:  null
+LawJob Title:  Associate | avg:  null | median:  null
+LawJob Title:  Compliance Director | avg:  null | median:  null
+LawJob Title:  Experienced HR Practitioner | avg:  null | median:  null
+LawJob Title:  Hourly Paid Lecturer | avg:  null | median:  null
+LawJob Title:  Job Code Title : Programme Management Officer | avg:  null | median:  null
+LawJob Title:  Job Level : Associate | avg:  null | median:  null
+LawJob Title:  Research Assistant | avg:  null | median:  null
+LawJob Title:  Teaching Fellow | avg:  null | median:  null
+LawJob Title:  Value Consultant | avg:  null | median:  null
+LawJob Title:  With General | avg:  null | median:  null
+LawJob Title:  Associate Manager | avg:  null | median:  null
+LawJob Title:  Intellectual Property Solicitor | avg:  65500 | median:  null
+LawJob Title:  Site Contracts Analyst | avg:  32500 | median:  null
+LawJob Title:  Years Post Graduate Paralegal | avg:  null | median:  null
+LawJob Title:  Content Creation Coordinator | avg:  68809 | median:  null
+LawJob Title:  Support Engineer | avg:  null | median:  null
+LawJob Title:  Senior Tutor | avg:  31700 | median:  null
+ 
+ Specified degree connected with Sociology:  Human Services
+
+
+Human Services | avg:  42625 | median:  37500
+Human Services | avg:  58263 | median:  55000
+
+
+Human ServicesJob Title:  Adoption Worker | avg:  null | median:  null
+Human ServicesJob Title:  Training Specialist | avg:  null | median:  null
+Human ServicesJob Title:  Available For On-call Rotation : Monitor | avg:  null | median:  null
+Human ServicesJob Title:  Program Coordinator | avg:  45000 | median:  null
+Human ServicesJob Title:  Care Coordinator | avg:  32500 | median:  null
+Human ServicesJob Title:  Team Leader | avg:  47500 | median:  null
+Human ServicesJob Title:  PCQ Officer | avg:  null | median:  null
+Human ServicesJob Title:  Vice President | avg:  95000 | median:  null
+Human ServicesJob Title:  Services Coordinator | avg:  null | median:  null
+Human ServicesJob Title:  Program Director | avg:  null | median:  null
+Human ServicesJob Title:  Benefits Coordinator | avg:  null | median:  null
+Human ServicesJob Title:  Center Manager | avg:  41252 | median:  null
+Human ServicesJob Title:  Case Manager | avg:  44502 | median:  44502
+Human ServicesJob Title:  Direct Support Supervisor | avg:  null | median:  null
+Human ServicesJob Title:  Oxide Operator | avg:  null | median:  null
+Human ServicesJob Title:  Program Coordinator | avg:  37500 | median:  null
+Human ServicesJob Title:  RTI Program Facilitator | avg:  null | median:  null
+Human ServicesJob Title:  Unit Supervisor | avg:  37500 | median:  null
+Human ServicesJob Title:  Case Manager | avg:  null | median:  42500
+Human ServicesJob Title:  Skilled And Able Worker | avg:  null | median:  null
+Human ServicesJob Title:  Printer | avg:  null | median:  null
+Human ServicesJob Title:  CHILD WELFARE SPECIALIST | avg:  null | median:  null
+Human ServicesJob Title:  Work With Supervisor | avg:  null | median:  null
+Human ServicesJob Title:  - BVOR - Worker | avg:  52500 | median:  null
+Human ServicesJob Title:  Admissions Counselor | avg:  null | median:  null
+Human ServicesJob Title:  Contract Specialist | avg:  null | median:  null
+Human ServicesJob Title:  Project Analyst | avg:  65000 | median:  null
+Human ServicesJob Title:  Community Support Worker | avg:  null | median:  null
+Human ServicesJob Title:  ADVISOR I - CAREER ADVISOR | avg:  null | median:  null
+Human ServicesJob Title:  Crisis Response Counselor | avg:  null | median:  null
+Human ServicesJob Title:  Financial Administrator | avg:  null | median:  null
+Human ServicesJob Title:  Parent Education Manager | avg:  null | median:  null
+Human ServicesJob Title:  Residential Services Worker | avg:  null | median:  null
+Human ServicesJob Title:  Services Coordinator | avg:  47500 | median:  null
+Human ServicesJob Title:  Community Living Coordinator | avg:  null | median:  null
+Human ServicesJob Title:  EAP Coordinator | avg:  null | median:  null
+Human ServicesJob Title:  Executive Director | avg:  null | median:  null
+Human ServicesJob Title:  Male Community Youth Worker | avg:  null | median:  null
+Human ServicesJob Title:  Program Supervisor | avg:  null | median:  null
+Human ServicesJob Title:  Job Description - EAP Coordinator | avg:  null | median:  null
+Human ServicesJob Title:  Patient Care Quality Officer | avg:  null | median:  null
+Human ServicesJob Title:  Support Specialist | avg:  null | median:  null
+Human ServicesJob Title:  Bilingual Case Management Specialist | avg:  null | median:  null
+Human ServicesJob Title:  Position Of Adoption Subsidy Supervisor | avg:  null | median:  null
+Human ServicesJob Title:  Child Development Specialist | avg:  null | median:  null
+Human ServicesJob Title:  Service Coordinator | avg:  37500 | median:  null
+Human ServicesJob Title:  SUBSTANCE ABUSE COUNSELOR | avg:  37500 | median:  null
+Human ServicesJob Title:  Service Specialist | avg:  60000 | median:  null
+
+[DEBUG] 2016-12-29 16:58:19,855: ikoda.persistence.test.tests.TestPersistence.testJob(TestPersistence.java:75) TestPersistence  testJob testJob
+

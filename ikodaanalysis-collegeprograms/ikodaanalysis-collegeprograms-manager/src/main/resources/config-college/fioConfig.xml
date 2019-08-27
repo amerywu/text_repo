@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationFileio>
+	<fileIoJobPostingPath>Z:\_filedump\collegeTestDump\fioAccumulateAppend</fileIoJobPostingPath>
+	<fileIoXMLPath>Z:\_filedump\collegeTestDump\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>Z:\_filedump\collegeTestDump\fio_</fileIoResultsPath>
+	<fileIoUndeterminedPath>Z:\_filedump\collegeTestDump\fioUndetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>Z:\_filedump\collegeTestDump\fio_</fileIoNonApplicablePath>
+	<fileIoDonePath>Z:\_filedump\collegeTestDump\_fioProcessedAndParked</fileIoDonePath>
+	<fileIoOutBoxPath>Z:\_filedump\collegeTestDump\fioOutBox</fileIoOutBoxPath>
+</configurationFileio>

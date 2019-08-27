@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+
+
+
+
+
+    <applicationMainModuleName>ikodatext-jobAnalysis-zh</applicationMainModuleName>
+    <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>CHINESEDEGREE_LEVEL</analysisSubType>
+    <databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_ZH</databaseDescriptor>
+    <qualificationMap>mmconfig</qualificationMap>.
+    <nerPropertiesPath>ner_zh_CN.txt</nerPropertiesPath>
+    <specifiedLanguage>zh_CN</specifiedLanguage>
+
+	
+    <languagesForAnalysis>
+        <localeCode>zh_CN</localeCode>
+        <regions>zh</regions>
+    </languagesForAnalysis>
+    
+
+
+	<openCpuCalls>
+		<javaCallingClass>ikoda.netio.opencpucalls.OpenCpuSVMClassifier</javaCallingClass>
+		<openCpuUrl>localhost</openCpuUrl>
+		<openCpuScheme>http</openCpuScheme>
+		<openCpuRootPath>/ocpu</openCpuRootPath>
+		<openCpuApp>iKodaOpenCpu</openCpuApp>
+		<openCpuFunction>doPredictionSVM</openCpuFunction>
+		<openCpuPort>9831</openCpuPort>
+		<openCpuArg1>lemmas</openCpuArg1>
+		<openCpuArg2>frequency</openCpuArg2>
+	</openCpuCalls>
+	
+    
+	<runNetio>false</runNetio>
+	<runFileio>false</runFileio>
+	<runTextAnalysis>false</runTextAnalysis>
+	<runPersistenceReporting>false</runPersistenceReporting>
+	<runPersistence>false</runPersistence>
+	<runPersistenceChores>false</runPersistenceChores>
+	
+    <elegantStop>false</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>false</minimizeResourceUse>
+    <rapidRandomBrowse>false</rapidRandomBrowse>
+	
+</configuration>

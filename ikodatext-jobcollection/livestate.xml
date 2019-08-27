@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<livestate>
+    <currentRound>1</currentRound>
+    <urlRepositoryCurrentIndex>2</urlRepositoryCurrentIndex>
+    <repositoryCycleStartTime>1566856946467</repositoryCycleStartTime>
+    <waitForNewRound>false</waitForNewRound>
+    <config>
+        <applicationMainModuleName>ikodatext-jobAnalysis</applicationMainModuleName>
+        <databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV</databaseDescriptor>
+        <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+        <analysisSubType>DEGREE_LEVEL</analysisSubType>
+        <specifiedLanguage>en</specifiedLanguage>
+        <languagesForAnalysis>
+            <localeCode>en</localeCode>
+            <regions>US</regions>
+            <regions>Canada</regions>
+            <regions>UK</regions>
+            <regions>Australia</regions>
+        </languagesForAnalysis>
+        <runNetio>true</runNetio>
+        <runFileio>true</runFileio>
+        <runTextAnalysis>true</runTextAnalysis>
+        <runPersistence>false</runPersistence>
+        <runPersistenceReporting>false</runPersistenceReporting>
+        <runPersistenceChores>false</runPersistenceChores>
+        <runTraining>false</runTraining>
+        <runSimpleStream>false</runSimpleStream>
+        <elegantStop>false</elegantStop>
+        <netioResumeMode>false</netioResumeMode>
+        <minimizeResourceUse>false</minimizeResourceUse>
+        <rapidRandomBrowse>false</rapidRandomBrowse>
+        <mlServerPort>0</mlServerPort>
+        <configProperties/>
+        <elasticSearchUser>elastic</elasticSearchUser>
+        <elasticSearchPassword>883-8177</elasticSearchPassword>
+        <elasticSearchUrl>192.168.0.141</elasticSearchUrl>
+        <elasticSearchPort>9200</elasticSearchPort>
+    </config>
+</livestate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationFileio>
+	<fileIoJobPostingPath>C:\Users\jake\_fd\_filedump-en-majors\_JobPosting</fileIoJobPostingPath>
+	<fileIoXMLPath>C:\Users\jake\_fd\_filedump-en-majors\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>C:\Users\jake\_fd\_filedump-en-majors\_resultListings</fileIoResultsPath>
+	<fileIoUndeterminedPath>C:\Users\jake\_fd\_filedump-en-majors\_undetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>C:\Users\jake\_fd\_filedump-en-majors\_NA</fileIoNonApplicablePath>
+	<fileIoDonePath>C:\Users\jake\_fd\_filedump-en-majors\_done</fileIoDonePath>
+	<fileIoOutBoxPath>C:\Users\jake\_fd\_filedump-en-majors\outbox</fileIoOutBoxPath>
+</configurationFileio>

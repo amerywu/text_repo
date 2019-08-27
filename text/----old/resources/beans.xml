@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="  
+   http://www.springframework.org/schema/beans 
+   http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+   http://www.springframework.org/schema/aop 
+   http://www.springframework.org/schema/aop/spring-aop-3.2.xsd 
+   http://www.springframework.org/schema/context
+   http://www.springframework.org/schema/context/spring-context-3.1.xsd 
+   http://www.springframework.org/schema/tx
+   http://www.springframework.org/schema/tx/spring-tx-3.2.xsd 
+   http://www.springframework.org/schema/mvc
+   http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
+
+
+
+
+
+	<!-- Hibernate <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" 
+		destroy-method="close"> <property name="driverClass" value="org.postgresql.Driver" 
+		/> <property name="jdbcUrl" value="jdbc:postgresql://localhost/ctest?useUnicode=true&#38;characterEncoding=utf8" 
+		/> <property name="user" value="testuser" /> <property name="password" value="buddybuddy" 
+		/> <property name="acquireIncrement" value="2" /> <property name="minPoolSize" 
+		value="3" /> <property name="maxPoolSize" value="50" /> <property name="maxIdleTime" 
+		value="600" /> </bean> -->
+
+
+
+	<!-- Hibernate -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="org.postgresql.Driver" />
+		<property name="jdbcUrl"
+			value="jdbc:postgresql://192.168.0.141/ikodacareer01?useUnicode=true&#38;characterEncoding=utf8" />
+		<property name="user" value="zoeevelyn" />
+		<property name="password" value="penzin1enzin" />
+
+
+		<property name="acquireIncrement" value="2" />
+		<property name="minPoolSize" value="3" />
+		<property name="maxPoolSize" value="50" />
+		<property name="maxIdleTime" value="600" />
+	</bean>
+
+
+
+	<!-- Hibernate session factory -->
+
+	<bean id="sessionFactoryjobs"
+		class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+		<property name="annotatedClasses">
+			<list>
+				<value>ikoda.persistence.model.UnitTestSubject</value>
+				<value>ikoda.persistence.model.Job</value>
+			</list>
+		</property>
+		<!-- <property name="mappingResources"> <list> <value>hibernatemap.cfg.xml</value> 
+			</list> </property> -->
+
+
+
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</prop>
+				<prop key="hibernate.hbm2ddl.auto">update</prop>
+				<prop key="temp.use_jdbc_metadata_defaults">false</prop>
+				<prop key="hibernate.archive.autodetection">class</prop>
+				<prop key="show_sql">false</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.enable_lazy_load_no_trans">true</prop>
+				<prop key="hibernate.connection.characterEncoding">UTF-8</prop>
+				<prop key="hibernate.connection.useUnicode">true</prop>
+			</props>
+		</property>
+
+
+		<property name="packagesToScan">
+			<array>
+				<value>ikoda.persistence.model</value>
+			</array>
+		</property>
+	</bean>
+
+
+
+
+
+
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactoryjobs" />
+
+	</bean>
+
+	<tx:annotation-driven transaction-manager="transactionManager" />
+
+	<context:component-scan base-package="ikoda.persistence.model" />
+
+
+
+	<!-- DAO beans -->
+	<bean id="jobAnalysisDao" class="ikoda.persistence.dao.JobAnalysisDaoImpl">
+		<property name="sessionFactoryjobs" ref="sessionFactoryjobs" />
+	</bean>
+
+	<!-- service beans -->
+	<bean id="jobAnalysisService" class="ikoda.persistence.service.JobAnalysisServiceImpl">
+		<property name="jobAnalysisDao" ref="jobAnalysisDao" />
+
+	</bean>
+
+
+
+	<!-- other beans -->
+
+
+	<bean id="persistenceApplication" class=" ikoda.persistence.application.PersistenceApplication">
+
+	</bean>
+
+
+	<bean id="persistenceThread" class=" ikoda.persistence.application.PersistenceThread">
+		<property name="jobAnalysisService" ref="jobAnalysisService" />
+	</bean>
+
+	<bean id="jobAnalysisThread" class=" ikoda.jobanalysis.JobAnalysisThread">
+
+	</bean>
+
+
+
+
+</beans>

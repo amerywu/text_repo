@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<majormapconfiguration>
+	<databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DIPLOMA_LEVEL</databaseDescriptor>
+
+	<majorMapEntry>
+		<ikodamajor>Accounting</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Account Clerk</relatedMajors>
+		<relatedMajors>Accounting</relatedMajors>
+		<relatedMajors>Accounting Assistant</relatedMajors>
+		<relatedMajors>Accounting Clerk Professional Certificate</relatedMajors>
+		<relatedMajors>Accounting Manager Professional Certificate</relatedMajors>
+		<relatedMajors>Accounting: Internal Auditing Certificate</relatedMajors>
+		<relatedMajors>Advanced Accounting</relatedMajors>
+		<relatedMajors>Advanced Certificate In Digital Assets And Services</relatedMajors>
+		<relatedMajors>Advanced Studies In Taxation</relatedMajors>
+		<relatedMajors>Banking</relatedMajors>
+		<relatedMajors>Bookkeeper Assistant</relatedMajors>
+		<relatedMajors>Bookkeeper Professional Certificate</relatedMajors>
+		<relatedMajors>Bookkeeping</relatedMajors>
+		<relatedMajors>CBA Certification</relatedMajors>
+		<relatedMajors>Certificate In Accounting</relatedMajors>
+		<relatedMajors>Certificate In Advanced Studies In Taxation</relatedMajors>
+		<relatedMajors>Certificate In Digital Assets And Services</relatedMajors>
+		<relatedMajors>Certificate In Finance</relatedMajors>
+		<relatedMajors>Certificate In Financial Planning</relatedMajors>
+		<relatedMajors>Certificate In Forensic Accounting</relatedMajors>
+		<relatedMajors>Certificate In International Taxation</relatedMajors>
+		<relatedMajors>Certificate In State And Local Taxation</relatedMajors>
+		<relatedMajors>Certificate In Taxation</relatedMajors>
+		<relatedMajors>Certification By Nacm</relatedMajors>
+		<relatedMajors>Computer Accounting</relatedMajors>
+		<relatedMajors>CPA License</relatedMajors>
+		<relatedMajors>Forensic Accounting</relatedMajors>
+		<relatedMajors>General Accounting</relatedMajors>
+		<relatedMajors>Governmental Accounting</relatedMajors>
+		<relatedMajors>Intermediate Accounting</relatedMajors>
+		<relatedMajors>International Taxation</relatedMajors>
+		<relatedMajors>IRA Certification</relatedMajors>
+		<relatedMajors>Managerial Accounting</relatedMajors>
+		<relatedMajors>State And Local Taxation</relatedMajors>
+		<relatedMajors>Tax Preparation Certificate</relatedMajors>
+		<relatedMajors>Taxation</relatedMajors>
+
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Administration</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Adjuster License</relatedMajors>
+		<relatedMajors>Adjusters License</relatedMajors>
+
+		<relatedMajors>Administrative Assistant Certificate</relatedMajors>
+		<relatedMajors>Administrative Manager Certificate</relatedMajors>
+		<relatedMajors>Administrative Medical Assisting</relatedMajors>
+		<relatedMajors>Administrative Professional Certificate</relatedMajors>
+		<relatedMajors>Administrative Support Certificate</relatedMajors>
+		<relatedMajors>Advanced Certificate In Educational Facility Planning</relatedMajors>
+		<relatedMajors>Advanced Certificate In Regulatory Affairs</relatedMajors>
+		<relatedMajors>Advanced Medical Billing</relatedMajors>
+		<relatedMajors>Advanced Paralegal Certificate </relatedMajors>
+		<relatedMajors>Advanced Project Management Professional Certificate</relatedMajors>
+		<relatedMajors>ASQ Certification</relatedMajors>
+		<relatedMajors>Associate Degree In Advanced Medical Billing</relatedMajors>
+		<relatedMajors>Associate 'S Degree In Paralegal Studies</relatedMajors>
+		<relatedMajors>Associates Degree In Business</relatedMajors>
+		<relatedMajors>Basic and Advanced Travel</relatedMajors>
+		<relatedMajors>Business</relatedMajors>
+		<relatedMajors>Business Administration</relatedMajors>
+		<relatedMajors>Business Administration - General Business</relatedMajors>
+		<relatedMajors>Business Certificate</relatedMajors>
+		<relatedMajors>Business Discipline</relatedMajors>
+		<relatedMajors>Business Logistics</relatedMajors>
+		<relatedMajors>Business Operations Support And Secretarial Services</relatedMajors>
+		<relatedMajors>Business Process Optimization</relatedMajors>
+		<relatedMajors>Business School Diploma</relatedMajors>
+		<relatedMajors>Business/Economics</relatedMajors>
+		<relatedMajors>Casino Management</relatedMajors>
+		<relatedMajors>CBCS</relatedMajors>
+		<relatedMajors>Certificate In Basics Of Casino Management</relatedMajors>
+		<relatedMajors>Certificate In Business Management Program</relatedMajors>
+		<relatedMajors>Certificate In Educational Facility Planning</relatedMajors>
+		<relatedMajors>Certificate In Estate Planning</relatedMajors>
+		<relatedMajors>Certificate In Hospitality And Casino Management</relatedMajors>
+		<relatedMajors>Certificate In Human Resource Management</relatedMajors>
+		<relatedMajors>Certificate In Human Resources Management</relatedMajors>
+		<relatedMajors>Certificate In International Business</relatedMajors>
+		<relatedMajors>Certificate In Operations And Supply Chain Management</relatedMajors>
+		<relatedMajors>Certificate In Public Administration</relatedMajors>
+		<relatedMajors>Certificate In Regulatory Affairs</relatedMajors>
+		<relatedMajors>Certificate In Secretarial Science</relatedMajors>
+		<relatedMajors>Certificate Of Insurance Tracking</relatedMajors>
+		<relatedMajors>Certificate Of Insurance Tracking Cois</relatedMajors>
+		<relatedMajors>Certificate Of Training In Business Administration</relatedMajors>
+		<relatedMajors>Certificate Of Training In Business Technology</relatedMajors>
+		<relatedMajors>Certifications In Microsoft Office</relatedMajors>
+		<relatedMajors>Clear Administrative Services Credential</relatedMajors>
+		<relatedMajors>Clinical Trials Administration</relatedMajors>
+		<relatedMajors>Collection System Operator License</relatedMajors>
+		<relatedMajors>Computer Applications And Office Technologies</relatedMajors>
+		<relatedMajors>Computer Business Applications</relatedMajors>
+		<relatedMajors>Computer Business Technology Administrative Assistant</relatedMajors>
+		<relatedMajors>Computer Fundamentals</relatedMajors>
+		<relatedMajors>Computer Proficiency Online</relatedMajors>
+		<relatedMajors>Computer Technology</relatedMajors>
+		<relatedMajors>Computer Web Support And Administration</relatedMajors>
+		<relatedMajors>Court Reporting</relatedMajors>
+		<relatedMajors>Cpc Certification</relatedMajors>
+		<relatedMajors>Diploma In EU Public Procurement</relatedMajors>
+		<relatedMajors>Diploma In Human Resources</relatedMajors>
+		<relatedMajors>Diploma In Operations Management</relatedMajors>
+		<relatedMajors>Economics</relatedMajors>
+		<relatedMajors>Equine Event Management</relatedMajors>
+		<relatedMajors>Estate Planning</relatedMajors>
+		<relatedMajors>Eu Public Procurement</relatedMajors>
+		<relatedMajors>Export License</relatedMajors>
+		<relatedMajors>Fingerprint Certifications</relatedMajors>
+		<relatedMajors>Fingerprint CPI Certificate</relatedMajors>
+		<relatedMajors>Fingerprint CPI certificate</relatedMajors>
+		<relatedMajors>Fingerprint Examiner Certification</relatedMajors>
+		<relatedMajors>Florida Notary License</relatedMajors>
+		<relatedMajors>Freight Broker Training</relatedMajors>
+		<relatedMajors>Gaming License</relatedMajors>
+		<relatedMajors>General Business</relatedMajors>
+		<relatedMajors>General Office</relatedMajors>
+		<relatedMajors>Health Administration</relatedMajors>
+		<relatedMajors>Health Care Administration</relatedMajors>
+		<relatedMajors>Health Policy</relatedMajors>
+		<relatedMajors>Health Services Administration</relatedMajors>
+		<relatedMajors>Healthcare Administration</relatedMajors>
+		<relatedMajors>Healthcare Management Option</relatedMajors>
+		<relatedMajors>Him</relatedMajors>
+		<relatedMajors>Hotel Front Desk And Back Office Operations</relatedMajors>
+		<relatedMajors>Housing Certification</relatedMajors>
+		<relatedMajors>HR</relatedMajors>
+		<relatedMajors>Human Resource</relatedMajors>
+		<relatedMajors>Human Resources</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Human Services: Mental Health</relatedMajors>
+		<relatedMajors>IATA Aviation Management Professional Certificate</relatedMajors>
+		<relatedMajors>Import License</relatedMajors>
+		<relatedMajors>Information Management</relatedMajors>
+		<relatedMajors>Information Security Manager</relatedMajors>
+		<relatedMajors>Inpatient And Outpatient Medical Coding And Billing</relatedMajors>
+		<relatedMajors>Insurance Tracking</relatedMajors>
+		<relatedMajors>Insurance Tracking Cois</relatedMajors>
+		<relatedMajors>International Business</relatedMajors>
+		<relatedMajors>IVP Fingerprint Cpi Certificate</relatedMajors>
+		<relatedMajors>Latent Fingerprint Certifications</relatedMajors>
+		<relatedMajors>Leadership And Management Effectiveness</relatedMajors>
+		<relatedMajors>Legal Secretary Certificate Course</relatedMajors>
+		<relatedMajors>Librarianship</relatedMajors>
+		<relatedMajors>Library Science</relatedMajors>
+		<relatedMajors>Licensed Mortgage Bankers</relatedMajors>
+		<relatedMajors>Logistics</relatedMajors>
+		<relatedMajors>Medical Assistant Certificate</relatedMajors>
+		<relatedMajors>Medical Assistant Certification</relatedMajors>
+		<relatedMajors>Medical Assisting</relatedMajors>
+		<relatedMajors>Medical Assisting - Diploma</relatedMajors>
+		<relatedMajors>Medical Assisting Aas</relatedMajors>
+		<relatedMajors>Medical Assisting Diploma</relatedMajors>
+		<relatedMajors>Medical Billing</relatedMajors>
+		<relatedMajors>Medical Billing And Coding</relatedMajors>
+		<relatedMajors>Medical Billing And Coding-Diploma</relatedMajors>
+		<relatedMajors>Medical Case Management</relatedMajors>
+		<relatedMajors>Medical Certificate</relatedMajors>
+		<relatedMajors>Medical Coding</relatedMajors>
+		<relatedMajors>Medical Coding Skills Attainment Certificate</relatedMajors>
+		<relatedMajors>Music Business</relatedMajors>
+		<relatedMajors>MVR Certification</relatedMajors>
+		<relatedMajors>Niche Tourism Development</relatedMajors>
+		<relatedMajors>NIMS Certification</relatedMajors>
+		<relatedMajors>Nonprofit Leadership</relatedMajors>
+		<relatedMajors>Office Technologies</relatedMajors>
+		<relatedMajors>Office Technology</relatedMajors>
+		<relatedMajors>Organizational Development</relatedMajors>
+		<relatedMajors>Organizational Development And Leadership Certificate</relatedMajors>
+		<relatedMajors>Organizational Leadership and Communication</relatedMajors>
+		<relatedMajors>Organizational Leadership And Communication</relatedMajors>
+		<relatedMajors>Paralegal </relatedMajors>
+		<relatedMajors>Paralegal Certificate</relatedMajors>
+		<relatedMajors>Paralegal Certificate </relatedMajors>
+		<relatedMajors>Paralegal Certification</relatedMajors>
+		<relatedMajors>Paraprofessional Certification</relatedMajors>
+		<relatedMajors>Payroll Administration</relatedMajors>
+		<relatedMajors>Payroll Clerk Professional Certificate</relatedMajors>
+		<relatedMajors>Personal Financial Planning</relatedMajors>
+		<relatedMajors>Physician Assistant License</relatedMajors>
+		<relatedMajors>PMP Certificate</relatedMajors>
+		<relatedMajors>Production/Inventory Control Certificate</relatedMajors>
+		<relatedMajors>Public Administration</relatedMajors>
+		<relatedMajors>Public Administration</relatedMajors>
+		<relatedMajors>Public Health</relatedMajors>
+		<relatedMajors>Public Policy</relatedMajors>
+		<relatedMajors>Purchasing Certificate</relatedMajors>
+		<relatedMajors>QMP Certification</relatedMajors>
+		<relatedMajors>Quality Assurance</relatedMajors>
+		<relatedMajors>Quality Assurance And Control</relatedMajors>
+		<relatedMajors>Quality Management With Six-Sigma Black Belt</relatedMajors>
+		<relatedMajors>Real Estate Escrow</relatedMajors>
+		<relatedMajors>Real Estate Lending And Mortgage Brokering</relatedMajors>
+		<relatedMajors>Real-Time Rapid Text Entry</relatedMajors>
+		<relatedMajors>Records Management</relatedMajors>
+		<relatedMajors>Regulatory Affairs</relatedMajors>
+		<relatedMajors>Regulatory Affairs Management</relatedMajors>
+		<relatedMajors>Retail Management</relatedMajors>
+		<relatedMajors>Retailing</relatedMajors>
+		<relatedMajors>Safe Harbor Certification</relatedMajors>
+		<relatedMajors>Safety And Health In Construction</relatedMajors>
+		<relatedMajors>Safety And Health In The Technology Classroom For
+			Teachers</relatedMajors>
+		<relatedMajors>Safety For Process Technology</relatedMajors>
+		<relatedMajors>Safety Management</relatedMajors>
+		<relatedMajors>Scopist For Court Reporters</relatedMajors>
+		<relatedMajors>Secretarial Science</relatedMajors>
+		<relatedMajors>SHRM Certification</relatedMajors>
+		<relatedMajors>SPHR Certification</relatedMajors>
+		<relatedMajors>Strategic Leadership</relatedMajors>
+		<relatedMajors>Student Intern License</relatedMajors>
+		<relatedMajors>Sustainability Business Management</relatedMajors>
+		<relatedMajors>Technical Writing Certificate</relatedMajors>
+		<relatedMajors>W 676 Licensed</relatedMajors>
+		<relatedMajors>Web Project Management</relatedMajors>
+		<relatedMajors>Word Processing</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Art and Design</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Adobe Certification </relatedMajors>
+		<relatedMajors>Adobe Creative Suite Certificate</relatedMajors>
+		<relatedMajors>Animation</relatedMajors>
+		<relatedMajors>Architecture</relatedMajors>
+		<relatedMajors>Art</relatedMajors>
+		<relatedMajors>Art (Studio)</relatedMajors>
+		<relatedMajors>Arts</relatedMajors>
+		<relatedMajors>Arts License</relatedMajors>
+		<relatedMajors>CG Art</relatedMajors>
+		<relatedMajors>CG Design</relatedMajors>
+		<relatedMajors>Choreography</relatedMajors>
+		<relatedMajors>Cinematography</relatedMajors>
+		<relatedMajors>Commercial Photography</relatedMajors>
+		<relatedMajors>Computer-Aided Design</relatedMajors>
+		<relatedMajors>Computer-Aided Drafting Technology</relatedMajors>
+		<relatedMajors>Dance</relatedMajors>
+		<relatedMajors>Design</relatedMajors>
+		<relatedMajors>Design Studies</relatedMajors>
+		<relatedMajors>Digital Audio</relatedMajors>
+		<relatedMajors>Digital Multimedia Design</relatedMajors>
+		<relatedMajors>Digital Multimedia Design-Interactive Design And
+			Development</relatedMajors>
+		<relatedMajors>Digital Video</relatedMajors>
+		<relatedMajors>Diploma In Manufacturing And Product Design</relatedMajors>
+		<relatedMajors>Film</relatedMajors>
+		<relatedMajors>Fine Arts</relatedMajors>
+		<relatedMajors>Fine Arts Photography Option</relatedMajors>
+		<relatedMajors>General Multimedia</relatedMajors>
+		<relatedMajors>Graphic Design</relatedMajors>
+		<relatedMajors>Graphic Production</relatedMajors>
+		<relatedMajors>Graphics</relatedMajors>
+		<relatedMajors>Industrial Design</relatedMajors>
+		<relatedMajors>Instructional Design Certificate</relatedMajors>
+		<relatedMajors>Interactive Media Design</relatedMajors>
+		<relatedMajors>Interior Design</relatedMajors>
+		<relatedMajors>Manufacturing And Product Design</relatedMajors>
+		<relatedMajors>Media Arts Certificate</relatedMajors>
+		<relatedMajors>Multimedia</relatedMajors>
+		<relatedMajors>Music</relatedMajors>
+		<relatedMajors>Music Option</relatedMajors>
+		<relatedMajors>Music Performance</relatedMajors>
+		<relatedMajors>Music Recording Technology</relatedMajors>
+		<relatedMajors>Music Technology</relatedMajors>
+		<relatedMajors>New Media Technology</relatedMajors>
+		<relatedMajors>Performance Art</relatedMajors>
+		<relatedMajors>Photography</relatedMajors>
+		<relatedMajors>Product Creation And Innovative Manufacturing Graduate
+			Certificate</relatedMajors>
+		<relatedMajors>Theater</relatedMajors>
+		<relatedMajors>Theater Art</relatedMajors>
+		<relatedMajors>Theatre</relatedMajors>
+		<relatedMajors>Theatre</relatedMajors>
+		<relatedMajors>Visual Art</relatedMajors>
+		<relatedMajors>Visual Media Communications</relatedMajors>
+		<relatedMajors>Web Design</relatedMajors>
+		<relatedMajors>Web Design And Development</relatedMajors>
+		<relatedMajors>Web Development</relatedMajors>
+		<relatedMajors>Web Graphic Production</relatedMajors>
+		<relatedMajors>Winemaking</relatedMajors>
+		<relatedMajors>Adobe Applications Specialist Certificate</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Communications</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Broadcast and Electronic Media: Broadcast</relatedMajors>
+		<relatedMajors>Broadcasting</relatedMajors>
+		<relatedMajors>Business Communication</relatedMajors>
+		<relatedMajors>Business Communications</relatedMajors>
+		<relatedMajors>Communication Studies</relatedMajors>
+		<relatedMajors>Communications</relatedMajors>
+		<relatedMajors>Copyediting</relatedMajors>
+		<relatedMajors>Digital Journalism</relatedMajors>
+		<relatedMajors>Digital Media</relatedMajors>
+		<relatedMajors>Editing </relatedMajors>
+		<relatedMajors>English</relatedMajors>
+		<relatedMajors>English Writing Skills</relatedMajors>
+		<relatedMajors>Grant Writing</relatedMajors>
+		<relatedMajors>Integrated Marketing Communications</relatedMajors>
+		<relatedMajors>Journalism</relatedMajors>
+		<relatedMajors>Marketing And Communication</relatedMajors>
+		<relatedMajors>Marketing Management</relatedMajors>
+		<relatedMajors>Media Communications</relatedMajors>
+		<relatedMajors>Media Studies</relatedMajors>
+		<relatedMajors>Online Journalism</relatedMajors>
+		<relatedMajors>PR</relatedMajors>
+		<relatedMajors>Public Relations</relatedMajors>
+		<relatedMajors>Public Relations</relatedMajors>
+		<relatedMajors>Radio Production And Broadcasting</relatedMajors>
+		<relatedMajors>Social Media</relatedMajors>
+		<relatedMajors>Social Media Marketing</relatedMajors>
+		<relatedMajors>Television Producing</relatedMajors>
+		<relatedMajors>Tv and Radio Broadcasting</relatedMajors>
+		<relatedMajors>Tv Production</relatedMajors>
+		<relatedMajors>Video Journalism</relatedMajors>
+		<relatedMajors>Writing</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Construction</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>2Nd Class Boilers License</relatedMajors>
+		<relatedMajors>ABC Certified</relatedMajors>
+		<relatedMajors>ABC Certified Fitter</relatedMajors>
+		<relatedMajors>Architectural Cad</relatedMajors>
+		<relatedMajors>Boiler License</relatedMajors>
+		<relatedMajors>Boilers License</relatedMajors>
+		<relatedMajors>Building Construction Technology</relatedMajors>
+		<relatedMajors>Building Energy Technologies</relatedMajors>
+		<relatedMajors>Building Inspection Technology</relatedMajors>
+		<relatedMajors>Building Inspectors License</relatedMajors>
+		<relatedMajors>CAD technology</relatedMajors>
+		<relatedMajors>Certificate In Construction Management</relatedMajors>
+		<relatedMajors>Certification Using Pallet Jacks</relatedMajors>
+		<relatedMajors>Chemical Engineering</relatedMajors>
+		<relatedMajors>Civil Engineering</relatedMajors>
+		<relatedMajors>Civil Sitework Construction</relatedMajors>
+		<relatedMajors>Class B Wastewater License</relatedMajors>
+		<relatedMajors>Class C Wastewater Operator License</relatedMajors>
+		<relatedMajors>CNC Machining</relatedMajors>
+		<relatedMajors>CNC Machining Fundamentals</relatedMajors>
+		<relatedMajors>CNC Operator Program With Nims Certification</relatedMajors>
+		<relatedMajors>CNC operations</relatedMajors>
+		<relatedMajors>Concrete Masonry</relatedMajors>
+		<relatedMajors>Construction Carpentry</relatedMajors>
+		<relatedMajors>Construction Craft Laborer</relatedMajors>
+		<relatedMajors>Construction Estimating</relatedMajors>
+		<relatedMajors>Construction Management</relatedMajors>
+		<relatedMajors>Construction Practices</relatedMajors>
+		<relatedMajors>Construction Supervisory Series</relatedMajors>
+		<relatedMajors>CPO Certified</relatedMajors>
+		<relatedMajors>DAPE License</relatedMajors>
+		<relatedMajors>DSP Systems Engineering</relatedMajors>
+		<relatedMajors>Electrical Contractor License</relatedMajors>
+		<relatedMajors>Electrical Journeyman License</relatedMajors>
+		<relatedMajors>Electrical Maintenance License</relatedMajors>
+		<relatedMajors>Electronic Circuits Graduate Certificate</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Engineering And Physics</relatedMajors>
+		<relatedMajors>Engineering Management</relatedMajors>
+		<relatedMajors>Engineering Option</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Science:</relatedMajors>
+		<relatedMajors>Engineers License</relatedMajors>
+		<relatedMajors>Engneering Related Field</relatedMajors>
+		<relatedMajors>Environmental Engineering</relatedMajors>
+		<relatedMajors>EPA Certificate</relatedMajors>
+		<relatedMajors>EPA Certification</relatedMajors>
+		<relatedMajors>EPA Certifications</relatedMajors>
+		<relatedMajors>EPA Certified</relatedMajors>
+		<relatedMajors>Forklift Certification</relatedMajors>
+		<relatedMajors>Forklift Operation And Safety</relatedMajors>
+		<relatedMajors>Forklift Operator Certificate</relatedMajors>
+		<relatedMajors>Gas Metal Arc Welding</relatedMajors>
+		<relatedMajors>General Contractors License</relatedMajors>
+		<relatedMajors>General Maintenance Worker License</relatedMajors>
+		<relatedMajors>Geomatics</relatedMajors>
+		<relatedMajors>Geomatics Engineering</relatedMajors>
+		<relatedMajors>Green Building Construction</relatedMajors>
+		<relatedMajors>Hazmat Certification</relatedMajors>
+		<relatedMajors>Highway Construction Careers Training Program</relatedMajors>
+		<relatedMajors>HVAC</relatedMajors>
+		<relatedMajors>HVAC Certificate</relatedMajors>
+		<relatedMajors>HVAC Certification</relatedMajors>
+		<relatedMajors>HVAC Maintenance License</relatedMajors>
+		<relatedMajors>HVAC Technology</relatedMajors>
+		<relatedMajors>Industrial Engineering</relatedMajors>
+		<relatedMajors>Industrial Technology Welding</relatedMajors>
+		<relatedMajors>Industrial Welding</relatedMajors>
+		<relatedMajors>Irrigation Technician License</relatedMajors>
+		<relatedMajors>Irrigator License</relatedMajors>
+		<relatedMajors>Journeyman 'S License</relatedMajors>
+		<relatedMajors>Journeyman Wireman License</relatedMajors>
+		<relatedMajors>Journeymen Plumbing License</relatedMajors>
+		<relatedMajors>Licensed Electrician</relatedMajors>
+		<relatedMajors>Licensed Journeyman</relatedMajors>
+		<relatedMajors>Licensed Plans Examiner</relatedMajors>
+		<relatedMajors>Licensed Plumbers</relatedMajors>
+		<relatedMajors>Machine Trades Certificate</relatedMajors>
+		<relatedMajors>Manufacturing Engineering</relatedMajors>
+		<relatedMajors>Manufacturing Engineering Technology</relatedMajors>
+		<relatedMajors>Manufacturing Technology</relatedMajors>
+		<relatedMajors>Materials Science</relatedMajors>
+		<relatedMajors>Membrane Operator Certification</relatedMajors>
+		<relatedMajors>Mining Engineering</relatedMajors>
+		<relatedMajors>Mold Inspection</relatedMajors>
+		<relatedMajors>Nuclear Engineering</relatedMajors>
+		<relatedMajors>Pallet Jack Certification</relatedMajors>
+		<relatedMajors>Pallet Jacks</relatedMajors>
+		<relatedMajors>Pest Control License</relatedMajors>
+		<relatedMajors>Pesticide Applicators License</relatedMajors>
+		<relatedMajors>Pesticide License</relatedMajors>
+		<relatedMajors>Petroleum Engineering</relatedMajors>
+		<relatedMajors>Plumbing And Fire Protection</relatedMajors>
+		<relatedMajors>Plumbing License</relatedMajors>
+		<relatedMajors>Pool Certifications</relatedMajors>
+		<relatedMajors>Pool Operator Certification</relatedMajors>
+		<relatedMajors>Powered Pallet Jack Certification</relatedMajors>
+		<relatedMajors>Real Estate Appraisal</relatedMajors>
+		<relatedMajors>Refrigerant License</relatedMajors>
+		<relatedMajors>Refrigeration</relatedMajors>
+		<relatedMajors>Sign Journeyman 'S License</relatedMajors>
+		<relatedMajors>Smart Build Systems</relatedMajors>
+		<relatedMajors>Stationary Engineers License</relatedMajors>
+		<relatedMajors>Structural Engineering</relatedMajors>
+		<relatedMajors>Tdlr Sign Journeyman 'S License</relatedMajors>
+		<relatedMajors>Trades Certificate</relatedMajors>
+		<relatedMajors>Universal Refrigerant License</relatedMajors>
+		<relatedMajors>Wastewater License</relatedMajors>
+		<relatedMajors>Water Treatment Plant Operator License</relatedMajors>
+		<relatedMajors>Welding</relatedMajors>
+		<relatedMajors>Welding Certification</relatedMajors>
+		<relatedMajors>Welding Engineering Technology</relatedMajors>
+		<relatedMajors>Welding Technology</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Counseling</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Achievement In Family Research Studies</relatedMajors>
+		<relatedMajors>Advanced Social Services Addictions Studies</relatedMajors>
+		<relatedMajors>APA Certified</relatedMajors>
+		<relatedMajors>Applied Behavior Analysis Certificate</relatedMajors>
+		<relatedMajors>Asha Certification</relatedMajors>
+		<relatedMajors>Autism Education Certificate</relatedMajors>
+		<relatedMajors>Autism Spectrum Disorders</relatedMajors>
+		<relatedMajors>Behavioral Health Home Certification</relatedMajors>
+		<relatedMajors>C. A. M. License</relatedMajors>
+		<relatedMajors>CAM license</relatedMajors>
+		<relatedMajors>Cam License</relatedMajors>
+		<relatedMajors>Career Advising</relatedMajors>
+		<relatedMajors>Career And Life Planning</relatedMajors>
+		<relatedMajors>Caring In The Health Professions</relatedMajors>
+		<relatedMajors>Cde Special Services Provider License</relatedMajors>
+		<relatedMajors>Certificate In Autism Spectrum Disorders</relatedMajors>
+		<relatedMajors>Certificate In Bereavement Studies</relatedMajors>
+		<relatedMajors>Certificate In Conflict Resolution</relatedMajors>
+		<relatedMajors>Certificate Of Achievement In Family Research Studies</relatedMajors>
+		<relatedMajors>Certification In Genetic Counseling</relatedMajors>
+		<relatedMajors>Clinical and Applied Hypnosis</relatedMajors>
+		<relatedMajors>Clinical Social Worker License</relatedMajors>
+		<relatedMajors>Cognitive Psychology</relatedMajors>
+		<relatedMajors>College Admissions Counseling</relatedMajors>
+		<relatedMajors>Counseling</relatedMajors>
+		<relatedMajors>Counseling Certificate</relatedMajors>
+		<relatedMajors>CPI Certificate</relatedMajors>
+		<relatedMajors>Diploma In Social Work Studies</relatedMajors>
+		<relatedMajors>Dropout Prevention Specialist Certificate</relatedMajors>
+		<relatedMajors>Dropout Prevention Specialist Certificate Program</relatedMajors>
+		<relatedMajors>Genetic Counseling</relatedMajors>
+		<relatedMajors>Health and Wellness Coaching</relatedMajors>
+		<relatedMajors>Healthy Living</relatedMajors>
+		<relatedMajors>Human Development And Family Studies</relatedMajors>
+		<relatedMajors>Industrial Psychology</relatedMajors>
+		<relatedMajors>Language Pathology License</relatedMajors>
+		<relatedMajors>LBSL Certificate</relatedMajors>
+		<relatedMajors>LCSW License</relatedMajors>
+		<relatedMajors>LGBT Human Services And Mental Health</relatedMajors>
+		<relatedMajors>License In Pre K-12 School Social Worker</relatedMajors>
+		<relatedMajors>Licensed Behavior Health Clinician</relatedMajors>
+		<relatedMajors>Licensed Clinical Professional Counselor</relatedMajors>
+		<relatedMajors>Licensed Clinical Social Worker</relatedMajors>
+		<relatedMajors>Licensed Mental Health Counselor</relatedMajors>
+		<relatedMajors>Licensed Social Worker</relatedMajors>
+		<relatedMajors>Mental Health Accreditation</relatedMajors>
+		<relatedMajors>Mind-Body Medicine</relatedMajors>
+		<relatedMajors>Occupational Therapy License</relatedMajors>
+		<relatedMajors>OCN Certification</relatedMajors>
+		<relatedMajors>OHS Practitioner Diploma</relatedMajors>
+		<relatedMajors>OTA</relatedMajors>
+		<relatedMajors>PB Certificate In Lifestyle Intervention</relatedMajors>
+		<relatedMajors>Peer Support Services</relatedMajors>
+		<relatedMajors>Psychiatric Rehabilitation</relatedMajors>
+		<relatedMajors>Psychology</relatedMajors>
+		<relatedMajors>Psychology</relatedMajors>
+		<relatedMajors>Psychosocial Rehabilitation</relatedMajors>
+		<relatedMajors>School Counseling License</relatedMajors>
+		<relatedMajors>School Psychologist License</relatedMajors>
+		<relatedMajors>Sexual Assault Examination</relatedMajors>
+		<relatedMajors>Social Services Addictions Studies</relatedMajors>
+		<relatedMajors>Social Work</relatedMajors>
+		<relatedMajors>Social Work</relatedMajors>
+		<relatedMajors>Social Work Studies</relatedMajors>
+		<relatedMajors>Social Worker License</relatedMajors>
+		<relatedMajors>Sociology</relatedMajors>
+		<relatedMajors>Sociology</relatedMajors>
+		<relatedMajors>Speech Language Pathologist License</relatedMajors>
+		<relatedMajors>Speech Language Pathology License</relatedMajors>
+		<relatedMajors>Therapeutic Recreation</relatedMajors>
+		<relatedMajors>Therapist License</relatedMajors>
+		<relatedMajors>Therapy License</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Driver</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Cdl A Truck Driving Licensure Prep</relatedMajors>
+		<relatedMajors>Cdl B W Passenger Endorsement License</relatedMajors>
+		<relatedMajors>Cdl Class A Ttd 40 Refresher</relatedMajors>
+		<relatedMajors>Cdl Class B License</relatedMajors>
+		<relatedMajors>Cdl License</relatedMajors>
+		<relatedMajors>Class A Cdl Truck Driver Training</relatedMajors>
+		<relatedMajors>Class A Cdl Truck Driver Training: Carter Express</relatedMajors>
+		<relatedMajors>Class B Cdl Trucker Driver Training</relatedMajors>
+		<relatedMajors>Class C Driver Training</relatedMajors>
+		<relatedMajors>Commercial Driver</relatedMajors>
+		<relatedMajors>Commercial Passenger Driver: Class B</relatedMajors>
+		<relatedMajors>Commercial Pilot Certificate</relatedMajors>
+		<relatedMajors>Commerical Driver License Training</relatedMajors>
+		<relatedMajors>Faa Certification</relatedMajors>
+		<relatedMajors>Faa License</relatedMajors>
+		<relatedMajors>Faa Licensed</relatedMajors>
+		<relatedMajors>Flight Check Commercial Pilot Certificate</relatedMajors>
+		<relatedMajors>Flight Check Pilot Certificate</relatedMajors>
+		<relatedMajors>Flight Check Pilot Certificate Instrument Rating</relatedMajors>
+		<relatedMajors>Flight Instructor Certificate</relatedMajors>
+		<relatedMajors>License With Instrument Rating</relatedMajors>
+		<relatedMajors>Limousine - Restricted Chauffeur Training</relatedMajors>
+		<relatedMajors>Mv License</relatedMajors>
+		<relatedMajors>Pilot Certificate</relatedMajors>
+		<relatedMajors>Pilot License</relatedMajors>
+		<relatedMajors>Pilots License</relatedMajors>
+		<relatedMajors>Pre-Aviation</relatedMajors>
+		<relatedMajors>Public Passenger Vehicle Training: Taxi</relatedMajors>
+		<relatedMajors>Tow Motor License</relatedMajors>
+		<relatedMajors>Unrestricted Airline Transport Pilot License</relatedMajors>
+		<relatedMajors>Vehicle Operator 'S License</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Education</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Adult Education</relatedMajors>
+		<relatedMajors>Advanced Certificate In Educational Technology</relatedMajors>
+		<relatedMajors>Advanced Instructional Design Certificate</relatedMajors>
+		<relatedMajors>Certificate In Community College Faculty Preparation</relatedMajors>
+		<relatedMajors>Certificate In Educational Technology</relatedMajors>
+		<relatedMajors>Certificate In Faculty Preparation</relatedMajors>
+		<relatedMajors>Certificate In Teaching English As A Foreign Language</relatedMajors>
+		<relatedMajors>Certificate Of Completion In Training And Development</relatedMajors>
+		<relatedMajors>Child Development</relatedMajors>
+		<relatedMajors>Childcare Licensure</relatedMajors>
+		<relatedMajors>Clear Credential Program</relatedMajors>
+		<relatedMajors>Community College Faculty Preparation</relatedMajors>
+		<relatedMajors>Community College Faculty Preparation Online
+			Certificate Program</relatedMajors>
+		<relatedMajors>Community College Teaching Certificate</relatedMajors>
+		<relatedMajors>Completion In Training And Development</relatedMajors>
+		<relatedMajors>Diploma In Children'S Studies</relatedMajors>
+		<relatedMajors>Diploma In Teaching Skills For Educators</relatedMajors>
+		<relatedMajors>Early Childhood</relatedMajors>
+		<relatedMajors>Early Childhood Certification</relatedMajors>
+		<relatedMajors>Early Childhood Education</relatedMajors>
+		<relatedMajors>Early Childhood Education Certificate</relatedMajors>
+		<relatedMajors>Early Childhood Special Education</relatedMajors>
+		<relatedMajors>Early Childhood Special Education License</relatedMajors>
+		<relatedMajors>Early Childhood Special Education Teacher License</relatedMajors>
+		<relatedMajors>Ece</relatedMajors>
+		<relatedMajors>Education</relatedMajors>
+		<relatedMajors>Education Certificate</relatedMajors>
+		<relatedMajors>Education License</relatedMajors>
+		<relatedMajors>Education Studies</relatedMajors>
+		<relatedMajors>Educational Technology</relatedMajors>
+		<relatedMajors>Educators License</relatedMajors>
+		<relatedMajors>Effective Communication Techniques For Teachers</relatedMajors>
+		<relatedMajors>E-Learning And Online Teaching</relatedMajors>
+		<relatedMajors>E-Learning Instructional Design</relatedMajors>
+		<relatedMajors>Elementary Education</relatedMajors>
+		<relatedMajors>Elementary Teaching License</relatedMajors>
+		<relatedMajors>English Education</relatedMajors>
+		<relatedMajors>ESL</relatedMajors>
+		<relatedMajors>Faculty Preparation</relatedMajors>
+		<relatedMajors>Family Childcare Business</relatedMajors>
+		<relatedMajors>French Education</relatedMajors>
+		<relatedMajors>Gate Certificate</relatedMajors>
+		<relatedMajors>General Science Education</relatedMajors>
+		<relatedMajors>Gifted And Talented Education</relatedMajors>
+		<relatedMajors>Global Teacher Studies And Preparation: International
+			Baccalaureate Program</relatedMajors>
+		<relatedMajors>Instructional Design</relatedMajors>
+		<relatedMajors>Instructional Multi-Media</relatedMajors>
+		<relatedMajors>Instructional Technology</relatedMajors>
+		<relatedMajors>Instructional Technology Certificate</relatedMajors>
+		<relatedMajors>K-12 Visual Arts License</relatedMajors>
+		<relatedMajors>License With Endorsement In Early Childhood Education</relatedMajors>
+		<relatedMajors>Licensure In Early Education</relatedMajors>
+		<relatedMajors>Mathematics Education</relatedMajors>
+		<relatedMajors>Middle School Special Education Teacher License</relatedMajors>
+		<relatedMajors>Multimedia Web Applications For Teachers And Trainers</relatedMajors>
+		<relatedMajors>Music Education</relatedMajors>
+		<relatedMajors>Music Teaching License</relatedMajors>
+		<relatedMajors>Online Teaching</relatedMajors>
+		<relatedMajors>Online Teaching And Learning</relatedMajors>
+		<relatedMajors>Physics Education</relatedMajors>
+		<relatedMajors>Pre-School Education</relatedMajors>
+		<relatedMajors>Pre-School Education/ Infant Toddler</relatedMajors>
+		<relatedMajors>Principal Standard Certificate</relatedMajors>
+		<relatedMajors>Professional Educator License</relatedMajors>
+		<relatedMajors>School-Age Childcare</relatedMajors>
+		<relatedMajors>Social Science Education</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Special Ed License</relatedMajors>
+		<relatedMajors>Special Education</relatedMajors>
+		<relatedMajors>Special Education</relatedMajors>
+		<relatedMajors>Special Education Certificate</relatedMajors>
+		<relatedMajors>Special Education License</relatedMajors>
+		<relatedMajors>Special Education Licensure</relatedMajors>
+		<relatedMajors>Special Education Teacher Diploma</relatedMajors>
+		<relatedMajors>Special Education Teacher License</relatedMajors>
+		<relatedMajors>Standard Early Childhood Certification</relatedMajors>
+		<relatedMajors>State Teaching Certificate</relatedMajors>
+		<relatedMajors>Substitute License</relatedMajors>
+		<relatedMajors>Substitute Teacher License</relatedMajors>
+		<relatedMajors>Teacher Assistant Certification</relatedMajors>
+		<relatedMajors>Teacher Certificate</relatedMajors>
+		<relatedMajors>Teacher License</relatedMajors>
+		<relatedMajors>Teachers License</relatedMajors>
+		<relatedMajors>Teaching Adult Learners</relatedMajors>
+		<relatedMajors>Teaching Certificate</relatedMajors>
+		<relatedMajors>Teaching English</relatedMajors>
+		<relatedMajors>Teaching English As A Foreign Language</relatedMajors>
+		<relatedMajors>Teaching License</relatedMajors>
+		<relatedMajors>Teaching Online</relatedMajors>
+		<relatedMajors>Teaching Skills For Educators</relatedMajors>
+		<relatedMajors>Technical Communication</relatedMajors>
+		<relatedMajors>Technical Market Analysis</relatedMajors>
+		<relatedMajors>Technical Writing</relatedMajors>
+		<relatedMajors>Technical Writing</relatedMajors>
+		<relatedMajors>Technology And Learning</relatedMajors>
+		<relatedMajors>Tefl Certificate</relatedMajors>
+		<relatedMajors>Training And Development</relatedMajors>
+		<relatedMajors>Training In Business Administration</relatedMajors>
+		<relatedMajors>Training In Business Technology</relatedMajors>
+
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Electronics and Hardware</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>A+ Certified Computer Technician</relatedMajors>
+		<relatedMajors>Basic Mecp Certification</relatedMajors>
+		<relatedMajors>Certificate In Information Technology Management</relatedMajors>
+		<relatedMajors>Cisco Certified</relatedMajors>
+		<relatedMajors>Communication Systems Engineering</relatedMajors>
+		<relatedMajors>Communication Systems Graduate Certificate</relatedMajors>
+		<relatedMajors>Communications Systems Engineering</relatedMajors>
+		<relatedMajors>Communications Technology</relatedMajors>
+		<relatedMajors>Computer and Network Forensics</relatedMajors>
+		<relatedMajors>Computer Engineering</relatedMajors>
+		<relatedMajors>Computer Forensics</relatedMajors>
+		<relatedMajors>Computer Security Professional Certificate</relatedMajors>
+		<relatedMajors>Control System Technician Certification</relatedMajors>
+		<relatedMajors>Digital Communication Networks</relatedMajors>
+		<relatedMajors>Duty Area 5 Electrical System</relatedMajors>
+		<relatedMajors>Electric Engineering</relatedMajors>
+		<relatedMajors>Electrical Construction Technology</relatedMajors>
+		<relatedMajors>Electrical Engineering</relatedMajors>
+		<relatedMajors>Electrical Or Mechanical Engineering</relatedMajors>
+		<relatedMajors>Electrical Power Systems and Instrumentation</relatedMajors>
+		<relatedMajors>Electrician 'S License</relatedMajors>
+		<relatedMajors>Electro-Mechanical Engineering</relatedMajors>
+		<relatedMajors>Electronic Engineering</relatedMajors>
+		<relatedMajors>Electronic Music</relatedMajors>
+		<relatedMajors>Electronics Technical Certification</relatedMajors>
+		<relatedMajors>Electronics Technology</relatedMajors>
+		<relatedMajors>Embedded Computer Engineering</relatedMajors>
+		<relatedMajors>Embedded Systems Engineering</relatedMajors>
+		<relatedMajors>Factory Automation</relatedMajors>
+		<relatedMajors>Foundations In Computer Science Graduate Certificate</relatedMajors>
+		<relatedMajors>High Tech Certification</relatedMajors>
+		<relatedMajors>IBM Iseries 400 Server Operations</relatedMajors>
+		<relatedMajors>IBM/As400 Specialist</relatedMajors>
+		<relatedMajors>IC3 Internet and Computing Core Certification</relatedMajors>
+		<relatedMajors>Industrial Electronics</relatedMajors>
+		<relatedMajors>Industrial Electronics Technical Certification</relatedMajors>
+		<relatedMajors>Integrated Circuit Design And Techniques</relatedMajors>
+		<relatedMajors>IT Benchmarking Professional Certificate</relatedMajors>
+		<relatedMajors>Lighting</relatedMajors>
+		<relatedMajors>Network Cabling Specialist</relatedMajors>
+		<relatedMajors>Networking Systems And Technology</relatedMajors>
+		<relatedMajors>Networks</relatedMajors>
+		<relatedMajors>Professional Science/Technology Certificate</relatedMajors>
+		<relatedMajors>Quality Control Technology</relatedMajors>
+		<relatedMajors>Software Engineering</relatedMajors>
+		<relatedMajors>Solar Energy Systems Certificate</relatedMajors>
+		<relatedMajors>System Engineering</relatedMajors>
+		<relatedMajors>Systems Engineering</relatedMajors>
+		<relatedMajors>Systems Engineering</relatedMajors>
+		<relatedMajors>Technician Certification</relatedMajors>
+		<relatedMajors>Technologist License</relatedMajors>
+		<relatedMajors>Telecommunications</relatedMajors>
+		<relatedMajors>Telecommunications Fundamentals</relatedMajors>
+		<relatedMajors>Tesla License</relatedMajors>
+		<relatedMajors>Web Server Development</relatedMajors>
+		<relatedMajors>Wireless Communication Systems</relatedMajors>
+		<relatedMajors>Wireless Engineering</relatedMajors>
+
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Fashion</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Aesthetician License</relatedMajors>
+		<relatedMajors>Cosmetology</relatedMajors>
+		<relatedMajors>Cosmetology License</relatedMajors>
+		<relatedMajors>Cosmetology Teacher Training</relatedMajors>
+		<relatedMajors>Hair Stylist Diploma</relatedMajors>
+		<relatedMajors>Hair Stylist License </relatedMajors>
+		<relatedMajors>State Cosmetology License</relatedMajors>
+		<relatedMajors>Stylist License</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Finance</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Finance</relatedMajors>
+		<relatedMajors>Finance/Accounting</relatedMajors>
+		<relatedMajors>Financial Literacy</relatedMajors>
+		<relatedMajors>Financial Planning</relatedMajors>
+		<relatedMajors>Financial Planning And Analysis</relatedMajors>
+		<relatedMajors>Financial Services</relatedMajors>
+		<relatedMajors>International Security And Trade</relatedMajors>
+		<relatedMajors>Investor Relations</relatedMajors>
+		<relatedMajors>NFA License</relatedMajors>
+		<relatedMajors>Series 6 Securities License</relatedMajors>
+		<relatedMajors>Series 65 License</relatedMajors>
+		<relatedMajors>Variable Annuity License</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Green</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Certificate Of Study In Wildland Fire Management</relatedMajors>
+		<relatedMajors>Energy Innovations And Emerging Technologies
+			Professional Certificate</relatedMajors>
+		<relatedMajors>Green Development And Property Management</relatedMajors>
+		<relatedMajors>Green Energy Management</relatedMajors>
+		<relatedMajors>Horticulture</relatedMajors>
+		<relatedMajors>Horticulture: Floristry</relatedMajors>
+		<relatedMajors>Leadership For Sustainability</relatedMajors>
+		<relatedMajors>Practising Sustainable Development</relatedMajors>
+		<relatedMajors>Residential And Commercial Sustainable Practices Online</relatedMajors>
+		<relatedMajors>Study In Wildland Fire Management</relatedMajors>
+		<relatedMajors>Sustainable Development</relatedMajors>
+		<relatedMajors>Turfgrass Management</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Healthcare</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>1St Aid Certification</relatedMajors>
+		<relatedMajors>Accreditation For Respiratory Care</relatedMajors>
+		<relatedMajors>ACLS Certificate</relatedMajors>
+		<relatedMajors>ACLS Certifications</relatedMajors>
+		<relatedMajors>ACLS Certified</relatedMajors>
+		<relatedMajors>Adult Child Infant Cpr</relatedMajors>
+		<relatedMajors>Advanced Cardiac Life Support</relatedMajors>
+		<relatedMajors>Advanced Massage Therapy</relatedMajors>
+		<relatedMajors>AED Certification</relatedMajors>
+		<relatedMajors>AED First Aid Certifications</relatedMajors>
+		<relatedMajors>AHA Certification</relatedMajors>
+		<relatedMajors>American Heart Association</relatedMajors>
+		<relatedMajors>American Medical Technologist</relatedMajors>
+		<relatedMajors>American Society Of Clinical Pathologists</relatedMajors>
+		<relatedMajors>AMT</relatedMajors>
+		<relatedMajors>Aorn Certification</relatedMajors>
+		<relatedMajors>Applied Sensory And Consumer Science</relatedMajors>
+		<relatedMajors>ARRT Certification</relatedMajors>
+		<relatedMajors>ARRT License</relatedMajors>
+		<relatedMajors>Art License</relatedMajors>
+		<relatedMajors>Assistive Technology Certificate</relatedMajors>
+		<relatedMajors>Audiology License</relatedMajors>
+		<relatedMajors>Awhonn Certifications</relatedMajors>
+		<relatedMajors>Basic Life Support</relatedMajors>
+		<relatedMajors>Basic Life Support Certification</relatedMajors>
+		<relatedMajors>Basic Life Support For Healthcare Providers</relatedMajors>
+		<relatedMajors>Basic Nursing Assistant</relatedMajors>
+		<relatedMajors>BCLS</relatedMajors>
+		<relatedMajors>BCLS Certification</relatedMajors>
+		<relatedMajors>BLS ACLS</relatedMajors>
+		<relatedMajors>BLS ACLS Certification</relatedMajors>
+		<relatedMajors>BLS Basic Life Support Certification</relatedMajors>
+		<relatedMajors>BLS Certificate</relatedMajors>
+		<relatedMajors>BLS Certification</relatedMajors>
+		<relatedMajors>BLS Certifications</relatedMajors>
+		<relatedMajors>BOC Certification</relatedMajors>
+		<relatedMajors>BTLS Certification</relatedMajors>
+		<relatedMajors>CCRA License</relatedMajors>
+		<relatedMajors>CCRN Certification</relatedMajors>
+		<relatedMajors>Certificate In Exercise Nutrition</relatedMajors>
+		<relatedMajors>Certificate In Licensed Practical Nursing</relatedMajors>
+		<relatedMajors>Certificate Of Clinical Competence</relatedMajors>
+		<relatedMajors>Certificate Of Clinical Competency</relatedMajors>
+		<relatedMajors>Certification Advanced Cardiac Life Support</relatedMajors>
+		<relatedMajors>Certification As Nursing Assistant</relatedMajors>
+		<relatedMajors>Certification By Nccpa</relatedMajors>
+		<relatedMajors>Certification In Adult Child Infant Cpr</relatedMajors>
+		<relatedMajors>Certification In AP</relatedMajors>
+		<relatedMajors>Certification In AP CP</relatedMajors>
+		<relatedMajors>Certification In Clinical Competence</relatedMajors>
+		<relatedMajors>Certification In Radiology Technology</relatedMajors>
+		<relatedMajors>Certifications From American Heart Association</relatedMajors>
+		<relatedMajors>CGMBS</relatedMajors>
+		<relatedMajors>Chemo Certification</relatedMajors>
+		<relatedMajors>Chiropractic Assistant License</relatedMajors>
+		<relatedMajors>Clinical Competence</relatedMajors>
+		<relatedMajors>Clinical Competency</relatedMajors>
+		<relatedMajors>Clinical Research Conduct And Management</relatedMajors>
+		<relatedMajors>Clinician Wound Ostomy Certification</relatedMajors>
+		<relatedMajors>Clinician Wound Ostomy Certified</relatedMajors>
+		<relatedMajors>CLS CGMBS License</relatedMajors>
+		<relatedMajors>CLS CGMBS License</relatedMajors>
+		<relatedMajors>CNA License</relatedMajors>
+		<relatedMajors>CNOR Certification</relatedMajors>
+		<relatedMajors>Community Health Worker Certificate</relatedMajors>
+		<relatedMajors>Compact Rn Licensure</relatedMajors>
+		<relatedMajors>Coronal Polish License</relatedMajors>
+		<relatedMajors>CPEN Certification</relatedMajors>
+		<relatedMajors>CPN Certification</relatedMajors>
+		<relatedMajors>CPR 1St Aid Certification</relatedMajors>
+		<relatedMajors>CPR Aed Certification</relatedMajors>
+		<relatedMajors>CPR Certificate</relatedMajors>
+		<relatedMajors>CPR Certification</relatedMajors>
+		<relatedMajors>CPR</relatedMajors>
+		<relatedMajors>MDS Certification</relatedMajors>
+		<relatedMajors>CPR Certified</relatedMajors>
+		<relatedMajors>CRRN Certification</relatedMajors>
+		<relatedMajors>CRT</relatedMajors>
+		<relatedMajors>Current IV Certification</relatedMajors>
+		<relatedMajors>Dental Assisting</relatedMajors>
+		<relatedMajors>Dental Hygiene</relatedMajors>
+		<relatedMajors>Diet Therapy</relatedMajors>
+		<relatedMajors>Diploma In Nursing</relatedMajors>
+		<relatedMajors>Dispensing Audiology License</relatedMajors>
+		<relatedMajors>Emergency Department Nursing</relatedMajors>
+		<relatedMajors>EMT</relatedMajors>
+		<relatedMajors>EMT LU</relatedMajors>
+		<relatedMajors>EMT-P</relatedMajors>
+		<relatedMajors>EMT-P Certification</relatedMajors>
+		<relatedMajors>Environmental Health Sciences</relatedMajors>
+		<relatedMajors>Family Health</relatedMajors>
+		<relatedMajors>Fetal Monitoring Certification</relatedMajors>
+		<relatedMajors>First Aid Certificate</relatedMajors>
+		<relatedMajors>First Aid Certification</relatedMajors>
+		<relatedMajors>First Class Medical Certificate</relatedMajors>
+		<relatedMajors>Forensic Nursing</relatedMajors>
+		<relatedMajors>Gerontology</relatedMajors>
+		<relatedMajors>Health Aide Certificate</relatedMajors>
+		<relatedMajors>Health Audiology License</relatedMajors>
+		<relatedMajors>Health Care</relatedMajors>
+		<relatedMajors>Health Care Professional License</relatedMajors>
+		<relatedMajors>Health Education</relatedMajors>
+		<relatedMajors>Health Guidelines For Avoiding Infectious Diseases</relatedMajors>
+		<relatedMajors>Health Home Certification</relatedMajors>
+		<relatedMajors>Health Insurance License</relatedMajors>
+		<relatedMajors>Health Science</relatedMajors>
+		<relatedMajors>Health Sciences</relatedMajors>
+		<relatedMajors>Health Worker Certificate</relatedMajors>
+		<relatedMajors>Healthcare</relatedMajors>
+		<relatedMajors>Healthcare Providers Certification</relatedMajors>
+		<relatedMajors>Hearing Aid Dispenser 'S License</relatedMajors>
+		<relatedMajors>HIV Certification</relatedMajors>
+		<relatedMajors>IV Certification</relatedMajors>
+		<relatedMajors>Legal Nurse Consulting</relatedMajors>
+		<relatedMajors>License For Wound Care</relatedMajors>
+		<relatedMajors>License In Respiratory Therapy</relatedMajors>
+		<relatedMajors>Licensed Anesthesia Provider</relatedMajors>
+		<relatedMajors>Licensed Clinician</relatedMajors>
+		<relatedMajors>Licensed Dietitian Status</relatedMajors>
+		<relatedMajors>Licensed DPT</relatedMajors>
+		<relatedMajors>Licensed DPT For Wound Care</relatedMajors>
+		<relatedMajors>Licensed LPN</relatedMajors>
+		<relatedMajors>Licensed Massage Therapist</relatedMajors>
+		<relatedMajors>Licensed Optician</relatedMajors>
+		<relatedMajors>Licensed Optician .</relatedMajors>
+		<relatedMajors>Licensed Physical Therapist</relatedMajors>
+		<relatedMajors>Licensed Practical Nurse</relatedMajors>
+		<relatedMajors>Licensed Practical Nurse-Lpn</relatedMajors>
+		<relatedMajors>Licensed Practical Nursing</relatedMajors>
+		<relatedMajors>Licensed Practical Vocational Nurse</relatedMajors>
+		<relatedMajors>Licensed Practical Vocational Nurse Lpn</relatedMajors>
+		<relatedMajors>Licensed Practical-Vocational Nurse</relatedMajors>
+		<relatedMajors>Licensed Psychiatric Technician</relatedMajors>
+		<relatedMajors>Licensed Registered Nurse</relatedMajors>
+		<relatedMajors>Licensed School Nurse</relatedMajors>
+		<relatedMajors>Licensed Vocational Nurses</relatedMajors>
+		<relatedMajors>Licensed Vocational Practical Nurses</relatedMajors>
+		<relatedMajors>Licensure In Audiology</relatedMajors>
+		<relatedMajors>Life Support Certificate</relatedMajors>
+		<relatedMajors>LPN Diploma</relatedMajors>
+		<relatedMajors>LPN License</relatedMajors>
+		<relatedMajors>LPN License </relatedMajors>
+		<relatedMajors>LVN</relatedMajors>
+		<relatedMajors>LPN</relatedMajors>
+		<relatedMajors>LVN License</relatedMajors>
+		<relatedMajors>LVN LPN License</relatedMajors>
+		<relatedMajors>Mammography ARRT Registry Certificate</relatedMajors>
+		<relatedMajors>Mammography Certification</relatedMajors>
+		<relatedMajors>Massage License</relatedMajors>
+		<relatedMajors>Massage Therapy</relatedMajors>
+		<relatedMajors>MDS Certification</relatedMajors>
+		<relatedMajors>Medical License</relatedMajors>
+		<relatedMajors>Migration And Health</relatedMajors>
+		<relatedMajors>Mihs_Org License</relatedMajors>
+		<relatedMajors>Modern Lifestyle Diseases: Awareness And Prevention</relatedMajors>
+		<relatedMajors>MRTBE License</relatedMajors>
+		<relatedMajors>MRTBE State Certification</relatedMajors>
+		<relatedMajors>NBRC Certification</relatedMajors>
+		<relatedMajors>NCQA Accreditation</relatedMajors>
+		<relatedMajors>Neonatal Resuscitation Program Certification</relatedMajors>
+		<relatedMajors>NRA Certification</relatedMajors>
+		<relatedMajors>NRP Certifications</relatedMajors>
+		<relatedMajors>Nuclear Radiation Safety Certificate</relatedMajors>
+		<relatedMajors>Nurse Aide License</relatedMajors>
+		<relatedMajors>Nurse Anesthetist License</relatedMajors>
+		<relatedMajors>Nurse Clinician Wound Ostomy Certification</relatedMajors>
+		<relatedMajors>Nurse License</relatedMajors>
+		<relatedMajors>Nurse Licensure</relatedMajors>
+		<relatedMajors>Nursing</relatedMajors>
+		<relatedMajors>Nursing Assistant Certificate</relatedMajors>
+		<relatedMajors>Nursing Associates Degree</relatedMajors>
+		<relatedMajors>Nursing Certification</relatedMajors>
+		<relatedMajors>Nursing Diploma</relatedMajors>
+		<relatedMajors>Nursing Home Administration</relatedMajors>
+		<relatedMajors>Nursing License</relatedMajors>
+		<relatedMajors>Nutrition</relatedMajors>
+		<relatedMajors>Obstetrics</relatedMajors>
+		<relatedMajors>Oncology Certificate</relatedMajors>
+		<relatedMajors>Oncology Certified</relatedMajors>
+		<relatedMajors>Ostomy Certification</relatedMajors>
+		<relatedMajors>PALS AWHONN Certifications</relatedMajors>
+		<relatedMajors>PALS Certification</relatedMajors>
+		<relatedMajors>PALS Certified</relatedMajors>
+		<relatedMajors>Paramedic</relatedMajors>
+		<relatedMajors>Paramedic License</relatedMajors>
+		<relatedMajors>Paramedic Program</relatedMajors>
+		<relatedMajors>Phlebotomist Certification</relatedMajors>
+		<relatedMajors>Phlebotomy</relatedMajors>
+		<relatedMajors>Phlebotomy Certificate</relatedMajors>
+		<relatedMajors>PHTLS BTLS Certification</relatedMajors>
+		<relatedMajors>Physical Therapist License</relatedMajors>
+		<relatedMajors>Physiotherapy</relatedMajors>
+		<relatedMajors>PICC Certified</relatedMajors>
+		<relatedMajors>Practical Nurse License</relatedMajors>
+		<relatedMajors>Practical Nurses License</relatedMajors>
+		<relatedMajors>Practical Nursing</relatedMajors>
+		<relatedMajors>Pre-Nursing Health Science Certificate</relatedMajors>
+		<relatedMajors>Professional Nurse License</relatedMajors>
+		<relatedMajors>Professional Nursing License</relatedMajors>
+		<relatedMajors>PTA License</relatedMajors>
+		<relatedMajors>Radiation Safety Certificate</relatedMajors>
+		<relatedMajors>Registered Nurse Licensure</relatedMajors>
+		<relatedMajors>Registered Nursing</relatedMajors>
+		<relatedMajors>Renal Dialysis Technology</relatedMajors>
+		<relatedMajors>Respirator Certification</relatedMajors>
+		<relatedMajors>Respiratory Care</relatedMajors>
+		<relatedMajors>Respiratory License</relatedMajors>
+		<relatedMajors>Resq Health And Safety Training Certified Nursing Aide
+			Program</relatedMajors>
+		<relatedMajors>Resuscitation Program Certification</relatedMajors>
+		<relatedMajors>RN Completion</relatedMajors>
+		<relatedMajors>RN License</relatedMajors>
+		<relatedMajors>RN Licensure</relatedMajors>
+		<relatedMajors>RRT</relatedMajors>
+		<relatedMajors>Specialty Nursing Certification</relatedMajors>
+		<relatedMajors>State Nursing License</relatedMajors>
+		<relatedMajors>Surgical Nurse Clinician Wound Ostomy Certification</relatedMajors>
+		<relatedMajors>TNCC Certification</relatedMajors>
+		<relatedMajors>TNCC</relatedMajors>
+		<relatedMajors>Vocational Nurse License</relatedMajors>
+		<relatedMajors>Wound Ostomy Certified</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Lab and Data</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>AAPCC Certification</relatedMajors>
+		<relatedMajors>AP CP</relatedMajors>
+		<relatedMajors>Assurance And Digital Forensics</relatedMajors>
+		<relatedMajors>Biological Studies</relatedMajors>
+		<relatedMajors>Biologics License</relatedMajors>
+		<relatedMajors>Biology</relatedMajors>
+		<relatedMajors>Biomedical</relatedMajors>
+		<relatedMajors>Biomedical Engineering</relatedMajors>
+		<relatedMajors>Biomedical Engineering Degree</relatedMajors>
+		<relatedMajors>Biotechnology</relatedMajors>
+		<relatedMajors>Biotechnology Project Management</relatedMajors>
+		<relatedMajors>Categorical Ascp Certification</relatedMajors>
+		<relatedMajors>Central Service And Sterile Processing</relatedMajors>
+		<relatedMajors>Certificate Of Completion For Laboratory Assisting</relatedMajors>
+		<relatedMajors>Certificate Of Completion For Laboratory Assisting
+			Program</relatedMajors>
+		<relatedMajors>Certificate Of Completion Of Laboratory Assisting</relatedMajors>
+		<relatedMajors>Certificate Of Completion Of Laboratory Assisting
+			Program</relatedMajors>
+		<relatedMajors>Chemical Laboratory Technology</relatedMajors>
+		<relatedMajors>Clinical Lab Scientist License</relatedMajors>
+		<relatedMajors>Clinical Laboratory Technologist License</relatedMajors>
+		<relatedMajors>Clinical License</relatedMajors>
+		<relatedMajors>Clinical Licensure</relatedMajors>
+		<relatedMajors>Clinical Trials: Medical Device And Drug Development</relatedMajors>
+		<relatedMajors>CNMT License</relatedMajors>
+		<relatedMajors>Completion For Laboratory Assisting</relatedMajors>
+		<relatedMajors>Completion Of Laboratory Assisting</relatedMajors>
+		<relatedMajors>Dietetic Technician Program</relatedMajors>
+		<relatedMajors>Environmental Biology</relatedMajors>
+		<relatedMajors>JCAHPO Ophthalmic Assistant Certification</relatedMajors>
+		<relatedMajors>Lab Scientist License</relatedMajors>
+		<relatedMajors>Licensed Pharmacist</relatedMajors>
+		<relatedMajors>Life Sciences</relatedMajors>
+		<relatedMajors>MECP Certification</relatedMajors>
+		<relatedMajors>Medical Laboratory Technology</relatedMajors>
+		<relatedMajors>Medical Interpreting</relatedMajors>
+		<relatedMajors>Medical Product Development</relatedMajors>
+		<relatedMajors>Medical Technologist License</relatedMajors>
+		<relatedMajors>Medical Technology</relatedMajors>
+		<relatedMajors>Medical Terminology</relatedMajors>
+		<relatedMajors>Medical Transcription</relatedMajors>
+		<relatedMajors>Medical Transcriptionist</relatedMajors>
+		<relatedMajors>Medication Aide Certificate</relatedMajors>
+		<relatedMajors>Microbiology</relatedMajors>
+		<relatedMajors>Micro-Biology</relatedMajors>
+		<relatedMajors>Molecular Biology</relatedMajors>
+		<relatedMajors>Molecular Engineering Of Energy Technologies</relatedMajors>
+		<relatedMajors>Mortuary Science</relatedMajors>
+		<relatedMajors>MT ASCP</relatedMajors>
+		<relatedMajors>National Pharmace Technician Certification</relatedMajors>
+		<relatedMajors>Optical Engineering</relatedMajors>
+		<relatedMajors>Optical Instrument Design Certificate</relatedMajors>
+		<relatedMajors>Optical License</relatedMajors>
+		<relatedMajors>Pharmaceutical Science</relatedMajors>
+		<relatedMajors>Pharmacist License</relatedMajors>
+		<relatedMajors>Pharmacology</relatedMajors>
+		<relatedMajors>Pharmacy Board License</relatedMajors>
+		<relatedMajors>Pharmacy License</relatedMajors>
+		<relatedMajors>Pharmacy Technician Certification</relatedMajors>
+		<relatedMajors>Pharmacy Technician License</relatedMajors>
+		<relatedMajors>Pharmacy Technology</relatedMajors>
+		<relatedMajors>QMAP Certification</relatedMajors>
+		<relatedMajors>Radiography</relatedMajors>
+		<relatedMajors>Radiologic Technology</relatedMajors>
+		<relatedMajors>Radiology</relatedMajors>
+		<relatedMajors>Radiology Technology</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+		<relatedMajors>Surgical Technology</relatedMajors>
+		<relatedMajors>Toxicology</relatedMajors>
+		<relatedMajors>Veterinary Technology</relatedMajors>
+		<relatedMajors>X-Ray Reading Certification</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Management</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Advanced Management</relatedMajors>
+		<relatedMajors>Business Entrepreneurship</relatedMajors>
+		<relatedMajors>Business Management</relatedMajors>
+		<relatedMajors>Business Management Program</relatedMajors>
+		<relatedMajors>Business Management/Leadership</relatedMajors>
+		<relatedMajors>Business Principles</relatedMajors>
+		<relatedMajors>Certificate In Management</relatedMajors>
+		<relatedMajors>Certificate Of Advanced Management</relatedMajors>
+		<relatedMajors>Certificate Of Business Principles</relatedMajors>
+		<relatedMajors>Emergency And Disaster Management</relatedMajors>
+		<relatedMajors>Emergency Management</relatedMajors>
+		<relatedMajors>Facilities Management</relatedMajors>
+		<relatedMajors>Health Care Management</relatedMajors>
+		<relatedMajors>Healthcare Management</relatedMajors>
+		<relatedMajors>Hospitality And Casino Management</relatedMajors>
+		<relatedMajors>Hospitality Management</relatedMajors>
+		<relatedMajors>Human Resource Management</relatedMajors>
+		<relatedMajors>Human Resources Management</relatedMajors>
+		<relatedMajors>International Business Operations And Management</relatedMajors>
+		<relatedMajors>Management</relatedMajors>
+		<relatedMajors>Management Science</relatedMajors>
+		<relatedMajors>Operations And Supply Chain Management</relatedMajors>
+		<relatedMajors>Operations Management</relatedMajors>
+		<relatedMajors>Payroll Practice And Management</relatedMajors>
+		<relatedMajors>Project Management</relatedMajors>
+		<relatedMajors>Project Management</relatedMajors>
+		<relatedMajors>Project Management Professional Certificate</relatedMajors>
+		<relatedMajors>Small Business Management</relatedMajors>
+		<relatedMajors>Small Business Management/Entrepreneurship</relatedMajors>
+		<relatedMajors>Strategic Decision And Risk Management Professional
+			Certificate</relatedMajors>
+		<relatedMajors>Supply Chain Management</relatedMajors>
+		<relatedMajors>Supply Chain Management</relatedMajors>
+		<relatedMajors>Supply Chain Management Certificate</relatedMajors>
+		<relatedMajors>The Ecotourism Planning and Management Certificate
+			Program</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Mechanics</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>A. S. E. Certifications</relatedMajors>
+		<relatedMajors>Air Conditioning</relatedMajors>
+		<relatedMajors>Air Conditioning - Commercial Refrigeration</relatedMajors>
+		<relatedMajors>Air Conditioning - Domestic Refrigeration</relatedMajors>
+		<relatedMajors>Air Conditioning - Heating</relatedMajors>
+		<relatedMajors>Air Conditioning And Refrigeration</relatedMajors>
+		<relatedMajors>Alternative Fuel Vehicle Technology</relatedMajors>
+		<relatedMajors>Automotive Body Reconstruction Technology</relatedMajors>
+		<relatedMajors>Automotive Body Repainting Technology</relatedMajors>
+		<relatedMajors>Automotive Chassis Maintenance</relatedMajors>
+		<relatedMajors>Automotive Fuel Management Technology</relatedMajors>
+		<relatedMajors>Automotive Maintenance</relatedMajors>
+		<relatedMajors>Automotive Technology</relatedMajors>
+		<relatedMajors>Aviation Management Option</relatedMajors>
+		<relatedMajors>Backflow Tester License</relatedMajors>
+		<relatedMajors>CLS</relatedMajors>
+		<relatedMajors>Collision Technology</relatedMajors>
+		<relatedMajors>Cummins Certified</relatedMajors>
+		<relatedMajors>Der Certification</relatedMajors>
+		<relatedMajors>Diesel Or Cummins Certified</relatedMajors>
+		<relatedMajors>Diesel Technology</relatedMajors>
+		<relatedMajors>Faa Der Certification</relatedMajors>
+		<relatedMajors>Faa Designated Engineering Certificate</relatedMajors>
+		<relatedMajors>Ford Certifications</relatedMajors>
+		<relatedMajors>Ford Certified</relatedMajors>
+		<relatedMajors>Ford Diesel Or Cummins Certified</relatedMajors>
+		<relatedMajors>IBC Inspector Certification</relatedMajors>
+		<relatedMajors>Industrial Maintenance</relatedMajors>
+		<relatedMajors>Machine Tool Technology</relatedMajors>
+		<relatedMajors>Maintenance Worker License</relatedMajors>
+		<relatedMajors>Mechanic Certification</relatedMajors>
+		<relatedMajors>Mechanical Engineering</relatedMajors>
+		<relatedMajors>Mechanical Or Electrical Engineering</relatedMajors>
+		<relatedMajors>Mechanical Technology</relatedMajors>
+		<relatedMajors>Mechatronics</relatedMajors>
+		<relatedMajors>MVR Certified Production Technician</relatedMajors>
+		<relatedMajors>Mvr Mechanic Certification</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Art and Design</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Administration Of Justice</relatedMajors>
+		<relatedMajors>Basic Police Academy</relatedMajors>
+		<relatedMajors>Certificate In Criminal Justice Administration</relatedMajors>
+		<relatedMajors>Certificate In Safety Management .</relatedMajors>
+		<relatedMajors>Corrections</relatedMajors>
+		<relatedMajors>Criminal Justice</relatedMajors>
+		<relatedMajors>Criminal Justice Administration</relatedMajors>
+		<relatedMajors>Criminology</relatedMajors>
+		<relatedMajors>Diploma In Workplace Safety And Health</relatedMajors>
+		<relatedMajors>Homeland Security</relatedMajors>
+		<relatedMajors>IEMA License</relatedMajors>
+		<relatedMajors>Investigators License</relatedMajors>
+		<relatedMajors>Justice</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Law And Expert Witness Studies</relatedMajors>
+		<relatedMajors>Law Enforcement</relatedMajors>
+		<relatedMajors>Le Certification</relatedMajors>
+		<relatedMajors>Military Leadership</relatedMajors>
+		<relatedMajors>Mot Training Certification</relatedMajors>
+		<relatedMajors>Private Investigator License</relatedMajors>
+		<relatedMajors>Private Investigators License</relatedMajors>
+		<relatedMajors>Private Patrol Operator License</relatedMajors>
+		<relatedMajors>Safety Certification</relatedMajors>
+		<relatedMajors>Security Guard License</relatedMajors>
+		<relatedMajors>Workplace Safety And Health</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Sales</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Advertising</relatedMajors>
+		<relatedMajors>Amfi Certificate</relatedMajors>
+		<relatedMajors>Amfi Certification</relatedMajors>
+		<relatedMajors>Beacon Certificate</relatedMajors>
+		<relatedMajors>Broker License</relatedMajors>
+		<relatedMajors>Brokers License</relatedMajors>
+		<relatedMajors>Business Marketing</relatedMajors>
+		<relatedMajors>Casualty Insurance License</relatedMajors>
+		<relatedMajors>Casualty License</relatedMajors>
+		<relatedMajors>Casualty Producers License</relatedMajors>
+		<relatedMajors>Certificate In Integrated Marketing Communications</relatedMajors>
+		<relatedMajors>Certificate In Marketing</relatedMajors>
+		<relatedMajors>Certificate In Public Relations</relatedMajors>
+		<relatedMajors>Certificate In Technical Market Analysis</relatedMajors>
+		<relatedMajors>Cim</relatedMajors>
+		<relatedMajors>Commerce</relatedMajors>
+		<relatedMajors>Diploma In Social Media Marketing</relatedMajors>
+		<relatedMajors>Diploma In Web Business Development And Marketing</relatedMajors>
+		<relatedMajors>E-Commerce Specialist</relatedMajors>
+		<relatedMajors>Insurance</relatedMajors>
+		<relatedMajors>Insurance License</relatedMajors>
+		<relatedMajors>Internet Marketing</relatedMajors>
+		<relatedMajors>Leads Certification</relatedMajors>
+		<relatedMajors>Licensed Estate Broker</relatedMajors>
+		<relatedMajors>Licensed Financial Services</relatedMajors>
+		<relatedMajors>Licensed Insurance Sales Agent</relatedMajors>
+		<relatedMajors>Licensed Real Estate Broker</relatedMajors>
+		<relatedMajors>Life and Health License</relatedMajors>
+		<relatedMajors>Life And Health License</relatedMajors>
+		<relatedMajors>Life Insurance License</relatedMajors>
+		<relatedMajors>Marketing</relatedMajors>
+		<relatedMajors>Mortgage License</relatedMajors>
+		<relatedMajors>P and C Insurance License</relatedMajors>
+		<relatedMajors>P and C License</relatedMajors>
+		<relatedMajors>P and C Insurance License</relatedMajors>
+		<relatedMajors>P and C License</relatedMajors>
+		<relatedMajors>Property and Casualty License</relatedMajors>
+		<relatedMajors>Property And Casualty</relatedMajors>
+		<relatedMajors>Property And Casualty Broker ' S License</relatedMajors>
+		<relatedMajors>Property And Casualty Brokers License</relatedMajors>
+		<relatedMajors>Property And Casualty License</relatedMajors>
+		<relatedMajors>Property Casualty License</relatedMajors>
+		<relatedMajors>Real Estate</relatedMajors>
+		<relatedMajors>Real Estate License</relatedMajors>
+		<relatedMajors>Real Estate Sales</relatedMajors>
+		<relatedMajors>Sales</relatedMajors>
+		<relatedMajors>Sales Management</relatedMajors>
+		<relatedMajors>Salesperson 'S License</relatedMajors>
+		<relatedMajors>State Insurance License</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>fOOD</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Alcohol Service Certifications</relatedMajors>
+		<relatedMajors>Baking And Pastry Arts</relatedMajors>
+		<relatedMajors>Cdm License</relatedMajors>
+		<relatedMajors>Culinary Arts</relatedMajors>
+		<relatedMajors>Diploma In Food Safety</relatedMajors>
+		<relatedMajors>Food Handler Certificate</relatedMajors>
+		<relatedMajors>Food Handler Certification</relatedMajors>
+		<relatedMajors>Food Handler License</relatedMajors>
+		<relatedMajors>Food Handlers Certificate</relatedMajors>
+		<relatedMajors>Food Handlers Certification</relatedMajors>
+		<relatedMajors>Food Handlers License</relatedMajors>
+		<relatedMajors>Food Manager Certified</relatedMajors>
+		<relatedMajors>Food Safety</relatedMajors>
+		<relatedMajors>Food Safety Certification</relatedMajors>
+		<relatedMajors>Food Sanitation</relatedMajors>
+		<relatedMajors>Food Science Diploma</relatedMajors>
+		<relatedMajors>Food Sciences</relatedMajors>
+		<relatedMajors>Food Service Management</relatedMajors>
+		<relatedMajors>Food Service Sanitation - Recertification</relatedMajors>
+		<relatedMajors>Foodhandler 'S Certificate</relatedMajors>
+		<relatedMajors>Foodservice Management</relatedMajors>
+		<relatedMajors>Hospitality Diploma</relatedMajors>
+		<relatedMajors>Post-Production Service</relatedMajors>
+		<relatedMajors>Service Manager Certificate</relatedMajors>
+		<relatedMajors>Servsafe</relatedMajors>
+		<relatedMajors>Servsafe Food Handler Certification</relatedMajors>
+		<relatedMajors>Spa And Hospitality Management</relatedMajors>
+		<relatedMajors>TABC License</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Service</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Alcohol Service Certifications</relatedMajors>
+		<relatedMajors>Baking And Pastry Arts</relatedMajors>
+		<relatedMajors>CDM License</relatedMajors>
+		<relatedMajors>Culinary Arts</relatedMajors>
+		<relatedMajors>Customer Service Training</relatedMajors>
+		<relatedMajors>Hospitality Diploma</relatedMajors>
+		<relatedMajors>Post-Production Service</relatedMajors>
+		<relatedMajors>Service Manager Certificate</relatedMajors>
+		<relatedMajors>Servsafe</relatedMajors>
+		<relatedMajors>Spa And Hospitality Management</relatedMajors>
+		<relatedMajors>TABC License</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Sports</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Athletic Trainer Certification</relatedMajors>
+		<relatedMajors>Athletic Trainer License</relatedMajors>
+		<relatedMajors>Athletic Training License</relatedMajors>
+		<relatedMajors>Exercise Nutrition</relatedMajors>
+		<relatedMajors>ISA Level One</relatedMajors>
+		<relatedMajors>ISA Level One Certified</relatedMajors>
+		<relatedMajors>Kinesiology</relatedMajors>
+		<relatedMajors>License In Athletic Training</relatedMajors>
+		<relatedMajors>Lifeguard Certification</relatedMajors>
+		<relatedMajors>NATA Certification</relatedMajors>
+		<relatedMajors>Personal Health And Fitness</relatedMajors>
+		<relatedMajors>Physical Education</relatedMajors>
+		<relatedMajors>Referee License</relatedMajors>
+		<relatedMajors>Sport And Fitness Psychology Certificate</relatedMajors>
+		<relatedMajors>Sport Science</relatedMajors>
+		<relatedMajors>Sport Sciences</relatedMajors>
+		<relatedMajors>Sports</relatedMajors>
+		<relatedMajors>Sports Science</relatedMajors>
+		<relatedMajors>Sports Sciences</relatedMajors>
+		<relatedMajors>Trainer License</relatedMajors>
+
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Systems and Analysis</ikodamajor>
+		<degreeLevel>CERTIFICATE_LEVEL</degreeLevel>
+		<relatedMajors>Advanced Certificate In Web And Mobile Applications
+			Development</relatedMajors>
+		<relatedMajors>Advanced Computer Security Professional Certificate</relatedMajors>
+		<relatedMajors>Applications Developer (Cim)</relatedMajors>
+		<relatedMajors>Business Info Processing</relatedMajors>
+		<relatedMajors>Business Information Systems</relatedMajors>
+		<relatedMajors>Business Intelligence</relatedMajors>
+		<relatedMajors>Business Intelligence And Data Warehousing</relatedMajors>
+		<relatedMajors>Business Intelligence And Knowledge Management Systems</relatedMajors>
+		<relatedMajors>C# Programming</relatedMajors>
+		<relatedMajors>C/C++ Programming</relatedMajors>
+		<relatedMajors>Cast Certification</relatedMajors>
+		<relatedMajors>Certificate In Big Data</relatedMajors>
+		<relatedMajors>Certificate In Web And Mobile Applications Development</relatedMajors>
+		<relatedMajors>Computer Information Systems</relatedMajors>
+		<relatedMajors>Computer Network Administration and Security</relatedMajors>
+		<relatedMajors>Computer Network And Information System Security</relatedMajors>
+		<relatedMajors>Computer Network And Security Management</relatedMajors>
+		<relatedMajors>Computer Network Management</relatedMajors>
+		<relatedMajors>Computer Network Security</relatedMajors>
+		<relatedMajors>Computer Networking And System Administration</relatedMajors>
+		<relatedMajors>Computer Numeric Control Machining</relatedMajors>
+		<relatedMajors>Computer Programming</relatedMajors>
+		<relatedMajors>Computer Science</relatedMajors>
+		<relatedMajors>Computer Science Information Technology</relatedMajors>
+		<relatedMajors>Computer Science/Mis</relatedMajors>
+		<relatedMajors>Computer Sciences</relatedMajors>
+		<relatedMajors>Computer Security And Forensic Investigation</relatedMajors>
+		<relatedMajors>Cyber Security</relatedMajors>
+		<relatedMajors>Data Mining</relatedMajors>
+		<relatedMajors>Data Mining And Applications Graduate Certificate</relatedMajors>
+		<relatedMajors>Data Science</relatedMajors>
+		<relatedMajors>Database Application Development For Microsoft Access</relatedMajors>
+		<relatedMajors>Database Management</relatedMajors>
+		<relatedMajors>Device Software Engineering</relatedMajors>
+		<relatedMajors>Digital Signal Processing</relatedMajors>
+		<relatedMajors>Diploma In Statistics</relatedMajors>
+		<relatedMajors>Embedded Computer Software</relatedMajors>
+		<relatedMajors>Enterprise Development Using Java Technologies</relatedMajors>
+		<relatedMajors>Epidemiology</relatedMajors>
+		<relatedMajors>Geographic Information Systems</relatedMajors>
+		<relatedMajors>Geographic Information Systems Certificate</relatedMajors>
+		<relatedMajors>GIS Certificate</relatedMajors>
+		<relatedMajors>Google Applications For Business</relatedMajors>
+		<relatedMajors>Health Informatics</relatedMajors>
+		<relatedMajors>Health Information Coding Specialist</relatedMajors>
+		<relatedMajors>Health Information Management</relatedMajors>
+		<relatedMajors>Health Information Technology</relatedMajors>
+		<relatedMajors>Healthcare Information Technology</relatedMajors>
+		<relatedMajors>Information Science</relatedMajors>
+		<relatedMajors>Information Security And Digital Assurance Management</relatedMajors>
+		<relatedMajors>Information Studies</relatedMajors>
+		<relatedMajors>Information Systems</relatedMajors>
+		<relatedMajors>Information Systems Security</relatedMajors>
+		<relatedMajors>Information Technology Management</relatedMajors>
+		<relatedMajors>Internet Programming</relatedMajors>
+		<relatedMajors>Iphone App Development</relatedMajors>
+		<relatedMajors>It</relatedMajors>
+		<relatedMajors>It Related</relatedMajors>
+		<relatedMajors>Java Ee Programming</relatedMajors>
+		<relatedMajors>Java Foundations</relatedMajors>
+		<relatedMajors>Java Programming</relatedMajors>
+		<relatedMajors>Javascript And Jquery</relatedMajors>
+		<relatedMajors>Javascript Foundations</relatedMajors>
+		<relatedMajors>Math</relatedMajors>
+		<relatedMajors>Mathematical</relatedMajors>
+		<relatedMajors>Mathematics</relatedMajors>
+		<relatedMajors>Microsoft .Net Technologies</relatedMajors>
+		<relatedMajors>Mis</relatedMajors>
+		<relatedMajors>Mobile Application Development</relatedMajors>
+		<relatedMajors>Mobile Device Programming</relatedMajors>
+		<relatedMajors>Network Administration and Security</relatedMajors>
+		<relatedMajors>Online Business Analytics Certificate</relatedMajors>
+		<relatedMajors>Oracle Application Development</relatedMajors>
+		<relatedMajors>Pre-Algebra Mathematics</relatedMajors>
+		<relatedMajors>Predicative Analytics</relatedMajors>
+		<relatedMajors>Probability And Chance In Mathematics</relatedMajors>
+		<relatedMajors>Process Technology</relatedMajors>
+		<relatedMajors>Programming</relatedMajors>
+		<relatedMajors>Programming And Systems</relatedMajors>
+		<relatedMajors>Quantitative</relatedMajors>
+		<relatedMajors>Rethinking The Product Development Process</relatedMajors>
+		<relatedMajors>Search Engine Optimization</relatedMajors>
+		<relatedMajors>Software Development</relatedMajors>
+		<relatedMajors>Software Systems Graduate Certificate</relatedMajors>
+		<relatedMajors>Statistics</relatedMajors>
+		<relatedMajors>Statistics</relatedMajors>
+		<relatedMajors>Web Client Development</relatedMajors>
+		<relatedMajors>Web Intelligence</relatedMajors>
+
+
+	</majorMapEntry>
+
+
+
+
+</majormapconfiguration>

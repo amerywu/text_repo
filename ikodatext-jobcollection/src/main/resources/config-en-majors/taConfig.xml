@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationTextAnalysis>
+	<nerPropertiesPath>locations_en.txt</nerPropertiesPath>
+	<textAnalysisFailedPath>C:\Users\jake\_fd\_filedump-en-majors\_textAnalysisFailed</textAnalysisFailedPath>
+	<textAnalysisInfoBoxPath>C:\Users\jake\_fd\_filedump-en-majors\_infoBoxes</textAnalysisInfoBoxPath>
+	<textAnalysisDonePath>C:\Users\jake\_fd\_filedump-en-majors\analyzed</textAnalysisDonePath>
+</configurationTextAnalysis>

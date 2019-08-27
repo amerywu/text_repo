@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+<urls>
+		<url>https://www.reddit.com/r/socialwork/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>socialwork/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property> 
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/psychopathology/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>psychopathology/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls> 
+	
+<urls>
+		<url>https://www.reddit.com/r/psychotherapy/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>psychotherapy/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+<urls>
+		<url>https://www.reddit.com/r/cogsci/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>cogsci/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/AcademicPsychology/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>AcademicPsychology/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/MechanicalEngineering/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>MechanicalEngineering/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/MechanicalEngineer/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>MechanicalEngineer/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+<urls>
+		<url>https://www.reddit.com/r/gis/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>gis/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+
+
+<urls>
+		<url>https://www.reddit.com/r/urbanplanning/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>urbanplanning/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+</urlrepository>

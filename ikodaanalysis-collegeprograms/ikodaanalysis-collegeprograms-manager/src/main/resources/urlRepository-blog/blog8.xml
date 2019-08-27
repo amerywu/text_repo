@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+	<urls> 
+		<url>https://www.reddit.com/r/ProductManagement/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+<urls>
+		<url>https://www.reddit.com/r/Communications/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>Communications/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/socialmedia/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/marketing/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>marketing/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/Kinesiology/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/AskHR/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>AskHR/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/humanresources/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?count=</firstRoundLinks>
+		<secondRoundLinks>humanresources/comments</secondRoundLinks>
+		<secondRoundLinks>*</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+</urlrepository>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationPersistence>
+	<persistenceDonePath>D:\datadump\_filedump-diploma\_persistencedone</persistenceDonePath>
+	<persistenceFailedPath>D:\datadump\_fd\_filedump-diploma\_persistencefailed</persistenceFailedPath>
+    <persistIfCountDetailLevel>4</persistIfCountDetailLevel>
+	
+	
+	<qualificationMap>certMap</qualificationMap>
+	
+	<persistIfCountDetailLevel>3</persistIfCountDetailLevel>
+	<persistIfCountAreasOfStudy>1</persistIfCountAreasOfStudy>
+	<persistIfValueMinimumSalary>5000</persistIfValueMinimumSalary>
+	<persistIfCountCertification>0</persistIfCountCertification>
+
+</configurationPersistence>

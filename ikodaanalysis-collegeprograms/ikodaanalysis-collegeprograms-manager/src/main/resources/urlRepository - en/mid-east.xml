@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2480%2C000+-+%2490%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2490%2C000+-+%24100%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%24100%2C000+-+%24120%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+
+
+	<urls>
+		<url>http://www.simplyhired.com/search?q=degree&amp;l=nashville%2C+tn&amp;fdb=1</url>
+		<website>SIMPLYHIRED</website>
+
+xxxxxxxxx	</urls>
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%2440%2C000+-+%2445%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%2435%2C000+-+%2440%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%2490%2C000+-+%24100%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+	
+	<urls>
+		<url>http://www.simplyhired.com/search?q=degree&amp;l=des+moines%2C+ia&amp;fdb=1</url>
+		<website>SIMPLYHIRED</website>
+
+xxxxxxxxx	</urls>	
+	
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%24100%2C000+-+%24120%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+		<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%24120%2C000+-+%24170%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+
+</urlrepository>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationNetio>
+    <urlRepository>repo.xml</urlRepository>
+    <netIoDumpPath>/asfsadfsda/ghjfjhgfjhgf</netIoDumpPath>
+    <maxCallsRoundOne>1</maxCallsRoundOne>
+    <maxCallsRoundTwo>1</maxCallsRoundTwo>
+    <maxCallsRoundThree>1</maxCallsRoundThree>
+    <maxCallsRoundFour>1</maxCallsRoundFour>
+    <netioMinimumCycleInMinutes>34689</netioMinimumCycleInMinutes>
+</configurationNetio>

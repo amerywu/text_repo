@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <textAnalysisInfoBoxPath>C:\Users\jake\_filedump\_infoBoxes</textAnalysisInfoBoxPath>
+    <textAnalysisDonePath>C:\Users\jake\_filedump\analyzed</textAnalysisDonePath>
+    <netIoDumpPath>C:\Users\jake\_filedump\output</netIoDumpPath>
+    <fileIoJobPostingPath>C:\Users\jake\_filedump\_JobPosting</fileIoJobPostingPath>
+    <fileIoXMLPath>C:\Users\jake\_filedump\_allXmlFiles</fileIoXMLPath>
+    <fileIoResultsPath>C:\Users\jake\_filedump\_resultListings</fileIoResultsPath>
+    <fileIoUndeterminedPath>C:\Users\jake\_filedump\_undetermined</fileIoUndeterminedPath>
+	    <fileIoDonePath>C:\Users\jake\_filedump\_done</fileIoDonePath>
+    <urls>
+        <url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=&amp;radius=50&amp;l=Las+Vegas%2C+NV&amp;fromage=any&amp;limit=10&amp;sort=&amp;psf=advsrch</url>
+        <website>INDEED</website>
+    </urls>
+    <urls>
+        <url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=&amp;radius=50&amp;l=Chicago,+IL&amp;fromage=any&amp;limit=10&amp;sort=&amp;psf=advsrch</url>
+        <website>INDEED</website>
+    </urls>
+    <runNetio>false</runNetio>
+    <runFileio>false</runFileio>
+    <runTextAnalysis>true</runTextAnalysis>
+	    <maxCallsRoundOne>10</maxCallsRoundOne>
+    <maxCallsRoundTwo>10</maxCallsRoundTwo>
+    <maxCallsRoundThree>10</maxCallsRoundThree>
+    <maxCallsRoundFour>10</maxCallsRoundFour>
+</configuration>

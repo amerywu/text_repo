@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<majormapconfiguration>
+
+	<majorMapEntry>
+		<ikodamajor>French</ikodamajor>
+		<relatedMajors>French</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Philosophy</ikodamajor>
+		<relatedMajors>Philosophy</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>German</ikodamajor>
+		<relatedMajors>German</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>History</ikodamajor>
+		<relatedMajors>History</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Italian</ikodamajor>
+		<relatedMajors>Italian</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Classics</ikodamajor>
+		<relatedMajors>Classics</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+		<relatedMajors>History</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>English</ikodamajor>
+		<relatedMajors>English</relatedMajors>
+		<relatedMajors>Communications</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Religion</ikodamajor>
+		<relatedMajors>Religion</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Spanish</ikodamajor>
+		<relatedMajors>Spanish</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Anthropology</ikodamajor>
+		<relatedMajors>Anthropology</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Archaeology</ikodamajor>
+		<relatedMajors>Archaeology</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+
+
+
+
+
+
+
+
+
+
+
+		<!-- health science -->
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Nursing</ikodamajor>
+		<relatedMajors>Nursing</relatedMajors>
+		<relatedMajors>Health Science</relatedMajors>
+		<relatedMajors>Health Sciences</relatedMajors>
+		<relatedMajors>Health Care</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Health Care Related Field</relatedMajors>
+		<relatedMajors>Toxicology</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Nursing Health Care Administration</relatedMajors>
+		<relatedMajors>Healthcare</relatedMajors>
+		<relatedMajors>Health Sciences Related Field</relatedMajors>
+		<relatedMajors>Health Care Related Discipline</relatedMajors>
+		<relatedMajors>Healthcare Related Field</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Health Science</ikodamajor>
+		<relatedMajors>Health Science</relatedMajors>
+		<relatedMajors>Health Sciences</relatedMajors>
+		<relatedMajors>Nursing</relatedMajors>
+		<relatedMajors>Kinesiology</relatedMajors>
+		<relatedMajors>Physiotherapy</relatedMajors>
+		<relatedMajors>Life Science</relatedMajors>
+		<relatedMajors>Life Sciences</relatedMajors>
+		<relatedMajors>Nursing</relatedMajors>
+		<relatedMajors>Health Care</relatedMajors>
+		<relatedMajors>Epidemiology</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Health Care Related Field</relatedMajors>
+		<relatedMajors>Toxicology</relatedMajors>
+		<relatedMajors>Healthcare Administration</relatedMajors>
+		<relatedMajors>Nutrition</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Nursing Health Care Administration</relatedMajors>
+		<relatedMajors>Health Care Administration</relatedMajors>
+		<relatedMajors>Business Health Sciences</relatedMajors>
+		<relatedMajors>Healthcare Related Discipline</relatedMajors>
+		<relatedMajors>Radiology</relatedMajors>
+		<relatedMajors>Healthcare Business Related Field</relatedMajors>
+		<relatedMajors>Healthcare</relatedMajors>
+		<relatedMajors>Health Sciences Related Field</relatedMajors>
+		<relatedMajors>Health Care Related Discipline</relatedMajors>
+		<relatedMajors>Healthcare Related Field</relatedMajors>
+		<relatedMajors>Health Administration</relatedMajors>
+		<relatedMajors>Public Health</relatedMajors>
+		<relatedMajors>Healthcare Management</relatedMajors>
+		<relatedMajors>Epidemiology</relatedMajors>
+		<relatedMajors>Food Sciences</relatedMajors>
+		<relatedMajors>Health Policy</relatedMajors>
+		<relatedMajors>Obstetrics</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Kinesiology</ikodamajor>
+		<relatedMajors>Kinesiology</relatedMajors>
+		<relatedMajors>Health Science</relatedMajors>
+		<relatedMajors>Health Sciences</relatedMajors>
+		<relatedMajors>Physiotherapy</relatedMajors>
+		<relatedMajors>Health Care</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Health Care Related Field</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Health Care Related Discipline</relatedMajors>
+		<relatedMajors>Health Sciences Related Field</relatedMajors>
+		<relatedMajors>Healthcare Related Field</relatedMajors>
+		<relatedMajors>Sport Science</relatedMajors>
+		<relatedMajors>Sport Sciences</relatedMajors>
+		<relatedMajors>Sports</relatedMajors>
+		<relatedMajors>Sports Science</relatedMajors>
+		<relatedMajors>Sports Sciences</relatedMajors>
+	</majorMapEntry>
+
+	<!-- art -->
+	<majorMapEntry>
+		<ikodamajor>Architecture</ikodamajor>
+		<relatedMajors>Architecture</relatedMajors>
+		<relatedMajors>Interior Design</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Digital Media</ikodamajor>
+		<relatedMajors>Digital Media</relatedMajors>
+		<relatedMajors>Visual Art</relatedMajors>
+		<relatedMajors>Cinematography</relatedMajors>
+		<relatedMajors>Animation</relatedMajors>
+		<relatedMajors>Art</relatedMajors>
+		<relatedMajors>Arts</relatedMajors>
+		<relatedMajors>Film</relatedMajors>
+		<relatedMajors>CG Art</relatedMajors>
+		<relatedMajors>Graphic Design</relatedMajors>
+		<relatedMajors>Design</relatedMajors>
+		<relatedMajors>Cg Design</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Performance Art</ikodamajor>
+		<relatedMajors>Performance Art</relatedMajors>
+		<relatedMajors>Theatre</relatedMajors>
+		<relatedMajors>Theater</relatedMajors>
+		<relatedMajors>Music</relatedMajors>
+		<relatedMajors>Arts Education Management</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Visual Art</ikodamajor>
+		<relatedMajors>Visual Art</relatedMajors>
+		<relatedMajors>Arts</relatedMajors>
+		<relatedMajors>Art</relatedMajors>
+		<relatedMajors>Fine Art</relatedMajors>
+		<relatedMajors>Digital Media</relatedMajors>
+		<relatedMajors>Visual Art</relatedMajors>
+		<relatedMajors>Cinematography</relatedMajors>
+		<relatedMajors>Animation</relatedMajors>
+		<relatedMajors>Film</relatedMajors>
+		<relatedMajors>CG Art</relatedMajors>
+		<relatedMajors>Graphic Design</relatedMajors>
+		<relatedMajors>Arts Education Management</relatedMajors>
+		<relatedMajors>Arts Management</relatedMajors>
+		<relatedMajors>Design</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Dance</ikodamajor>
+		<relatedMajors>Dance</relatedMajors>
+		<relatedMajors>Performance Art</relatedMajors>
+		<relatedMajors>Theater</relatedMajors>
+		<relatedMajors>Theatre</relatedMajors>
+		<relatedMajors>Art</relatedMajors>
+		<relatedMajors>Arts</relatedMajors>
+		<relatedMajors>Choreography</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Music</ikodamajor>
+		<relatedMajors>Music</relatedMajors>
+		<relatedMajors>Performance Art</relatedMajors>
+		<relatedMajors>Theater</relatedMajors>
+		<relatedMajors>Theatre</relatedMajors>
+		<relatedMajors>Art</relatedMajors>
+		<relatedMajors>Arts</relatedMajors>
+	</majorMapEntry>
+
+
+
+
+	<!-- social science -->
+
+
+	<majorMapEntry>
+		<ikodamajor>African American Studies</ikodamajor>
+		<relatedMajors>African American Studies</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Gender Studies</ikodamajor>
+		<relatedMajors>Gender Studies</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+		<relatedMajors>Feminist Studies</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Education</ikodamajor>
+		<relatedMajors>Education</relatedMajors>
+		<relatedMajors>Early Childhood Education</relatedMajors>
+		<relatedMajors>ECE</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Special Education</relatedMajors>
+		<relatedMajors>Arts Education Management</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Adult Education</relatedMajors>
+		<relatedMajors>English Education</relatedMajors>
+		<relatedMajors>Instructional Design</relatedMajors>
+		<relatedMajors>Educational Technology</relatedMajors>
+		<relatedMajors>Education Technology</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Counseling</relatedMajors>
+		<relatedMajors>Early Childhood Special Education</relatedMajors>
+		<relatedMajors>Teaching English</relatedMajors>
+		<relatedMajors>ESL</relatedMajors>
+		<relatedMajors>TESL</relatedMajors>
+		<relatedMajors>Counseling Psychology</relatedMajors>
+		<relatedMajors>Child Development</relatedMajors>
+		<relatedMajors>Instructional Technology</relatedMajors>
+		<relatedMajors>Music Education</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+		<relatedMajors>Training And Development</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Psychology</ikodamajor>
+		<relatedMajors>Psychology</relatedMajors>
+		<relatedMajors>Counseling</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Counseling Psychology</relatedMajors>
+		<relatedMajors>Child Development</relatedMajors>
+		<relatedMajors>Behavioral Science</relatedMajors>
+		<relatedMajors>Behavioral Sciences</relatedMajors>
+		<relatedMajors>Behavioural Science</relatedMajors>
+		<relatedMajors>Behavioural Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Sociology</ikodamajor>
+		<relatedMajors>Sociology</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Public Policy</relatedMajors>
+		<relatedMajors>Human Services</relatedMajors>
+		<relatedMajors>Social Work</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Human Services Related Field</relatedMajors>
+		<relatedMajors>Behavioral Science</relatedMajors>
+		<relatedMajors>Behavioral Sciences</relatedMajors>
+		<relatedMajors>Behavioural Science</relatedMajors>
+		<relatedMajors>Behavioural Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Geography</ikodamajor>
+		<relatedMajors>Geography</relatedMajors>
+		<relatedMajors>Geosystems</relatedMajors>
+		<relatedMajors>Geo-systems</relatedMajors>
+		<relatedMajors>Geographic Information Systems</relatedMajors>
+		<relatedMajors>Gis</relatedMajors>
+		<relatedMajors>Geomatics</relatedMajors>
+		<relatedMajors>Conservation Policy</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+		<relatedMajors>Conservation Policy</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Asian Studies</ikodamajor>
+		<relatedMajors>Asian Studies</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Politics</ikodamajor>
+		<relatedMajors>Politics</relatedMajors>
+		<relatedMajors>Counseling</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Public Policy</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Criminology</ikodamajor>
+		<relatedMajors>Criminology</relatedMajors>
+		<relatedMajors>Criminal Justice</relatedMajors>
+		<relatedMajors>Law Enforcement</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Corrections</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Justice</relatedMajors>
+		<relatedMajors>Behavioral Science</relatedMajors>
+		<relatedMajors>Behavioral Sciences</relatedMajors>
+		<relatedMajors>Behavioural Science</relatedMajors>
+		<relatedMajors>Behavioural Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+		<relatedMajors>Law Enforcement</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>International Studies</ikodamajor>
+		<relatedMajors>International Studies</relatedMajors>
+		<relatedMajors>Liberal Arts</relatedMajors>
+		<relatedMajors>Social Science</relatedMajors>
+		<relatedMajors>Social Sciences</relatedMajors>
+		<relatedMajors>Law</relatedMajors>
+		<relatedMajors>Organizational Development</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioral Or Social Sciences</relatedMajors>
+		<relatedMajors>Behavioural Or Social Sciences</relatedMajors>
+		<relatedMajors>Japanese</relatedMajors>
+		<relatedMajors>Korean</relatedMajors>
+		<relatedMajors>Chinese</relatedMajors>
+		<relatedMajors>Mandarin</relatedMajors>
+	</majorMapEntry>
+
+
+	<!-- business -->
+
+	<majorMapEntry>
+		<ikodamajor>Business</ikodamajor>
+		<relatedMajors>Business</relatedMajors>
+		<relatedMajors>Commerce</relatedMajors>
+		<relatedMajors>Marketing</relatedMajors>
+		<relatedMajors>Finance</relatedMajors>
+		<relatedMajors>Accounting</relatedMajors>
+		<relatedMajors>Communications</relatedMajors>
+		<relatedMajors>Human Resources</relatedMajors>
+		<relatedMajors>HR</relatedMajors>
+		<relatedMajors>Human Resources Management</relatedMajors>
+		<relatedMajors>Logistics</relatedMajors>
+		<relatedMajors>Hr</relatedMajors>
+		<relatedMajors>Business Marketing</relatedMajors>
+		<relatedMajors>Information Systems</relatedMajors>
+		<relatedMajors>Management Information Systems</relatedMajors>
+		<relatedMajors>Business Accounting</relatedMajors>
+		<relatedMajors>MIS</relatedMajors>
+		<relatedMajors>Business Related Field</relatedMajors>
+		<relatedMajors>Supply Chain Management</relatedMajors>
+		<relatedMajors>Information Studies</relatedMajors>
+		<relatedMajors>Commerce</relatedMajors>
+		<relatedMajors>Management</relatedMajors>
+		<relatedMajors>Business Management</relatedMajors>
+		<relatedMajors>Business Discipline</relatedMajors>
+		<relatedMajors>Business Administration Marketing</relatedMajors>
+		<relatedMajors>Organizational Development</relatedMajors>
+		<relatedMajors>Public Administration</relatedMajors>
+		<relatedMajors>Information Management</relatedMajors>
+		<relatedMajors>Business Related Discipline</relatedMajors>
+		<relatedMajors>Business Administration</relatedMajors>
+		<relatedMajors>Human Resource</relatedMajors>
+		<relatedMajors>Operations Management</relatedMajors>
+		<relatedMajors>Information Management</relatedMajors>
+		<relatedMajors>Logistics</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Economics</ikodamajor>
+		<relatedMajors>Economics</relatedMajors>
+		<relatedMajors>Finance</relatedMajors>
+		<relatedMajors>Commerce</relatedMajors>
+		<relatedMajors>Business</relatedMajors>
+		<relatedMajors>Business Related Field</relatedMajors>
+		<relatedMajors>Business Related Discipline</relatedMajors>
+		<relatedMajors>Business Related Program</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Marketing</ikodamajor>
+		<relatedMajors>Marketing</relatedMajors>
+		<relatedMajors>Advertising Marketing</relatedMajors>
+		<relatedMajors>Business</relatedMajors>
+		<relatedMajors>Sales</relatedMajors>
+		<relatedMajors>Business Marketing</relatedMajors>
+		<relatedMajors>Business Related Field</relatedMajors>
+		<relatedMajors>Marketing Business</relatedMajors>
+		<relatedMajors>Advertising</relatedMajors>
+		<relatedMajors>Marketing Related Field</relatedMajors>
+		<relatedMajors>Communications Marketing</relatedMajors>
+		<relatedMajors>Business Administration Marketing</relatedMajors>
+		<relatedMajors>Marketing Pr</relatedMajors>
+		<relatedMajors>Pr</relatedMajors>
+		<relatedMajors>Public Relations</relatedMajors>
+		<relatedMajors>Sales Management</relatedMajors>
+		<relatedMajors>Business Related Discipline</relatedMajors>
+		<relatedMajors>Business Related Program</relatedMajors>
+		<relatedMajors>Marketing Management</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Accounting</ikodamajor>
+		<relatedMajors>Accounting</relatedMajors>
+		<relatedMajors>Finance</relatedMajors>
+		<relatedMajors>Accounting Mathematics</relatedMajors>
+		<relatedMajors>Accounting Finance</relatedMajors>
+		<relatedMajors>Business Accounting</relatedMajors>
+		<relatedMajors>Business Related Field</relatedMajors>
+		<relatedMajors>Accounting Related Field</relatedMajors>
+		<relatedMajors>Business Related Discipline</relatedMajors>
+		<relatedMajors>Business Related Program</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Communications</ikodamajor>
+		<relatedMajors>Communications</relatedMajors>
+		<relatedMajors>Journalism</relatedMajors>
+		<relatedMajors>Public Relations</relatedMajors>
+		<relatedMajors>Advertising</relatedMajors>
+		<relatedMajors>Business Related Field</relatedMajors>
+		<relatedMajors>Technical Writing</relatedMajors>
+		<relatedMajors>Library Science</relatedMajors>
+		<relatedMajors>Advertising</relatedMajors>
+		<relatedMajors>Business Communications</relatedMajors>
+		<relatedMajors>Communications Sciences</relatedMajors>
+		<relatedMajors>Information Sciences</relatedMajors>
+		<relatedMajors>Communications Science</relatedMajors>
+		<relatedMajors>Information Science</relatedMajors>
+		<relatedMajors>Information Studies</relatedMajors>
+		<relatedMajors>Communications Marketing</relatedMajors>
+		<relatedMajors>Communications Journalism</relatedMajors>
+		<relatedMajors>Broadcasting</relatedMajors>
+		<relatedMajors>Business Related Discipline</relatedMajors>
+		<relatedMajors>Business Related Program</relatedMajors>
+		<relatedMajors>Communications Management</relatedMajors>
+		<relatedMajors>Information Management</relatedMajors>
+		<relatedMajors>Librarianship</relatedMajors>
+		<relatedMajors>Records Management</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<!-- science -->
+	<majorMapEntry>
+		<ikodamajor>Mathematics</ikodamajor>
+		<relatedMajors>Mathematics</relatedMajors>
+		<relatedMajors>Mathematics Statistics</relatedMajors>
+		<relatedMajors>Math</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Biology</ikodamajor>
+		<relatedMajors>Biology</relatedMajors>
+		<relatedMajors>Life Science</relatedMajors>
+		<relatedMajors>Life Sciences</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+		<relatedMajors>Microbiology</relatedMajors>
+		<relatedMajors>Biomedical Sciences</relatedMajors>
+		<relatedMajors>Biomedical Science</relatedMajors>
+		<relatedMajors>Biomedical</relatedMajors>
+		<relatedMajors>Biological Studies</relatedMajors>
+		<relatedMajors>Micro-Biology</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Computer Science</ikodamajor>
+		<relatedMajors>Information Systems</relatedMajors>
+		<relatedMajors>Information Technology</relatedMajors>
+		<relatedMajors>Computer Engineering</relatedMajors>
+		<relatedMajors>Software Engineering</relatedMajors>
+		<relatedMajors>Programming</relatedMajors>
+		<relatedMajors>Networks</relatedMajors>
+		<relatedMajors>Information Systems</relatedMajors>
+		<relatedMajors>It Related</relatedMajors>
+		<relatedMajors>Information Studies</relatedMajors>
+		<relatedMajors>Cyber Security</relatedMajors>
+		<relatedMajors>Network Security</relatedMajors>
+		<relatedMajors>Systems Security</relatedMajors>
+		<relatedMajors>Computer Technology</relatedMajors>
+		<relatedMajors>Computer Technology Related Program</relatedMajors>
+		<relatedMajors>Computer Sciences</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Physics</ikodamajor>
+		<relatedMajors>Physics</relatedMajors>
+		<relatedMajors>Astronomy</relatedMajors>
+		<relatedMajors>Astrophysics</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Chemistry</ikodamajor>
+		<relatedMajors>Chemistry</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+		<relatedMajors>Biomedical Engineering</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Statistics</ikodamajor>
+		<relatedMajors>Statistics</relatedMajors>
+		<relatedMajors>Mathematics Statistics</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Environmental Science</ikodamajor>
+		<relatedMajors>Environmental Science</relatedMajors>
+		<relatedMajors>Life Science</relatedMajors>
+		<relatedMajors>Life Sciences</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+		<relatedMajors>Ecology</relatedMajors>
+		<relatedMajors>Conservation Policy</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Neuroscience</ikodamajor>
+		<relatedMajors>Neuroscience</relatedMajors>
+		<relatedMajors>Cognitive Science</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+	</majorMapEntry>
+
+	<majorMapEntry>
+		<ikodamajor>Geology</ikodamajor>
+		<relatedMajors>Geology</relatedMajors>
+		<relatedMajors>Earth Science</relatedMajors>
+		<relatedMajors>Earth Sciences</relatedMajors>
+		<relatedMajors>Science</relatedMajors>
+		<relatedMajors>Sciences</relatedMajors>
+	</majorMapEntry>
+
+
+	<!-- engineering -->
+
+
+	<majorMapEntry>
+		<ikodamajor>Civil Engineering</ikodamajor>
+		<relatedMajors>Civil Engineering</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Construction Management</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Environmental Engineering</relatedMajors>
+		<relatedMajors>Geomatics</relatedMajors>
+	</majorMapEntry>
+
+
+
+	<majorMapEntry>
+		<ikodamajor>Electrical Engineering</ikodamajor>
+		<relatedMajors>Electrical Engineering</relatedMajors>
+		<relatedMajors>Electric Engineering</relatedMajors>
+		<relatedMajors>Computer Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Cyber Security</relatedMajors>
+		<relatedMajors>Network Security</relatedMajors>
+		<relatedMajors>Systems Security</relatedMajors>
+		<relatedMajors>Hvac Technology</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Electronic Engineering</relatedMajors>
+		<relatedMajors>Systems Engineering</relatedMajors>
+		<relatedMajors>Mechanical Or Electrical Engineering</relatedMajors>
+		<relatedMajors>Electrical Or Mechanical Engineering</relatedMajors>
+		<relatedMajors>Electro-Mechanical Engineering</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Engineering</ikodamajor>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Electrical Engineering</relatedMajors>
+		<relatedMajors>Civil Engineering</relatedMajors>
+		<relatedMajors>Chemical Engineering</relatedMajors>
+		<relatedMajors>Mechanical Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Construction Management</relatedMajors>
+		<relatedMajors>Engineering Design</relatedMajors>
+		<relatedMajors>Engineering Geology</relatedMajors>
+		<relatedMajors>Engineering Management</relatedMajors>
+		<relatedMajors>Hvac Technology</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Environmental Engineering</relatedMajors>
+		<relatedMajors>Engineering Project Management</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Mechanical Engineering</ikodamajor>
+		<relatedMajors>Mechanical Engineering</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Hvac Technology</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Hvac</relatedMajors>
+		<relatedMajors>Mechanical Or Electrical Engineering</relatedMajors>
+		<relatedMajors>Electrical Or Mechanical Engineering</relatedMajors>
+	</majorMapEntry>
+
+
+	<majorMapEntry>
+		<ikodamajor>Chemical Engineering</ikodamajor>
+		<relatedMajors>Chemical Engineering</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+		<relatedMajors>Biomedical Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+	</majorMapEntry>
+	<majorMapEntry>
+		<ikodamajor>Materials Science</ikodamajor>
+		<relatedMajors>Materials Science</relatedMajors>
+		<relatedMajors>Chemical Engineering</relatedMajors>
+		<relatedMajors>Engineering</relatedMajors>
+		<relatedMajors>Engineering Related Discipline</relatedMajors>
+		<relatedMajors>Engineering Related Field</relatedMajors>
+	</majorMapEntry>
+</majormapconfiguration>

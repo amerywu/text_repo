@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+
+
+<urls>
+		<url>https://www.ccd.edu/administration/non-academic-departments/academic-advising-center/certificates-degrees</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/programs-courses/certificates-degrees/</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<secondRoundLinks>/search</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+
+		</propertyMap>
+	</urls>
+	
+	
+	
+
+
+<urls>
+		<url>http://www.southmountaincc.edu/academics/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/ace/</firstRoundLinks>
+		<firstRoundLinks>/healthcare/</firstRoundLinks>
+		<firstRoundLinks>/business-management/</firstRoundLinks>
+		<firstRoundLinks>/languages/</firstRoundLinks>
+		<firstRoundLinks>/arts/</firstRoundLinks>
+		<firstRoundLinks>/gric-program/</firstRoundLinks>
+		<firstRoundLinks>/information-technology/</firstRoundLinks>
+		<firstRoundLinks>/education-training/</firstRoundLinks>
+		<firstRoundLinks>/math-science-engineering/</firstRoundLinks>
+		<firstRoundLinks>/programs-certificates/</firstRoundLinks>
+		<firstRoundLinks>/engineering/</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+
+
+<urls>
+		<url>http://www.snead.edu/about_us/college_departments/academic.aspx</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/college_departments/academic/</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+
+<urls>
+		<url>https://www.bishop.edu/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/academics/</firstRoundLinks>
+		<firstRoundLinks>/technical/</firstRoundLinks>
+		<firstRoundIgnore>asfd</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+
+
+
+<urls>
+		<url>http://www.ascc.edu/programs/majors_and_departments/</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>programs/majors_and_departments/</firstRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+		</propertyMap>
+	</urls>
+
+	
+	
+
+	
+		
+<urls>
+		<url>http://www.bscc.edu/programs</url>
+		<website>COLLEGE_PROGRAMS</website>
+        <firstRoundLinks>/programs/career-tech</firstRoundLinks>
+		<firstRoundLinks>/programs/health-sciences</firstRoundLinks>
+		<firstRoundIgnore>academics</firstRoundIgnore>
+		<secondRoundLinks>.pdf</secondRoundLinks>
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+
+		</propertyMap>
+	</urls>
+	
+	
+	
+
+
+</urlrepository>
+
+
+

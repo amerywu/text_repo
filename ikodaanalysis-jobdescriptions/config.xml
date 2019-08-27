@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <analysisType>JOB_DESCRIPTION_ANALYSIS_CONFIGURATION</analysisType>
+    <languageForAnalysis>en</languageForAnalysis>
+    <biteSize>100</biteSize>
+    <minDetailLevel>0</minDetailLevel>
+    <percentToSample>3</percentToSample>
+    <csvPath>C:\Users\jake\__workspace\ikoda-analysis</csvPath>
+    <csvForITokenNames>NOUN</csvForITokenNames>
+    <csvForITokenNames>VERB</csvForITokenNames>
+    <runNetio>false</runNetio>
+    <runFileio>false</runFileio>
+    <runTextAnalysis>true</runTextAnalysis>
+    <runPersistence>true</runPersistence>
+    <runPersistenceChores>false</runPersistenceChores>
+    <elegantStop>false</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+</configuration>

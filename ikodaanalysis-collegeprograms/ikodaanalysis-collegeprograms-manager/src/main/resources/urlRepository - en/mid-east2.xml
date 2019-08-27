@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+
+<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2430%2C000+-+%2435%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>			
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2435%2C000+-+%2440%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+
+	<urls>
+		<url>http://www.simplyhired.com/search?q=degree&amp;l=indianapolis%2C+in&amp;fdb=1</url>
+		<website>SIMPLYHIRED</website>
+
+xxxxxxxxx	</urls>
+
+
+
+
+
+
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2450%2C000+-+%2460%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2460%2C000+-+%2470%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2470%2C000+-+%2480%2C000&amp;l=Dallas%2C+TX&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>		
+	<urls>
+		<url>http://www.simplyhired.com/search?q=degree&amp;l=philadelphia%2C+pa&amp;fdb=1</url>
+	</urls>
+	<urls>
+		<url>http://www.simplyhired.com/search?q=degree&amp;l=detroit%2C+mi&amp;fdb=1</url>
+		<website>SIMPLYHIRED</website>
+
+xxxxxxxxx	</urls>
+
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%2430%2C000+-+%2435%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+	<urls>
+		<url>http://www.indeed.com/jobs?as_and=degree&amp;as_phr=&amp;as_any=&amp;as_not=&amp;as_ttl=&amp;as_cmp=&amp;jt=all&amp;st=&amp;salary=%2425%2C000+-+%2430%2C000&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;l=Chicago%2C+IL&amp;limit=50&amp;sort=&amp;psf=advsrch</url>
+		<website>INDEED</website>
+
+xxxxxxxxx		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+	</urls>
+
+</urlrepository>

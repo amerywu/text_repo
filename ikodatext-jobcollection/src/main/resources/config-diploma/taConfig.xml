@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationTextAnalysis>
+	<nerPropertiesPath>locations_en.txt</nerPropertiesPath>
+	<textAnalysisFailedPath>D:\datadump\_filedump-diploma\_textAnalysisFailed</textAnalysisFailedPath>
+	<textAnalysisInfoBoxPath>D:\datadump\_filedump-diploma\_infoBoxes</textAnalysisInfoBoxPath>
+	<textAnalysisDonePath>D:\datadump\_filedump-diploma\analyzed</textAnalysisDonePath>
+</configurationTextAnalysis>

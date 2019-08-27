@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+
+    <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>DIPLOMA_LEVEL</analysisSubType>
+    <databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DIPLOMA_LEVEL</databaseDescriptor>
+    <qualificationMap>certMap</qualificationMap>.
+    <nerPropertiesPath>diploma_en.txt</nerPropertiesPath>
+    <applicationMainModuleName>.</applicationMainModuleName>
+        
+    <specifiedLanguage>en</specifiedLanguage>
+    
+    <languagesForAnalysis>
+        <localeCode>en</localeCode>
+        <regions>US</regions>
+        <regions>Canada</regions>
+    </languagesForAnalysis>
+
+	
+    
+	<runNetio>true</runNetio>
+	<runFileio>true</runFileio>
+	<runTextAnalysis>true</runTextAnalysis>
+	<runPersistenceReporting>false</runPersistenceReporting>
+	<runPersistence>true</runPersistence>
+	<runPersistenceChores>false</runPersistenceChores>
+	
+    <elegantStop>true</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>false</minimizeResourceUse>
+    <rapidRandomBrowse>false</rapidRandomBrowse>
+	
+</configuration>

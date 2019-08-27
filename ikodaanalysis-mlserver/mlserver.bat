@@ -1,0 +1,1 @@
+./bin/spark-submit   --jars ./ikoda/extrajars/ikoda_assembled_ml_nlp.jar,./ikoda/extrajars/stanford-corenlp-3.8.0.jar,./ikoda/extrajars/stanford-parser-3.8.0.jar --class ikoda.mlserver.Application  --master local[*]  ./ikoda/ikodaanalysis-mlserver-0.1.0.jar   1000

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationFileio>
+	<fileIoJobPostingPath>D:\datadump\_filedump-diploma\_JobPosting</fileIoJobPostingPath>
+	<fileIoXMLPath>D:\datadump\_filedump-diploma\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>D:\datadump\_filedump-diploma\_resultListings</fileIoResultsPath>
+	<fileIoUndeterminedPath>D:\datadump\_filedump-diploma\_undetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>D:\datadump\_filedump-diploma\_NA</fileIoNonApplicablePath>
+	<fileIoDonePath>D:\datadump\_filedump-diploma\_done</fileIoDonePath>
+	<fileIoOutBoxPath>D:\datadump\_filedump-diploma\outbox</fileIoOutBoxPath>
+</configurationFileio>

@@ -1,0 +1,27 @@
+[INFO] 2018-03-03 23:34:19,969: ikoda.netio.test.tests.TestNetio.saveConfigurationBeanParent(TestNetio.java:165) TestNetio  saveConfigurationBeanParent Saving:   /C:/Users/jake/__workspace/text/ikodatext-netio/target/test-classes/ikoda/netio/test/tests/config.xml
+
+[INFO] 2018-03-03 23:34:20,035: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:68) TestNetio  getConfigBeanParent file:/C:/Users/jake/__workspace/text/ikodatext-netio/target/test-classes/ikoda/netio/test/tests/
+
+[INFO] 2018-03-03 23:34:20,052: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:70) TestNetio  getConfigBeanParent java.io.ByteArrayInputStream@61dc03ce
+
+[INFO] 2018-03-03 23:34:20,052: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:73) TestNetio  getConfigBeanParent is java.io.BufferedInputStream@97e1986
+
+[INFO] 2018-03-03 23:34:20,148: ikoda.netio.test.tests.TestNetio.testConfig(TestNetio.java:265) TestNetio  testConfig 
+
+
+JDA
+
+
+
+
+
+[INFO] 2018-03-03 23:34:20,154: ikoda.netio.test.tests.TestNetio.saveConfigurationBeanParent(TestNetio.java:165) TestNetio  saveConfigurationBeanParent Saving:   /C:/Users/jake/__workspace/text/ikodatext-netio/target/test-classes/ikoda/netio/test/tests/config.xmljda
+
+[INFO] 2018-03-03 23:34:20,182: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:68) TestNetio  getConfigBeanParent file:/C:/Users/jake/__workspace/text/ikodatext-netio/target/test-classes/ikoda/netio/test/tests/
+
+[INFO] 2018-03-03 23:34:20,183: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:70) TestNetio  getConfigBeanParent java.io.ByteArrayInputStream@396f6598
+
+[INFO] 2018-03-03 23:34:20,184: ikoda.netio.test.tests.TestNetio.getConfigBeanParent(TestNetio.java:73) TestNetio  getConfigBeanParent is java.io.BufferedInputStream@27a5f880
+
+[INFO] 2018-03-03 23:34:20,195: ikoda.netio.test.tests.TestNetio.testConfig(TestNetio.java:322) TestNetio  testConfig ConfigurationBeanParent [jobAnalysisModuleName=sadffadsfads, analysisType=JOB_ANALYSIS_CONFIGURATION, analysisSubType=sfad, languagesForAnalysis=[LanguageForAnalysis [localeCode=zh_CN, regions=[china]], LanguageForAnalysis [localeCode=en, regions=[canada, us]]], openCpuCalls=[ikoda.netio.config.OpenCpuCall@536aaa8d], specifiedLanguage=en, databaseDescriptor=dbdes, netioConfig=null, fioConfig=null, taConfig=ikoda.netio.config.ConfigurationBeanForTextAnalysis_Generic@e320068, runNetio=true, runFileio=true, runTextAnalysis=false, runPersistence=true, runPersistenceReporting=true, runPersistenceChores=true, elegantStop=false, minimizeResourceUse=true, rapidRandomBrowse=true]
+

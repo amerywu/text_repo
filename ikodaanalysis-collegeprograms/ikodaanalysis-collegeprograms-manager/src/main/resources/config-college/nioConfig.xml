@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configurationNetio>
+    <urlRepository>Z:\_fd\_filedump_college\urlRepository</urlRepository>
+    <netIoDumpPath>Z:\_filedump\collegeTestDump\nioCollegeOutput</netIoDumpPath>
+    <netIoAccumulatorPath>Z:\_filedump\collegeTestDump\nioCollegeOutput</netIoAccumulatorPath>
+    <maxCallsRoundOne>40</maxCallsRoundOne>
+    <maxCallsRoundTwo>60</maxCallsRoundTwo>
+    <maxCallsRoundThree>30</maxCallsRoundThree>
+    <maxCallsRoundFour>3</maxCallsRoundFour>
+    <netioMinimumCycleInMinutes>34689</netioMinimumCycleInMinutes>
+    <netioRunInCycle>false</netioRunInCycle>
+     
+        <linksForUniversalIgnore>facebook.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>twitter.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>google.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>form</linksForUniversalIgnore>
+        <linksForUniversalIgnore>livestream.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>foursquare.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>instagram.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>flickr.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>linkedin.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>pinterest.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>javascript:</linksForUniversalIgnore>
+        <linksForUniversalIgnore>mailto</linksForUniversalIgnore>
+</configurationNetio>

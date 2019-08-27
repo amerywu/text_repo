@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+    <applicationMainModuleName>ikodatext-jobAnalysis</applicationMainModuleName>
+    <databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL_DEV</databaseDescriptor>
+    <analysisType>JOB_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>DEGREE_LEVEL</analysisSubType>
+	<specifiedLanguage>en</specifiedLanguage>
+	<languagesForAnalysis>
+		<localeCode>en</localeCode>
+		<regions>US</regions>
+		<regions>Canada</regions>
+		<regions>UK</regions>
+		<regions>Australia</regions>
+	</languagesForAnalysis> 
+	
+	<sendToES>true</sendToES>
+	<elasticSearchUser>elastic</elasticSearchUser>
+	<elasticSearchPassword>883-8177</elasticSearchPassword>
+	<elasticSearchUrl>192.168.0.141</elasticSearchUrl>
+	<elasticSearchPort>9200</elasticSearchPort>
+
+
+	
+    
+	<runNetio>true</runNetio>
+	<runFileio>true</runFileio>
+	<runTextAnalysis>true</runTextAnalysis>
+	<runPersistenceReporting>false</runPersistenceReporting>
+	<runPersistence>false</runPersistence>
+	<runPersistenceChores>false</runPersistenceChores>
+	
+    <elegantStop>false</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>false</minimizeResourceUse>
+    <rapidRandomBrowse>false</rapidRandomBrowse>
+	
+</configuration>

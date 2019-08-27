@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<configuration>
+
+    <applicationMainModuleName>ikodaanalysis-collegeprograms-manager</applicationMainModuleName>
+    <databaseDescriptor>COLLEGE_ANALYSIS_CONFIGURATION_COLLEGE_DIPLOMA_LEVEL</databaseDescriptor>
+    <analysisType>COLLEGE_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>COLLEGE_DIPLOMA_LEVEL</analysisSubType>
+	<specifiedLanguage>en</specifiedLanguage>
+	<languagesForAnalysis>
+		<localeCode>en</localeCode>
+		<regions>US</regions>
+		<regions>Canada</regions>
+		<regions>UK</regions>
+		<regions>Australia</regions>
+	</languagesForAnalysis> 
+
+	
+		<keyspaceName>cptest</keyspaceName>
+		<mlServerUrl>192.168.0.141</mlServerUrl>
+		<mlServerPort>9999</mlServerPort>
+		<mlLocalStreamPorts>8081,8082,8083,8084</mlLocalStreamPorts>
+		<localUrls>192.168.0.15</localUrls>
+	
+	<runNetio>true</runNetio>
+	<runFileio>false</runFileio>
+	<runTextAnalysis>false</runTextAnalysis>
+	<runTraining>false</runTraining>
+
+	
+    <elegantStop>true</elegantStop>
+    <netioResumeMode>false</netioResumeMode>
+    <minimizeResourceUse>false</minimizeResourceUse>
+    <rapidRandomBrowse>true</rapidRandomBrowse>
+    
+    <configProperties>
+			<property>
+				<key>cptestbydocument</key>
+				<value>adbbd928-2954-4102-901b-93723625be13</value>
+			</property>
+			<property>
+				<key>cptestbysentence</key>
+				<value>a758a4ba-fe53-4e13-98dc-7cc3d223b6ca</value>
+			</property>
+	</configProperties>
+    
+	
+</configuration>

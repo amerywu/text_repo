@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<majormapconfiguration>
+	<databaseDescriptor>JOB_ANALYSIS_CONFIGURATION_DEGREE_LEVEL</databaseDescriptor>
+	<majorMapEntry>
+		<ikodamajor>HEALTH CARE</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<relatedMajors>HEALTH SCIENCE</relatedMajors>
+		<relatedMajors>HEALTHCARE</relatedMajors>
+		<relatedMajors>HEALTH SCIENCES</relatedMajors>
+		<relatedMajors>HEALTH ADMINISTRATION</relatedMajors>
+		<relatedMajors>PUBLIC HEALTH</relatedMajors>
+	</majorMapEntry>
+	
+		<majorMapEntry>
+		<ikodamajor>INFORMATION SYSTEMS</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<relatedMajors>MIS</relatedMajors>
+		<relatedMajors>MANAGEMENT INFORMATION SYSTEMS</relatedMajors>
+		<relatedMajors>COMPUTER SCIENCE INFORMATION SYSTEMS</relatedMajors>
+		<relatedMajors>BUSINESS INFORMATION SYSTEMS</relatedMajors>
+	</majorMapEntry>
+
+		<majorMapEntry>
+		<ikodamajor>MATHEMATICS</ikodamajor>
+		<degreeLevel>DEGREE_LEVEL</degreeLevel>
+		<relatedMajors>MATH</relatedMajors>
+	</majorMapEntry>
+	
+	
+</majormapconfiguration>
