@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{HH:mm:ss.SSS}   %-5level %logger{36} - %msg%n" />
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</Console>
+		<File name="jcAppender" fileName="./logs/jc.log" append="false">
+	        <PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="org.springframework" fileName="./logs/spring.log" append="false">
+	        <PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		
+		
+		
+		<File name="nioAppender" fileName="./logs/netio.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="FileAppender" fileName="./logs/ikoda.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="fioAppender" fileName="./logs/fio.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+
+		<File name="collegeAnalysisAppender" fileName="./logs/ca.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+
+		<File name="taAppender" fileName="./logs/ta.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="persistenceAppender" fileName="./logs/persistence.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File>
+		<File name="persistenceReportingAppender" fileName="./logs/persistenceReporting.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %C %m%n</Pattern>
+			</PatternLayout>
+		</File>
+		<File name="RootFileAppender" fileName="./logs/root.log" append="false">
+			<PatternLayout>
+				<Pattern>%d %p %c{3.3} %C [%t] %m%n</Pattern>
+			</PatternLayout>
+			<Filters>
+				<ThresholdFilter level="warn" onMatch="ACCEPT" onMismatch="DENY" />
+			</Filters>
+		</File> 
+	</Appenders>
+
+<!-- #################################################################### -->
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="RootFileAppender" />
+		</Root>
+
+		<Logger name="ikoda" level="debug" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+
+
+		<Logger name="ikoda.netio" level="debug" additivity="false">
+			<AppenderRef ref="nioAppender" />
+		</Logger>
+		<Logger name="ikoda.jobcollection" level="debug" additivity="true">
+            <AppenderRef ref="Console" />
+			<AppenderRef ref="jcAppender" /> 
+		</Logger>
+		<Logger name="org.springframework" level="debug" additivity="true">
+            <AppenderRef ref="Console" />
+			<AppenderRef ref="org.springframework" /> 
+		</Logger>
+		<Logger name="ikoda.collegeanalysis" level="debug" additivity="false">
+			<AppenderRef ref="collegeAnalysisAppender" />
+		</Logger>
+				<Logger name="ikoda.fileio" level="info" additivity="false">
+			<AppenderRef ref="fioAppender" />
+		</Logger>
+
+		<Logger name="ikoda.textanalysis" level="info" additivity="false">
+			<AppenderRef ref="taAppender" />
+		</Logger>
+		<Logger name="ikoda.persistence" level="info" additivity="false">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="persistenceAppender" />
+		</Logger>
+		<Logger name="ikoda.persistencechores" level="debug" additivity="true">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="persistenceAppender" />
+		</Logger>
+		<Logger name="ikoda.persistencereporting" level="debug"
+			additivity="false">
+			<AppenderRef ref="persistenceReportingAppender" />
+		</Logger>
+		<Logger name="org.hibernate" level="error"
+			additivity="false">
+			<AppenderRef ref="persistenceReportingAppender" />
+		</Logger>
+		<Logger name="ikoda.test" level="debug" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger>
+		<Logger name="jake.app" level="debug" additivity="false">
+			<AppenderRef ref="FileAppender" />
+		</Logger> 
+	</Loggers>
+</Configuration>

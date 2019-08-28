@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationTextAnalysis>
 	<nerPropertiesPath>locations_en.txt</nerPropertiesPath>
-	<textAnalysisFailedPath>C:\Users\jake\_fd\_filedump-en-majors\_textAnalysisFailed</textAnalysisFailedPath>
-	<textAnalysisInfoBoxPath>C:\Users\jake\_fd\_filedump-en-majors\_infoBoxes</textAnalysisInfoBoxPath>
-	<textAnalysisDonePath>C:\Users\jake\_fd\_filedump-en-majors\analyzed</textAnalysisDonePath>
+	<textAnalysisFailedPath>D:\jake\filedump\en-major\_textAnalysisFailed</textAnalysisFailedPath>
+	<textAnalysisInfoBoxPath>D:\jake\filedump\en-major\_infoBoxes</textAnalysisInfoBoxPath>
+	<textAnalysisDonePath>D:\jake\filedump\en-major\analyzed</textAnalysisDonePath>
+	<taThreadCount>3</taThreadCount>
 </configurationTextAnalysis>

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configuration>
-
     <applicationMainModuleName>ikodaanalysis-collegeprograms-manager</applicationMainModuleName>
-    <databaseDescriptor>COLLEGE_ANALYSIS_CONFIGURATION_COLLEGE_DIPLOMA_LEVEL</databaseDescriptor>
-    <analysisType>COLLEGE_ANALYSIS_CONFIGURATION</analysisType>
-    <analysisSubType>COLLEGE_DIPLOMA_LEVEL</analysisSubType>
+    <databaseDescriptor>REDDIT_CONFIGURATION</databaseDescriptor>
+    <analysisType>REDDIT_ANALYSIS_CONFIGURATION</analysisType>
+    <analysisSubType>REDDIT_SUBTYPE</analysisSubType>
 	<specifiedLanguage>en</specifiedLanguage>
 	<languagesForAnalysis>
 		<localeCode>en</localeCode>
@@ -14,34 +13,47 @@
 		<regions>Australia</regions>
 	</languagesForAnalysis> 
 
-	
-		<keyspaceName>cptest</keyspaceName>
-		<mlServerUrl>192.168.0.141</mlServerUrl>
-		<mlServerPort>9999</mlServerPort>
-		<mlLocalStreamPorts>8081,8082,8083,8084</mlLocalStreamPorts>
+		
+	    <mlServerUrl>192.168.0.141</mlServerUrl>
+	    <mlServerPort>9997</mlServerPort>
+	    <mlLocalStreamPorts>8081</mlLocalStreamPorts>
 		<localUrls>192.168.0.15</localUrls>
 	
 	<runNetio>true</runNetio>
-	<runFileio>false</runFileio>
-	<runTextAnalysis>false</runTextAnalysis>
+	<runFileio>true</runFileio>
+	<runTextAnalysis>true</runTextAnalysis>
 	<runTraining>false</runTraining>
+	<runSimpleStream>false</runSimpleStream>
 
-	
-    <elegantStop>true</elegantStop>
+    <elegantStop>true</elegantStop> 
     <netioResumeMode>false</netioResumeMode>
     <minimizeResourceUse>false</minimizeResourceUse>
-    <rapidRandomBrowse>true</rapidRandomBrowse>
-    
+    <rapidRandomBrowse>false</rapidRandomBrowse>
+    <keyspaceName>reddit201808</keyspaceName>
     <configProperties>
-			<property>
-				<key>cptestbydocument</key>
-				<value>adbbd928-2954-4102-901b-93723625be13</value>
-			</property>
-			<property>
-				<key>cptestbysentence</key>
-				<value>a758a4ba-fe53-4e13-98dc-7cc3d223b6ca</value>
-			</property>
-	</configProperties>
-    
-	
+        <property>
+            <key>simplestreamks</key>
+            <value>testssks</value>
+        </property>
+        <property>
+            <key>collegeurlmodel</key>
+            <value>c4a61496-485c-481e-92e5-ce4c8224f18f</value>
+        </property>
+        <property>
+            <key>libsvmfile</key>
+            <value>REDDIT_DATA_BY_DOCUMENT_ReducedAndJoined</value>
+        </property>
+        <property>
+            <key>libsvmdir</key>
+            <value>/home/jake/ikodaApps/icpapp/rawdata/REDDIT_SENTENCE_2018-4-8_1523217981778</value>
+        </property>
+        <property>
+            <key>reddit201808bysentence</key>
+            <value>6512f5b2-9821-11e8-9eb6-529269fb1459</value>
+        </property>
+        <property>
+            <key>reddit201808bydocument</key>
+            <value>6512f21a-9821-11e8-9eb6-529269fb1459</value>
+        </property>
+    </configProperties>
 </configuration>

@@ -1,13 +1,22 @@
-cd C:\Users\jake\__workspace\text_repo\ikoda-utils
+cd ..\ikoda-utils
 
-call mvnnr
+call mvnr
 
 
 
-cd C:\Users\jake\__workspace\text_repo\text
+cd ..\text
 
-call mvnnr
+call mvn clean install
 
-cd C:\Users\jake\__workspace\text_repo\ikodatext-jobcollection
+cd ..\ikodatext-jobcollection
+
 
 call mvn clean install  -P assemble
+
+
+rmdir ..\..\run_majors\packaged-resources /s
+del ..\..\run_majors\launchjc.bat /F /Q
+robocopy .\target\packaged-resources ..\..\run_majors\packaged-resources /X /E
+copy .\launchjc.bat ..\..\run_majors\launchjc.bat 
+copy .\target\ikodatext-jobcollection-0.0.1-SNAPSHOT.jar ..\..\run_majors\ikodatext-jobcollection-0.0.1-SNAPSHOT.jar
+

@@ -2,8 +2,8 @@ package ikoda.fileio;
 
 import java.io.PrintWriter;
 
-import org.apache.logging.log4j.*;
 
+import org.apache.logging.log4j.*;
 public class FioLog
 {
 

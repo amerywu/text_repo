@@ -882,43 +882,41 @@ public class JobPostAnalyzedFile extends AnalyzedFile
 
     }
     
-    private boolean dispatchToES(InfoBox ib) {
-    	try {
-    		XContentBuilder builder = XContentFactory.jsonBuilder();
-    		builder.startObject();
-    		{
-    				builder.field("contentType", ib.getContentType());
-    				builder.field("location",ib.getLocation());
-    				builder.field("salaryStart", ib.getStartSalaryRange());
-    				builder.field("salaryEnd",ib.getEndSalaryRange());
-    				builder.field("jobTitles",listToString(ib.getJobTitles(),COMMA));
-    				builder.field("qualifications",listToString(ib.getQualifications(),COMMA));
-    				builder.field("areasOfStudy",listToString(ib.getAreasOfStudy(),COMMA));
-    				builder.field("certification",listToString(ib.getCertification(),COMMA));
-    				builder.field("skills", listToString(ib.getSkills(),STOP));
-    				builder.field("relatedMajors", listToString(ib.getRelatedMajors(),COMMA));
-    				builder.field("workSkills", listToString(ib.getWorkSkills(),COMMA));
-    				builder.field("region", ib.getRegion());
-    				builder.field("degreeLevel",ib.getDegreeLevel());
-    				builder.field("detailLevel", ib.getDetailLevel());
-    				builder.field("yearsExperienceAsInt",String.valueOf(ib.getYearsExperienceAsInt()));
-    				builder.field("majorFinal",ib.getMajorFinal());
-    				builder.field("jobFinal", ib.getJobFinal());
-    				builder.field("databaseDescriptor", ib.getDatabaseDescriptor());
-    		}
-    		builder.endObject();
-    		ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME);
-    		
-    		
-    		return true;
-    	}
-    	catch(Exception e) {
-    		TALog.getLogger().warn(e.getMessage(),e);
-    		return false;
-    	}
+	private boolean dispatchToES(InfoBox ib) {
+		try {
+			XContentBuilder builder = XContentFactory.jsonBuilder();
+			builder.startObject();
+			{
+				builder.field("contentType", ib.getContentType());
+				builder.field("location", ib.getLocation());
+				builder.field("salaryStart", ib.getStartSalaryRange());
+				builder.field("salaryEnd", ib.getEndSalaryRange());
+				builder.field("jobTitles", listToString(ib.getJobTitles(), COMMA));
+				builder.field("qualifications", listToString(ib.getQualifications(), COMMA));
+				builder.field("areasOfStudy", listToString(ib.getAreasOfStudy(), COMMA));
+				builder.field("certification", listToString(ib.getCertification(), COMMA));
+				builder.field("skills", listToString(ib.getSkills(), STOP));
+				builder.field("relatedMajors", listToString(ib.getRelatedMajors(), COMMA));
+				builder.field("workSkills", listToString(ib.getWorkSkills(), COMMA));
+				builder.field("region", ib.getRegion());
+				builder.field("degreeLevel", ib.getDegreeLevel());
+				builder.field("detailLevel", ib.getDetailLevel());
+				builder.field("yearsExperienceAsInt", String.valueOf(ib.getYearsExperienceAsInt()));
+				builder.field("majorFinal", ib.getMajorFinal());
+				builder.field("jobFinal", ib.getJobFinal());
+				builder.field("databaseDescriptor", ib.getDatabaseDescriptor());
+				builder.field("created", System.currentTimeMillis());
+			}
+			builder.endObject();
+			ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME);
 
+			return true;
+		} catch (Exception e) {
+			TALog.getLogger().warn(e.getMessage(), e);
+			return false;
+		}
 
-    	}
+	}
     	
     	
 

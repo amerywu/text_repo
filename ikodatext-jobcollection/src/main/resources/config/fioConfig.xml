@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationFileio>
-	<fileIoJobPostingPath>Z:\_filedump\_filedump-en-majors\_JobPosting</fileIoJobPostingPath>
-	<fileIoXMLPath>Z:\_filedump\_filedump-en-majors\_allXmlFiles</fileIoXMLPath>
-	<fileIoResultsPath>Z:\_filedump\_filedump-en-majors\_resultListings</fileIoResultsPath>
-	<fileIoUndeterminedPath>Z:\_filedump\_filedump-en-majors\_undetermined</fileIoUndeterminedPath>
-	<fileIoNonApplicablePath>Z:\_filedump\_filedump-en-majors\_NA</fileIoNonApplicablePath>
-	<fileIoDonePath>Z:\_filedump\_filedump-en-majors\_done</fileIoDonePath>
-	<fileIoOutBoxPath>Z:\_filedump\_filedump-en-majors\outbox</fileIoOutBoxPath>
+	<fileIoJobPostingPath>D:\jake\filedump\en-major\_JobPosting</fileIoJobPostingPath>
+	<fileIoXMLPath>D:\jake\filedump\en-major\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>D:\jake\filedump\en-major\_resultListings</fileIoResultsPath>
+	<fileIoUndeterminedPath>D:\jake\filedump\en-major\_undetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>D:\jake\filedump\en-major\_NA</fileIoNonApplicablePath>
+	<fileIoDonePath>D:\jake\filedump\en-major\_done</fileIoDonePath>
+	<fileIoOutBoxPath>D:\jake\filedump\en-major\outbox</fileIoOutBoxPath>
 </configurationFileio>

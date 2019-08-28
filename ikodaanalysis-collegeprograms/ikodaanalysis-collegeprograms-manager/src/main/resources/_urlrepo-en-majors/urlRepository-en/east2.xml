@@ -21,12 +21,6 @@
 	</urls>	
 
 	<urls>
-		<url>http://www.simplyhired.com/search?q=degree&amp;l=atlanta%2C+ga&amp;fdb=1</url>
-		<website>SIMPLYHIRED</website>
-
-
-	</urls>
-	<urls>
 		<url>http://www.indeed.com/jobs?q=degree+%2420%2C000+-+%2425%2C000&amp;l=Miami%2C+FL&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
 		<website>INDEED</website>
 		<firstRoundLinks>start=</firstRoundLinks>
@@ -48,13 +42,6 @@
 
 	</urls>	
 
-
-	<urls>
-		<url>http://www.simplyhired.com/search?q=degree&amp;l=tampa%2C+fl&amp;fdb=1</url>
-		<website>SIMPLYHIRED</website>
-
-
-	</urls>
 
 	
 	<urls>
