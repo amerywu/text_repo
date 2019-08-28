@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.common.xcontent.XContentFactory;
 import org.springframework.transaction.annotation.Transactional;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
@@ -13,14 +15,17 @@ import edu.stanford.nlp.ling.CoreAnnotations.TextAnnotation;
 import edu.stanford.nlp.ling.CoreAnnotations.TokensAnnotation;
 import edu.stanford.nlp.ling.CoreLabel;
 import edu.stanford.nlp.util.CoreMap;
+import ikoda.netio.config.InfoBox;
 import ikoda.nlp.analysis.TALog;
 import ikoda.nlp.structure.AnalyzedFile;
+import ikoda.nlp.structure.EsJson;
 import ikoda.nlp.structure.IdentifiedToken;
 import ikoda.nlp.structure.PossibleSentence;
 import ikoda.nlp.structure.PropertiesSingleton;
 import ikoda.persistence.model.PossibleTokenCount;
 import ikoda.persistence.service.JobAnalysisService;
 import ikoda.persistence.service.JobApplicationContextProvider;
+import ikoda.utils.ElasticSearchManager;
 
 public abstract class AbstractNERTokenAnalyzer extends AbstractTokenAnalyzer
 {
@@ -328,13 +333,34 @@ public abstract class AbstractNERTokenAnalyzer extends AbstractTokenAnalyzer
     }
 
     protected abstract void processTriples(PossibleSentence psentence);
+    
+    
+	private boolean dispatchToES(String tokenType, String value) {
+		try {
+			XContentBuilder builder = XContentFactory.jsonBuilder();
+			builder.startObject();
+			{
+				builder.field("possible-phrase", value);
+				builder.field("token-type", tokenType);
+
+			}
+			builder.endObject();
+			ElasticSearchManager.getInstance().addDocument(builder, EsJson.POSSIBLE_PHRASES_INDEX_NAME);
+
+			return true;
+		} catch (Exception e) {
+			TALog.getLogger().warn(e.getMessage(), e);
+			return false;
+		}
+
+	}
 
     @Transactional
     protected void saveOrUpdate(String itokenType, String invalue)
     {
         String value = invalue.trim().toUpperCase();
 
-        // TALog.getLogger().debug("Possible Token: "+itokenType+" == "+value);
+        TALog.getLogger().debug("Possible Token: "+itokenType+" == "+value);
         try
         {
             String existingNerToken = PropertiesSingleton.getInstance().getNerPropertyTypeByToken(value);
@@ -342,21 +368,10 @@ public abstract class AbstractNERTokenAnalyzer extends AbstractTokenAnalyzer
             {
                 return;
             }
-            jobAnalysisService = JobApplicationContextProvider.getInstance().getJobAnalysisService();
-            PossibleTokenCount ptc = jobAnalysisService.getPossibleTokenCount(itokenType, value);
-            if (null == ptc)
-            {
-                ptc = new PossibleTokenCount();
-                ptc.setValue(value.toUpperCase());
-                ptc.setTokenType(itokenType);
-                ptc.setCount(new Integer(1));
-                jobAnalysisService.savePossibleTokenCount(ptc);
-                return;
-            }
-            Integer oldCount = ptc.getCount();
-            Integer newCount = oldCount + 1;
-            ptc.setCount(newCount);
-            jobAnalysisService.updatePossibleTokenCount(ptc);
+            dispatchToES(itokenType, value.toUpperCase());
+            return;
+
+
         }
         catch (Exception e)
         {

@@ -18,11 +18,13 @@
 	<elasticSearchPassword>883-8177</elasticSearchPassword>
 	<elasticSearchUrl>192.168.0.141</elasticSearchUrl>
 	<elasticSearchPort>9200</elasticSearchPort>
+
+
 	
     
-	<runNetio>false</runNetio>
-	<runFileio>false</runFileio>
-	<runTextAnalysis>false</runTextAnalysis>
+	<runNetio>true</runNetio>
+	<runFileio>true</runFileio>
+	<runTextAnalysis>true</runTextAnalysis>
 	<runPersistenceReporting>false</runPersistenceReporting>
 	<runPersistence>false</runPersistence>
 	<runPersistenceChores>false</runPersistenceChores>

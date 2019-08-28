@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+	
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2430%2C000+-+%2435%2C000&amp;l=Phoenix%2C+AZ&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>			
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2435%2C000+-+%2440%2C000&amp;l=Phoenix%2C+AZ&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>		
+	
+
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2430%2C000+-+%2435%2C000&amp;l=Kansas+City%2C+KS&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>			
+
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2445%2C000+-+%2450%2C000&amp;l=Minneapolis%2C+MN&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>	
+	
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2440%2C000+-+%2445%2C000&amp;l=Phoenix%2C+AZ&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>		
+
+
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%2490%2C000+-+%24100%2C000&amp;l=Kansas+City%2C+KS&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>		
+	<urls>
+		<url>http://www.indeed.com/jobs?q=degree+%24100%2C000+-+%24120%2C000&amp;l=Kansas+City%2C+KS&amp;jt=fulltime&amp;fromage=3&amp;radius=50&amp;limit=50</url>
+		<website>INDEED</website>
+		<firstRoundLinks>start=</firstRoundLinks>
+        <firstRoundLinks>jobs?q=degree</firstRoundLinks>
+        <secondRoundLinks>/company/</secondRoundLinks>
+        <secondRoundLinks>rc/clk</secondRoundLinks>
+
+	</urls>	
+</urlrepository>

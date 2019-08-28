@@ -1,11 +1,11 @@
-cd C:\Users\jake\__workspace\text_repo\ikoda-utils
+cd ..\ikoda-utils
 
-call mvnnr
+call mvnr
 
-cd C:\Users\jake\__workspace\text_repo\text
+cd ..\text
 
-call mvnnr
+call mvn clean install
 
-cd C:\Users\jake\__workspace\text_repo\ikodatext-jobcollection
+cd ..\ikodatext-jobcollection
 
-call mvn clean install -Passemble
+call mvn clean install

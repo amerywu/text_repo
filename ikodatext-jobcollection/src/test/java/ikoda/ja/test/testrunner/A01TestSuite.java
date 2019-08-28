@@ -10,6 +10,7 @@ import ikoda.ja.test.tests.TestJA;
 @RunWith(Suite.class)
 @Suite.SuiteClasses(
 {
+	
 		TestJA.class
 		//TestPersistence.class,
 		

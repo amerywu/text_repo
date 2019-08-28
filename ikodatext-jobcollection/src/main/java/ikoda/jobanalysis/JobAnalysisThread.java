@@ -47,14 +47,7 @@ public class JobAnalysisThread extends Thread
     private long cycleCount =0;
     private List<String> logIgnoreList = new ArrayList<>(Arrays.asList("Netio 02","Low Call Count","Excessive Accumulated Calls")); 
 
-    @Autowired
-    private PersistenceThread persistenceThread;
 
-    @Autowired
-    private PersistenceChoresThread persistenceChoresThread;
-
-    @Autowired
-    private PersistenceReportingThread persistenceReportingThread;
 
     public JobAnalysisThread()
     {
@@ -76,19 +69,7 @@ public class JobAnalysisThread extends Thread
                 fileio.start();
                 restartFileio = false;
             }
-            if (restartPersistence)
-            {
-                ProcessStatus.incrementStatus("Persistence Thread Fails");
 
-                JALog.getLogger().info("\n\nRESTARTING PERSISTENCE THREAD\n\n");
-                ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
-                persistenceThread = new PersistenceThread();
-
-                persistenceThread = (PersistenceThread) context.getBean("persistenceThread");
-                persistenceThread.runPersistenceProcesses(config, config.isRunTextAnalysis(), lock);
-                persistenceThread.start();
-                restartPersistence = false;
-            }
             if (restartTA)
             {
                 for (FileAnalyzerThread taThread : taThreadsList)
@@ -185,25 +166,7 @@ public class JobAnalysisThread extends Thread
             }
 
         }
-        if (null != persistenceThread && config.isRunPersistence())
-        {
-            ProcessStatus.getStatusMap().put("Persistence Count persisted entries",
-                    String.valueOf(persistenceThread.getEntryCount()));
-            ProcessStatus.getStatusMap().put("Persistence CurrentFile currentFileProcessTime",
-                    String.valueOf(persistenceThread.getFileProcessTime()));
-
-            if (!persistenceThread.isUpstreamThreadDone())
-            {
-                if (persistenceThread.getFileProcessTime() > 900000)
-                {
-                    JALog.getLogger().info("\n\nTimeout, Aborting persistenceThread.  \n\n\n\n\n\n");
-                    persistenceThread.abort();
-                    persistenceThread.interrupt();
-                    restartPersistence = true;
-
-                }
-            }
-        }
+       
         }
         catch(Exception e)
         {
@@ -329,19 +292,16 @@ public class JobAnalysisThread extends Thread
                     timeoutNoDataReceived++;
                     if (timeoutNoDataReceived >= 2000)
                     {
+                    	JALog.getLogger().info("EXITING THREAD");
                         continueRun = false;
                     }
                 }
                 else if (!doFileProcess())
                 {
                     JALog.getLogger().info("EXITING THREAD");
-                    if (null != persistenceChoresThread)
-                    {
-                        persistenceChoresThread.setStop(true);
-                    }
                     continueRun = false;
                 }
-
+                
             }
         }
         catch (InterruptedException e)
@@ -382,6 +342,7 @@ public class JobAnalysisThread extends Thread
             			config.getElasticSearchUrl(),
             			new Integer(config.getElasticSearchPort()).intValue());
             	ElasticSearchManager.getInstance().createIndexIfNotExisting(EsJson.JOBS_INDEX_NAME, EsJson.jobsIndexJson());
+            	ElasticSearchManager.getInstance().createIndexIfNotExisting(EsJson.POSSIBLE_PHRASES_INDEX_NAME, EsJson.possiblePhrasesIndexJson());
             }
 
             if (config.isElegantStop())
@@ -392,13 +353,7 @@ public class JobAnalysisThread extends Thread
 
             }
 
-            if (config.isRunPersistence())
-            {
-                persistenceThread.runPersistenceProcesses(config, config.isRunTextAnalysis(), lock);
-                persistenceThread.start();
-
-                JALog.getLogger().info("Persistence started");
-            }
+           
             if (config.isRunFileio())
             {
                 fileio = new FileIoThread();
@@ -416,20 +371,8 @@ public class JobAnalysisThread extends Thread
                 JALog.getLogger().info("Net IO started");
             }
 
-            if (config.isRunPersistenceChores())
-            {
-                persistenceChoresThread.runPersistenceChores(config, false, lock);
-                persistenceChoresThread.start();
-
-                JALog.getLogger().info("Persistence Chores started");
-            }
-            if (config.isRunPersistenceReporting())
-            {
-                persistenceReportingThread.runPersistenceReporting(config, false);
-                persistenceReportingThread.start();
-
-                JALog.getLogger().info("Persistence Reporting started");
-            }
+            
+            
             if (config.isRunTextAnalysis())
             {
                 for (int i = 0; i < tConfig.getTaThreadCount(); i++)
@@ -503,35 +446,7 @@ public class JobAnalysisThread extends Thread
                 taThreadsList.stream().forEach(taThread -> taThread.setUpstreamThreadDone(true));
             }
         }
-        if (config.isRunTextAnalysis() && !(taThreadsList.isEmpty()))
-        {
-            for (FileAnalyzerThreadManagement taThread : taThreadsList)
-            {
-                if (!taThread.isContinueRun())
-                {
-                    persistenceThread.setUpstreamThreadDone(true);
-                }
-            }
-        }
-        if (config.isRunPersistence())
-        {
-            if (!persistenceThread.isContinueRun())
-            {
-                if (config.isRunPersistenceChores() && config.isRunPersistenceReporting())
-                {
-                    persistenceChoresThread.abort();
-                    persistenceReportingThread.abort();
-                }
-                else if (config.isRunPersistenceChores())
-                {
-                    persistenceChoresThread.abort();
-                }
-                else if (config.isRunPersistenceReporting())
-                {
-                    persistenceReportingThread.abort();
-                }
-            }
-        }
+       
 
     }
 
@@ -559,18 +474,7 @@ public class JobAnalysisThread extends Thread
                     taThread.abort();
                 }
             }
-            if (null != persistenceChoresThread)
-            {
-                persistenceChoresThread.abort();
-            }
-            if (null != persistenceThread)
-            {
-                persistenceThread.abort();
-            }
-            if (null != persistenceReportingThread)
-            {
-                persistenceReportingThread.abort();
-            }
+           
             sb.append("\n\n............Stop called on all active threads....be patient..........\n\n.");
             ProcessStatus.getStatusMap().put("STOPPING", "............Abort Called..........");
 
@@ -586,14 +490,7 @@ public class JobAnalysisThread extends Thread
 
             boolean threadsRunning = false;
 
-            if (config.isRunPersistence())
-            {
-                if (persistenceThread.isContinueRun())
-                {
-                    threadsRunning = true;
-                }
-            }
-
+            
             if (config.isRunFileio())
             {
                 if (fileio.isContinueRun())
@@ -618,22 +515,7 @@ public class JobAnalysisThread extends Thread
                     }
                 }
             }
-            if (config.isRunPersistenceChores())
-            {
-                JALog.getLogger().debug("config.isRunPersistenceChores(): " + config.isRunPersistenceChores());
-                if (persistenceChoresThread.isContinueRun())
-                {
-                    threadsRunning = true;
-                }
-            }
-            else if (config.isRunPersistenceReporting())
-            {
-                JALog.getLogger().debug("config.isRunPersistenceReporting(): " + config.isRunPersistenceReporting());
-                if (persistenceReportingThread.isContinueRun())
-                {
-                    threadsRunning = true;
-                }
-            }
+            
             return threadsRunning;
         }
         catch (Exception e)

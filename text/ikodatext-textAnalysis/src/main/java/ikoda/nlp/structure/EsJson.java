@@ -8,7 +8,8 @@ import org.elasticsearch.common.xcontent.XContentFactory;
 
 public class EsJson {
 	
-	public final static String JOBS_INDEX_NAME = "job-description-index";
+	public final static String JOBS_INDEX_NAME = "job-descriptions-index";
+	public final static String POSSIBLE_PHRASES_INDEX_NAME = "possible-phrases-index";
 
 	public static XContentBuilder jobsIndexJson() throws Exception {
 		XContentBuilder builder = XContentFactory.jsonBuilder();
@@ -19,7 +20,7 @@ public class EsJson {
 
 				builder.startObject("location");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("salaryStart");
@@ -39,17 +40,17 @@ public class EsJson {
 				builder.endObject();
 				builder.startObject("qualifications");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("areasOfStudy");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("certification");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("skills");
@@ -74,12 +75,12 @@ public class EsJson {
 				builder.endObject();
 				builder.startObject("contentType");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("degreeLevel");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("detailLevel");
@@ -94,7 +95,7 @@ public class EsJson {
 				builder.endObject();
 				builder.startObject("majorFinal");
 				{
-					builder.field("type", "text");
+					builder.field("type", "keyword");
 				}
 				builder.endObject();
 				builder.startObject("jobFinal");
@@ -107,11 +108,40 @@ public class EsJson {
 					builder.field("type", "text");
 				}
 				builder.endObject();
+				builder.startObject("created");
+				{
+					builder.field("type", "date");
+				}
+				builder.endObject();
 			}
 			builder.endObject();
 		}
 		builder.endObject();
 		return builder;
 	}
-
+	
+	
+	public static XContentBuilder possiblePhrasesIndexJson() throws Exception {
+		XContentBuilder builder = XContentFactory.jsonBuilder();
+		builder.startObject();
+		{
+			builder.startObject("properties");
+			{
+				builder.startObject("possible-phrase");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+	
+				builder.startObject("token-type");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+			}
+			builder.endObject();
+		}
+		builder.endObject();
+		return builder;
+	}
 }

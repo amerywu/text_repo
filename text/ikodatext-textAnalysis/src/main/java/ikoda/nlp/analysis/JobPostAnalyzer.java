@@ -1,6 +1,7 @@
 package ikoda.nlp.analysis;
 
 import java.nio.file.Files;
+import java.nio.file.NoSuchFileException;
 import java.nio.file.Path;
 import java.time.Duration;
 import java.time.Instant;
@@ -632,9 +633,15 @@ public class JobPostAnalyzer extends AbstractTextAnalyzer
                         // NioLog.getLogger().debug("read file");
                         text = new String(encoded);
                     }
+                    catch(NoSuchFileException nsf)
+                    {
+                    	TALog.getLogger().debug(nsf.getMessage());
+                        return false;
+                    }
                     catch (Exception e)
                     {
                         TALog.getLogger().error(e.getMessage(), e);
+                        return false;
                     }
                     finally
                     {
@@ -647,6 +654,7 @@ public class JobPostAnalyzer extends AbstractTextAnalyzer
                     return false;
                 }
             }
+
             catch (Exception e)
             {
                 TALog.getLogger().warn("Could not get lock", e);
@@ -711,6 +719,7 @@ public class JobPostAnalyzer extends AbstractTextAnalyzer
             }
 
         }
+
         catch (Exception e)
         {
             TALog.getLogger().debug(e.getMessage(), e);

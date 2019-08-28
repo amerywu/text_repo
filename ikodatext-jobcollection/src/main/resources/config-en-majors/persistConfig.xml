@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationPersistence>
-	<persistenceDonePath>C:\Users\jake\_fd\_filedump-en-majors\_persistencedone</persistenceDonePath>
-	<persistenceFailedPath>C:\Users\jake\_fd\_filedump-en-majors\_persistencefailed</persistenceFailedPath>
+	<persistenceDonePath>D:\jake\filedump\en-major\_persistencedone</persistenceDonePath>
+	<persistenceFailedPath>D:\jake\filedump\en-major\_persistencefailed</persistenceFailedPath>
     <persistIfCountDetailLevel>4</persistIfCountDetailLevel>
 	
 	

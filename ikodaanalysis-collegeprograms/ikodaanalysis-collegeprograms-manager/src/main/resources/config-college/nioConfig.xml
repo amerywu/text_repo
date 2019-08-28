@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationNetio>
-    <urlRepository>Z:\_fd\_filedump_college\urlRepository</urlRepository>
-    <netIoDumpPath>Z:\_filedump\collegeTestDump\nioCollegeOutput</netIoDumpPath>
-    <netIoAccumulatorPath>Z:\_filedump\collegeTestDump\nioCollegeOutput</netIoAccumulatorPath>
-    <maxCallsRoundOne>40</maxCallsRoundOne>
-    <maxCallsRoundTwo>60</maxCallsRoundTwo>
-    <maxCallsRoundThree>30</maxCallsRoundThree>
-    <maxCallsRoundFour>3</maxCallsRoundFour>
+    <urlRepository>Z:\_fd\_filedump_reddit\urlRepository</urlRepository>
+    <netIoDumpPath>Z:\_filedump\redditTestDump\nioRedditOutput</netIoDumpPath>
+    <netIoAccumulatorPath>Z:\_filedump\redditTestDump\nioRedditOutput</netIoAccumulatorPath>
+    <maxCallsRoundOne>50</maxCallsRoundOne>
+    <maxCallsRoundTwo>50</maxCallsRoundTwo>
+    <maxCallsRoundThree>0</maxCallsRoundThree>
+    <maxCallsRoundFour>0</maxCallsRoundFour>
     <netioMinimumCycleInMinutes>34689</netioMinimumCycleInMinutes>
     <netioRunInCycle>false</netioRunInCycle>
-     
-        <linksForUniversalIgnore>facebook.</linksForUniversalIgnore>
+    
+    
+		<linksForUniversalIgnore>facebook.</linksForUniversalIgnore>
         <linksForUniversalIgnore>twitter.</linksForUniversalIgnore>
         <linksForUniversalIgnore>google.</linksForUniversalIgnore>
         <linksForUniversalIgnore>form</linksForUniversalIgnore>
@@ -20,6 +21,29 @@
         <linksForUniversalIgnore>flickr.</linksForUniversalIgnore>
         <linksForUniversalIgnore>linkedin.</linksForUniversalIgnore>
         <linksForUniversalIgnore>pinterest.</linksForUniversalIgnore>
+        <linksForUniversalIgnore>about.reddit</linksForUniversalIgnore>
+        <linksForUniversalIgnore>/advertising/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/careers/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/rules/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddithelp.com</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/wiki/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>/help/healthycommunities/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/contact</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit-the-official-app</linksForUniversalIgnore>
+        <linksForUniversalIgnore>play.google.com</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/buttons</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/gold/about</linksForUniversalIgnore>
+        <linksForUniversalIgnore>redditgifts.com</linksForUniversalIgnore>
+        <linksForUniversalIgnore>useragreement</linksForUniversalIgnore>
+        <linksForUniversalIgnore>privacypolicy</linksForUniversalIgnore>
+        <linksForUniversalIgnore>#content</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/subreddits</linksForUniversalIgnore>
+        <linksForUniversalIgnore>com/users/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>/user/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>r/AskReddit/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>reddit.com/javascript</linksForUniversalIgnore>
+        <linksForUniversalIgnore>https://www.reddit.com/#</linksForUniversalIgnore>
+        <linksForUniversalIgnore>.com/#</linksForUniversalIgnore>
+        <linksForUniversalIgnore>youtu.be</linksForUniversalIgnore>
         <linksForUniversalIgnore>javascript:</linksForUniversalIgnore>
-        <linksForUniversalIgnore>mailto</linksForUniversalIgnore>
 </configurationNetio>

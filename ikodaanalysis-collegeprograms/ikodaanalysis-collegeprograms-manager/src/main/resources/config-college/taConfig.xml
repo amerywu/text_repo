@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationTextAnalysis>
 
-     
-	<columnsToExcludeFromLibSvm>aa_category</columnsToExcludeFromLibSvm>
+<columnsToExcludeFromLibSvm>aa_category</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>aa_source</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>aa_website</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>aa_uri</columnsToExcludeFromLibSvm>
@@ -11,31 +10,30 @@
 	<columnsToExcludeFromLibSvm>A_RowId</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>LEMMATIZEDSENTENCE</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>RAWSENTENCE</columnsToExcludeFromLibSvm>
-	
 	<targetColumnName>aa_label</targetColumnName>
-	
-    <textAnalysisDonePath>Z:\_filedump\collegeTestDump\TASuccess</textAnalysisDonePath>
-    <textAnalysisFailedPath>Z:\_filedump\collegeTestDump\TAFail</textAnalysisFailedPath>
-    <csvPath>Z:\_filedump\collegeTestDump\outputlibsvm</csvPath>
-
+    <textAnalysisDonePath>Z:\_filedump\redditTestDump\TASuccess</textAnalysisDonePath>
+    <textAnalysisFailedPath>Z:\_filedump\redditTestDump\TAFail</textAnalysisFailedPath>
+    <csvPath>Z:\_filedump\redditTestDump</csvPath>
     <collectPartOfSpeech>true</collectPartOfSpeech>
     <convertToLemmas>true</convertToLemmas>
-    <preventSentenceDuplicates>false</preventSentenceDuplicates>
-	<collectBySentence>true</collectBySentence>
-    <projectPrefix>CollegePrograms</projectPrefix>
+    <preventSentenceDuplicates>true</preventSentenceDuplicates>
+    <collectBySentence>true</collectBySentence>
+    <preventSentenceDuplicates>true</preventSentenceDuplicates>
+    <projectPrefix>reddit_</projectPrefix>
+    <targetColumnName>aa_label</targetColumnName>
 
+    <maxNumberOfDocuments>1000</maxNumberOfDocuments>
     <maxFileLength>1000000</maxFileLength>
     <minFileLength>1100</minFileLength>
     <taThreadCount>1</taThreadCount>
     
-
-    <maxNumberOfDocuments>400</maxNumberOfDocuments>
-            <configProperties>
+        <configProperties>
 			<property>
 				<key>maxRowPerBatch</key>
 				<value>1000</value>
 			</property>
 
 	</configProperties>
-    
 </configurationTextAnalysis>
+
+

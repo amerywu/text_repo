@@ -29,12 +29,6 @@ import ikoda.netio.config.InterfaceConfigurationBeanParent;
 import ikoda.utils.ElasticSearchClientFactory;
 
 
-@RunWith(SpringJUnit4ClassRunner.class)
-
-
-@ContextHierarchy(
-{ @ContextConfiguration(locations =
-		{ "classpath:beans.xml" }) })
 public class TestJA
 {
 
@@ -73,7 +67,7 @@ public class TestJA
 					config.getElasticSearchUser(), 
 					config.getElasticSearchPassword(), 
 					config.getElasticSearchUrl(), 
-					new Integer(config.getElasticSearchPort()).intValue());
+					Integer.parseInt(config.getElasticSearchPort()));
 			
 			JALog.getLogger().info("ESClient " + ElasticSearchClientFactory.getInstance().client().toString() );
 			
@@ -146,15 +140,6 @@ public class TestJA
 
 
 
-	/*public JobAnalysisServiceImpl getJobAnalysisService() {
-		return jobAnalysisService;
-	}
-
-
-
-	public void setJobAnalysisService(JobAnalysisServiceImpl jobAnalysisService) {
-		this.jobAnalysisService = jobAnalysisService;
-	}**/
 
 
 
