@@ -474,7 +474,9 @@ public class JobAnalysisThread extends Thread
                     taThread.abort();
                 }
             }
-           
+
+            ElasticSearchManager.getInstance().close();
+
             sb.append("\n\n............Stop called on all active threads....be patient..........\n\n.");
             ProcessStatus.getStatusMap().put("STOPPING", "............Abort Called..........");
 
