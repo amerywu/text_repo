@@ -93,7 +93,10 @@ public class NetIoThread extends Thread
 				{
 					sleepTimeCurr = 90000;
 				}
-				sleepTimeCurr = baseSleepTime + (long) (Math.random() * ((12000 - 2000) + 1));
+				else {
+					sleepTimeCurr = baseSleepTime + (long) (Math.random() * ((12000 - 2000) + 1));
+				}
+				
 			}
 			ProcessStatus.getStatusMap().put("Netio 11. SleepTime", millisToString(sleepTimeCurr));
 			return sleepTimeCurr;
