@@ -3,12 +3,12 @@
     <urlRepository>D:\jake\_urlrepo-reddit\urlRepository</urlRepository>
     <netIoDumpPath>D:\jake\filedump\reddit\nioRedditOutput</netIoDumpPath>
     <netIoAccumulatorPath>D:\jake\filedump\reddit\nioRedditOutput</netIoAccumulatorPath>
-    <maxCallsRoundOne>5</maxCallsRoundOne>
+    <maxCallsRoundOne>8</maxCallsRoundOne>
     <maxCallsRoundTwo>200</maxCallsRoundTwo>
     <maxCallsRoundThree>0</maxCallsRoundThree>
     <maxCallsRoundFour>0</maxCallsRoundFour>
     <netioMinimumCycleInMinutes>5760</netioMinimumCycleInMinutes>
-    <netioRunInCycle>false</netioRunInCycle>
+    <netioRunInCycle>true</netioRunInCycle>
     
     
 		<linksForUniversalIgnore>facebook.</linksForUniversalIgnore>

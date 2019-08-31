@@ -13,7 +13,7 @@
 				<Pattern>%p %d %C %L %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 		<File name="cpAppender" fileName="./logs/cp.log" append="false">
@@ -37,7 +37,7 @@
 				<Pattern>%p %d %C %L %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 		<File name="taAppender" fileName="./logs/ta.log" append="false">
@@ -73,13 +73,13 @@
 			<AppenderRef ref="cpAppender" />
 			<AppenderRef ref="Console" />
 		</Logger>
-		<Logger name="ikoda.netio" level="debug" additivity="false">
+		<Logger name="ikoda.netio" level="info" additivity="false">
 			<AppenderRef ref="nioAppender" />
 
 		</Logger>
 
 
-		<Logger name="ikoda.fileio" level="debug" additivity="false">
+		<Logger name="ikoda.fileio" level="info" additivity="false">
 			<AppenderRef ref="fioAppender" />
 		</Logger>
 

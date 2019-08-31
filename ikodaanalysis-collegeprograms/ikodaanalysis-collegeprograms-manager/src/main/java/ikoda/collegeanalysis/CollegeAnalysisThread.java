@@ -21,21 +21,18 @@ public class CollegeAnalysisThread extends CollegeAnalysisCoordinator {
 	protected synchronized boolean doFileProcess() {
 		try {
 			StringBuilder sb = new StringBuilder();
-
 			if (!stopProcedure_isContinueRun()) {
 				logger.info("All threads complete");
 				return false;
 			}
 			try {
 				int mb = 1024 * 1024;
-				// Getting the runtime reference from system
 				Runtime runtime = Runtime.getRuntime();
 				ProcessStatus.getStatusMap().put("Memory Used",
 						String.valueOf((runtime.totalMemory() - runtime.freeMemory()) / mb));
 				ProcessStatus.getStatusMap().put("Memory Free", String.valueOf((runtime.freeMemory() / mb)));
 				ProcessStatus.getStatusMap().put("Memory Total", String.valueOf((runtime.totalMemory() / mb)));
-				ProcessStatus.getStatusMap().put("Memory Max", String.valueOf((runtime.maxMemory() / mb)));
-
+				ProcessStatus.getStatusMap().put("Memory Max", String.valueOf((runtime.maxMemory() / mb))); 
 			} catch (Exception e) {
 				logger.error(e.getMessage(), e);
 			}

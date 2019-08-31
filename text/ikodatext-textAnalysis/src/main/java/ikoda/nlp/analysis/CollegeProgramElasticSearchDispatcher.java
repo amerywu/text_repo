@@ -56,55 +56,38 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 
 	private static ConfigurationBeanForTextAnalysis_Reddit configt;
 
-	private boolean isNewDocument(CollegeRawDataUnit rdu) {
-		try {
-			SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-			sourceBuilder.query(QueryBuilders.matchQuery("doc_url", rdu.getUrl()));
-			SearchRequest searchRequest = new SearchRequest();
-			searchRequest.indices(EsJson.REDDIT_INDEX_NAME);
-			searchRequest.source(sourceBuilder);
-			SearchResponse searchResponse = ElasticSearchManager.getInstance().search(searchRequest);
-			if (searchResponse.getHits().getHits().length > 0) {
-				TALog.getLogger().info("Document already exists " + rdu.getUrl());
-				ProcessStatus.incrementStatus("TA DOC EXISTS");
+	private boolean isExisting(CollegeRawDataUnit rdu) {
+		return ElasticSearchManager.getInstance().documentExists(EsJson.REDDIT_INDEX_NAME, toUid(rdu.getUrl()));
 
-				return false;
-			} else {
-				ProcessStatus.incrementStatus("TA DOC IS NEW");
+	}
 
-				return true;
-			}
-		} catch (Exception e) {
-			TALog.getLogger().warn("documentExists ERROR" + e.getMessage());
-			return true;
-		}
+	private String toUid(String s) {
+		return s.replaceAll("[^a-zA-Z0-9]", "");
 	}
 
 	private boolean dispatchToES(CollegeRawDataUnit rdu) {
 		try {
-			if(isNewDocument(rdu)) {
+			if (isExisting(rdu)) {
+				ProcessStatus.incrementStatus("TA Document Exists");
+				return false;
+			}
 			XContentBuilder builder = XContentFactory.jsonBuilder();
 			builder.startObject();
 			{
 				builder.field("category", rdu.getCategory());
 				builder.field("content", rdu.getRawData());
-				builder.field("doc_id", rdu.getUrl().replaceAll("[^a-zA-Z0-9]", "-"));
+				builder.field("doc_id", toUid(rdu.getUrl()));
 				builder.field("doc_url", rdu.getUrl());
 				builder.field("created", System.currentTimeMillis());
 			}
 			builder.endObject();
-			ElasticSearchManager.getInstance().addDocument(builder, EsJson.REDDIT_INDEX_NAME);
-
+			ElasticSearchManager.getInstance().addDocument(builder, EsJson.REDDIT_INDEX_NAME, toUid(rdu.getUrl()));
+			ProcessStatus.incrementStatus("TA Document Created");
 			return true;
-			}
-			else {
-				return false;
-			}
 		} catch (Exception e) {
 			TALog.getLogger().warn(e.getMessage(), e);
 			return false;
 		}
-
 	}
 
 	public CollegeProgramElasticSearchDispatcher() {
@@ -146,7 +129,7 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 
 			category = processCategory(category, uri);
 
-			rdu.setCategory(category.replace("|new","").replace("|controversial", ""));
+			rdu.setCategory(category.replace("|new", "").replace("|controversial", ""));
 			rdu.setWebsite(website);
 			rdu.setSourceIdentifier(sid);
 			rdu.setUri(uri);

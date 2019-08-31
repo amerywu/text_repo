@@ -9,7 +9,7 @@ import org.elasticsearch.common.xcontent.XContentFactory;
 public class EsJson {
 	
     public final static String JOBS_INDEX_NAME = "job-descriptions-index";
-    public final static String REDDIT_INDEX_NAME = "reddit-posts-index";
+    public final static String REDDIT_INDEX_NAME = "reddit-post-index";
 	public final static String POSSIBLE_PHRASES_INDEX_NAME = "possible-phrases-index";
 
 	public static XContentBuilder jobsIndexJson() throws Exception {

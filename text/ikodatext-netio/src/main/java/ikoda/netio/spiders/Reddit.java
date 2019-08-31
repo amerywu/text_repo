@@ -110,7 +110,7 @@ public class Reddit extends AbstractWebSite
 				returnString = r2ProcessUpcomingCalls(content, upComingCalls, thisUrl);
 
 			}
-			NioLog.getLogger().info(sb.toString());
+			NioLog.getLogger().debug(sb.toString());
 			return returnString;
 		}
 		catch (Exception e)
