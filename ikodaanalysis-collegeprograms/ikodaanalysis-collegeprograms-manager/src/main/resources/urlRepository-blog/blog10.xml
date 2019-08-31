@@ -1,10 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlrepository>
-	<urls> 
-		<url>https://www.reddit.com/r/ProductManagement/new/</url>
+
+	<urls>
+		<url>https://www.reddit.com/r/math/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
+		<secondRoundLinks>math/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+		<urls>
+		<url>https://www.reddit.com/r/AskSocialScience/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>AskSocialScience/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/socialscience/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>socialscience/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -28,10 +86,10 @@
 		
 	</urls>
 <urls>
-		<url>https://www.reddit.com/r/Communications/new/</url>
+		<url>https://www.reddit.com/r/geospatial/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Communications/comments</secondRoundLinks>
+		<secondRoundLinks>geospatial/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -55,13 +113,11 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/logistics/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
+		<secondRoundLinks>logistics/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -85,13 +141,40 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/socialmedia/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/civilengineering/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
+		<secondRoundLinks>civilengineering/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+	
+<urls>
+		<url>https://www.reddit.com/r/finance/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>finance/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -115,14 +198,11 @@
 		
 	</urls>
 	
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/marketing/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/science/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>marketing/comments</secondRoundLinks>
+		<secondRoundLinks>science/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -146,13 +226,11 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/Kinesiology/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/biology/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
+		<secondRoundLinks>biology/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -176,71 +254,11 @@
 		
 	</urls>
 	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/labrats/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AskHR/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AskHR/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/humanresources/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>humanresources/comments</secondRoundLinks>
+		<secondRoundLinks>labrats/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>

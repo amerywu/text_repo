@@ -16,8 +16,10 @@ import ikoda.netio.config.ConfigurationBeanFactory;
 import ikoda.netio.config.ConfigurationBeanParent;
 import ikoda.netio.config.InterfaceConfigurationBeanParent;
 import ikoda.nlp.analysis.CollegeProgramAnalyzerThread2;
+import ikoda.nlp.analysis.CollegeProgramElasticSearchDispatcher;
 import ikoda.nlp.analysis.CollegeURLAnalyzerThread;
 import ikoda.nlp.analysis.FileAnalyzerThreadManagement;
+import ikoda.utils.ElasticSearchManager;
 import ikoda.utils.ProcessStatus;
 
 public abstract class CollegeAnalysisCoordinator extends Thread
@@ -37,7 +39,7 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 	protected CollegeURLAnalyzerThread trainingThread = null;
 	protected Logger logger = LogManager.getLogger(this.getClass());
 	protected CollegeFileIoThread fileio = new CollegeFileIoThread();
-	protected List<CollegeProgramAnalyzerThread2> taThreadsList = new ArrayList<>();
+	protected List<CollegeProgramElasticSearchDispatcher> taThreadsList = new ArrayList<>();
 	protected List<CollegeNetioThread> netioThreads = new ArrayList<CollegeNetioThread>();
 	private List<String> logIgnoreList = new ArrayList<>(Arrays.asList("Netio 02","Low Call Count","High Fail", "Excessive Accumulated Calls"));
 	protected int cycleCount = 0;
@@ -105,7 +107,7 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 	            {
 	                Random randomGenerator = new Random();
 	                logger.info("\n\n RESTARTING TEXT ANALYSIS THREAD \n\n\n\n\n\n");
-	                CollegeProgramAnalyzerThread2 taThread = new CollegeProgramAnalyzerThread2(
+	                CollegeProgramElasticSearchDispatcher taThread = new CollegeProgramElasticSearchDispatcher(
 	                        randomGenerator.nextInt(10000));
 	                taThread.runFileAnalyzer(config.isRunFileio(), config, lock);
 	                taThread.start();
@@ -173,7 +175,7 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 	        if (!(taThreadsList.isEmpty()) && config.isRunTextAnalysis())
 	        {
 	
-	            Iterator<CollegeProgramAnalyzerThread2> itrTA = taThreadsList.iterator();
+	            Iterator<CollegeProgramElasticSearchDispatcher> itrTA = taThreadsList.iterator();
 	
 	            while (itrTA.hasNext())
 	            {
@@ -387,6 +389,7 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 	        }
 	        
 	        sb.append("\n\n............Stop called on all active threads....be patient..........\n\n.");
+	        ElasticSearchManager.getInstance().close();
 	        ProcessStatus.getStatusMap().put("STOPPIMG", "............Abort Called..........");
 	    }
 	}

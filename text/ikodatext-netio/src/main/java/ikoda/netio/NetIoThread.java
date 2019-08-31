@@ -89,7 +89,7 @@ public class NetIoThread extends Thread
 			}
 			else
 			{
-				if(System.currentTimeMillis() % 50 == 0)
+				if(System.currentTimeMillis() % 100 == 0)
 				{
 					sleepTimeCurr = 90000;
 				}

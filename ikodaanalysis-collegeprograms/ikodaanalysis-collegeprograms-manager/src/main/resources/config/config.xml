@@ -12,48 +12,21 @@
 		<regions>UK</regions>
 		<regions>Australia</regions>
 	</languagesForAnalysis> 
-
-		
-	    <mlServerUrl>192.168.0.141</mlServerUrl>
-	    <mlServerPort>9997</mlServerPort>
-	    <mlLocalStreamPorts>8081</mlLocalStreamPorts>
-		<localUrls>192.168.0.15</localUrls>
 	
+	<sendToES>true</sendToES>
+	<elasticSearchUser>elastic</elasticSearchUser>
+	<elasticSearchPassword>883-8177</elasticSearchPassword>
+	<elasticSearchUrl>192.168.0.141</elasticSearchUrl>
+	<elasticSearchPort>9200</elasticSearchPort>
+
 	<runNetio>true</runNetio>
 	<runFileio>true</runFileio>
 	<runTextAnalysis>true</runTextAnalysis>
-	<runTraining>false</runTraining>
-	<runSimpleStream>false</runSimpleStream>
 
-    <elegantStop>true</elegantStop> 
+
+    <elegantStop>false</elegantStop> 
     <netioResumeMode>false</netioResumeMode>
     <minimizeResourceUse>false</minimizeResourceUse>
     <rapidRandomBrowse>false</rapidRandomBrowse>
-    <keyspaceName>reddit201808</keyspaceName>
-    <configProperties>
-        <property>
-            <key>simplestreamks</key>
-            <value>testssks</value>
-        </property>
-        <property>
-            <key>collegeurlmodel</key>
-            <value>c4a61496-485c-481e-92e5-ce4c8224f18f</value>
-        </property>
-        <property>
-            <key>libsvmfile</key>
-            <value>REDDIT_DATA_BY_DOCUMENT_ReducedAndJoined</value>
-        </property>
-        <property>
-            <key>libsvmdir</key>
-            <value>/home/jake/ikodaApps/icpapp/rawdata/REDDIT_SENTENCE_2018-4-8_1523217981778</value>
-        </property>
-        <property>
-            <key>reddit201808bysentence</key>
-            <value>6512f5b2-9821-11e8-9eb6-529269fb1459</value>
-        </property>
-        <property>
-            <key>reddit201808bydocument</key>
-            <value>6512f21a-9821-11e8-9eb6-529269fb1459</value>
-        </property>
-    </configProperties>
+
 </configuration>

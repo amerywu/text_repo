@@ -18,7 +18,11 @@
 		<regions>Australia</regions>
 	</languagesForAnalysis> 
 
-	
+	<sendToES>true</sendToES>
+	<elasticSearchUser>elastic</elasticSearchUser>
+	<elasticSearchPassword>883-8177</elasticSearchPassword>
+	<elasticSearchUrl>192.168.0.141</elasticSearchUrl>
+	<elasticSearchPort>9200</elasticSearchPort>
     
 	<runNetio>true</runNetio>
 	<runFileio>true</runFileio>

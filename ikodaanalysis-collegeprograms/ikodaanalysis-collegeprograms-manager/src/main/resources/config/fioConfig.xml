@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationFileio>
-	<fileIoJobPostingPath>Z:\_filedump\redditTestDump\fioAccumulateAppend</fileIoJobPostingPath>
-	<fileIoXMLPath>Z:\_filedump\redditTestDump\_allXmlFiles</fileIoXMLPath>
-	<fileIoResultsPath>Z:\_filedump\redditTestDump\fio_</fileIoResultsPath>
-	<fileIoUndeterminedPath>Z:\_filedump\redditTestDump\fioUndetermined</fileIoUndeterminedPath>
-	<fileIoNonApplicablePath>Z:\_filedump\redditTestDump\fio_</fileIoNonApplicablePath>
-	<fileIoDonePath>Z:\_filedump\redditTestDump\_fioProcessedAndParked</fileIoDonePath>
-	<fileIoOutBoxPath>Z:\_filedump\redditTestDump\fioOutBox</fileIoOutBoxPath>
+	<fileIoJobPostingPath>D:\jake\filedump\reddit\fioAccumulateAppend</fileIoJobPostingPath>
+	<fileIoXMLPath>D:\jake\filedump\reddit\_allXmlFiles</fileIoXMLPath>
+	<fileIoResultsPath>D:\jake\filedump\reddit\fio_</fileIoResultsPath>
+	<fileIoUndeterminedPath>D:\jake\filedump\reddit\fioUndetermined</fileIoUndeterminedPath>
+	<fileIoNonApplicablePath>D:\jake\filedump\reddit\fio_</fileIoNonApplicablePath>
+	<fileIoDonePath>D:\jake\filedump\reddit\_fioProcessedAndParked</fileIoDonePath>
+	<fileIoOutBoxPath>D:\jake\filedump\reddit\fioOutBox</fileIoOutBoxPath>
 </configurationFileio>

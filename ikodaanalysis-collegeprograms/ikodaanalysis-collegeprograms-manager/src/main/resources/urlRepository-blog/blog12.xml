@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlrepository>
-	<urls> 
-		<url>https://www.reddit.com/r/ProductManagement/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
 <urls>
-		<url>https://www.reddit.com/r/Communications/new/</url>
+		<url>https://www.reddit.com/r/business/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Communications/comments</secondRoundLinks>
+		<secondRoundLinks>business/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -55,13 +28,67 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/Accounting/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
+		<secondRoundLinks>Accounting/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>https://www.reddit.com/r/Banking/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>Banking/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls> 
+	
+<urls>
+		<url>https://www.reddit.com/r/Economics/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>Economics/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -85,13 +112,11 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/socialmedia/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/RealEstate/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
+		<secondRoundLinks>RealEstate/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -115,14 +140,11 @@
 		
 	</urls>
 	
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/marketing/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/sales/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>marketing/comments</secondRoundLinks>
+		<secondRoundLinks>sales/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -146,13 +168,39 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/Kinesiology/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/ElectricalEngineering/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
+		<secondRoundLinks>ElectricalEngineering/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>https://www.reddit.com/r/AskEngineers/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>AskEngineers/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -176,71 +224,11 @@
 		
 	</urls>
 	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/matlab/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AskHR/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AskHR/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/humanresources/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>humanresources/comments</secondRoundLinks>
+		<secondRoundLinks>matlab/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>

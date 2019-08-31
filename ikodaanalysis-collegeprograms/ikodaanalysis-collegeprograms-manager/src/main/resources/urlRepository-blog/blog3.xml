@@ -3,9 +3,9 @@
 <urls>
 		<url>https://www.reddit.com/r/Physics/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Physics/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -31,9 +31,9 @@
 <urls>
 		<url>https://www.reddit.com/r/ChemicalEngineering/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>ChemicalEngineering/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -59,9 +59,9 @@
 <urls>
 		<url>https://www.reddit.com/r/CriminalJustice/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>CriminalJustice/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -87,9 +87,9 @@
 <urls>
 		<url>https://www.reddit.com/r/law/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>law/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -115,9 +115,9 @@
 <urls>
 		<url>https://www.reddit.com/r/ProtectAndServe/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>ProtectAndServe/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -143,9 +143,9 @@
 <urls>
 		<url>https://www.reddit.com/r/sociology/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>sociology/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -171,9 +171,9 @@
 <urls>
 		<url>https://www.reddit.com/r/business/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>business/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -199,9 +199,9 @@
 <urls>
 		<url>https://www.reddit.com/r/BusinessIntelligence/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>BusinessIntelligence/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>

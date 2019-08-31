@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlrepository>
-	<urls> 
-		<url>https://www.reddit.com/r/ProductManagement/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
 <urls>
-		<url>https://www.reddit.com/r/Communications/new/</url>
+		<url>https://www.reddit.com/r/Physics/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Communications/comments</secondRoundLinks>
+		<secondRoundLinks>Physics/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -55,13 +28,39 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/ChemicalEngineering/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
+		<secondRoundLinks>ChemicalEngineering/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	 
+<urls>
+		<url>https://www.reddit.com/r/CriminalJustice/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>CriminalJustice/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -85,13 +84,11 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/socialmedia/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/law/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
+		<secondRoundLinks>law/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -115,14 +112,39 @@
 		
 	</urls>
 	
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/marketing/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/ProtectAndServe/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>marketing/comments</secondRoundLinks>
+		<secondRoundLinks>ProtectAndServe/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+<urls>
+		<url>https://www.reddit.com/r/sociology/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>sociology/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -146,13 +168,11 @@
 		
 	</urls>
 	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/Kinesiology/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/business/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
+		<secondRoundLinks>business/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -176,12 +196,11 @@
 		
 	</urls>
 	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+<urls>
+		<url>https://www.reddit.com/r/BusinessIntelligence/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
+		<secondRoundLinks>BusinessIntelligence/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -205,62 +224,4 @@
 		
 	</urls>
 	
-	
-	<urls>
-		<url>https://www.reddit.com/r/AskHR/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AskHR/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/humanresources/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>humanresources/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
 </urlrepository>

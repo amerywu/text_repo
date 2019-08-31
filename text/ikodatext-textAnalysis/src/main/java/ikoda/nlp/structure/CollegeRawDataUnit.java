@@ -23,6 +23,7 @@ public class CollegeRawDataUnit
     
 
     private String website;
+    private String rawData;
     private String urlRepository;
     private String sourceIdentifier;
     private String category;
@@ -88,7 +89,15 @@ public class CollegeRawDataUnit
     
     
 
-    public String getUrlRepository()
+    public String getRawData() {
+		return rawData;
+	}
+
+	public void setRawData(String rawData) {
+		this.rawData = rawData;
+	}
+
+	public String getUrlRepository()
     {
         return urlRepository;
     }

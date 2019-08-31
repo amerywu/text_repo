@@ -3,9 +3,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/StudentNurse/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>StudentNurse/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -31,9 +31,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/ECEProfessionals/new/</url> 
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>ECEProfessionals/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -59,9 +59,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/specialed/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>specialed/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -86,9 +86,9 @@
 <urls>
 		<url>https://www.reddit.com/r/Teachers/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Teachers/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -116,9 +116,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/teachingresources/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>teachingresources/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -144,9 +144,9 @@
 <urls>
 		<url>https://www.reddit.com/r/architecture/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>architecture/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -174,9 +174,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/pmp/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>pmp/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -201,9 +201,9 @@
 <urls>
 		<url>https://www.reddit.com/r/prodmgmt/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>prodmgmt/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>

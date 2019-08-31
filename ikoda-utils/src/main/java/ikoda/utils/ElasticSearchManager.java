@@ -1,5 +1,7 @@
 package ikoda.utils;
 
+import java.io.IOException;
+
 import org.apache.logging.log4j.Logger;
 import org.elasticsearch.action.index.IndexRequest;
 import org.elasticsearch.client.RequestOptions;
@@ -7,6 +9,8 @@ import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.client.indices.CreateIndexRequest;
 import org.elasticsearch.client.indices.CreateIndexResponse;
 import org.elasticsearch.action.index.IndexResponse;
+import org.elasticsearch.action.search.SearchRequest;
+import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.indices.GetIndexRequest;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.xcontent.XContentBuilder;
@@ -57,6 +61,11 @@ public class ElasticSearchManager {
 		} catch (Exception e) {
 			throw new IKodaUtilsException(e.getMessage(), e);
 		}
+	}
+	
+	public SearchResponse  search(SearchRequest searchRequest) throws IOException, IKodaUtilsException {
+		return ElasticSearchClientFactory.getInstance().client().search(searchRequest, RequestOptions.DEFAULT);
+		
 	}
 
 	public void addDocument(XContentBuilder builder, String indexName) {

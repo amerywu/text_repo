@@ -1,158 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlrepository>
-	<urls> 
-		<url>https://www.reddit.com/r/ProductManagement/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-<urls>
-		<url>https://www.reddit.com/r/Communications/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Communications/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
+
+
+
 	<urls>
-		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+		<url>https://www.reddit.com/r/datascience/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/socialmedia/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/marketing/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>marketing/comments</secondRoundLinks>
-		
-		<propertyMap>
-			<property>
-				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
-				<value>false</value>
-			</property>
-			<property>
-				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>true</value>
-			</property>
-			
-			<property>
-				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
-				<value>true</value>
-			</property>
-			<property>
-				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
-				<value>false</value>
-			</property>
-		</propertyMap>
-		
-	</urls>
-	
-	
-	
-	<urls>
-		<url>https://www.reddit.com/r/Kinesiology/new/</url>
-		<website>REDDIT</website>
-        <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
+		<secondRoundLinks>datascience/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -178,10 +33,10 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+		<url>https://www.reddit.com/r/java/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
+		<secondRoundLinks>java/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -204,13 +59,12 @@
 		</propertyMap>
 		
 	</urls>
-	
 	
 	<urls>
-		<url>https://www.reddit.com/r/AskHR/new/</url>
+		<url>https://www.reddit.com/r/Illustration/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>AskHR/comments</secondRoundLinks>
+		<secondRoundLinks>Illustration/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -233,14 +87,12 @@
 		</propertyMap>
 		
 	</urls>
-	
-	
 	
 	<urls>
-		<url>https://www.reddit.com/r/humanresources/new/</url>
+		<url>https://www.reddit.com/r/graphic_design/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
-		<secondRoundLinks>humanresources/comments</secondRoundLinks>
+		<secondRoundLinks>graphic_design/comments</secondRoundLinks>
 		
 		<propertyMap>
 			<property>
@@ -263,4 +115,149 @@
 		</propertyMap>
 		
 	</urls>
+	
+	<urls>
+		<url>https://www.reddit.com/r/Design/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>Design/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+
+	<urls>
+		<url>https://www.reddit.com/r/Teachers/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>Teachers/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	<urls>
+		<url>https://www.reddit.com/r/education/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>education/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>	
+	<urls>
+		<url>https://www.reddit.com/r/compsci/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>compsci/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>		
+
+	<urls>
+		<url>https://www.reddit.com/r/engineering/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>engineering/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>		
+
+
+
 </urlrepository>
+
+
+

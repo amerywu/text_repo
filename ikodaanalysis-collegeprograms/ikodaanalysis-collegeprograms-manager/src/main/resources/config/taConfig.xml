@@ -11,9 +11,9 @@
 	<columnsToExcludeFromLibSvm>LEMMATIZEDSENTENCE</columnsToExcludeFromLibSvm>
 	<columnsToExcludeFromLibSvm>RAWSENTENCE</columnsToExcludeFromLibSvm>
 	<targetColumnName>aa_label</targetColumnName>
-    <textAnalysisDonePath>Z:\_filedump\redditTestDump\TASuccess</textAnalysisDonePath>
-    <textAnalysisFailedPath>Z:\_filedump\redditTestDump\TAFail</textAnalysisFailedPath>
-    <csvPath>Z:\_filedump\redditTestDump</csvPath>
+    <textAnalysisDonePath>D:\jake\filedump\reddit\TASuccess</textAnalysisDonePath>
+    <textAnalysisFailedPath>D:\jake\filedump\reddit\TAFail</textAnalysisFailedPath>
+    <csvPath>D:\jake\filedump\reddit\</csvPath>
     <collectPartOfSpeech>true</collectPartOfSpeech>
     <convertToLemmas>true</convertToLemmas>
     <preventSentenceDuplicates>true</preventSentenceDuplicates>

@@ -8,7 +8,8 @@ import org.elasticsearch.common.xcontent.XContentFactory;
 
 public class EsJson {
 	
-	public final static String JOBS_INDEX_NAME = "job-descriptions-index";
+    public final static String JOBS_INDEX_NAME = "job-descriptions-index";
+    public final static String REDDIT_INDEX_NAME = "reddit-posts-index";
 	public final static String POSSIBLE_PHRASES_INDEX_NAME = "possible-phrases-index";
 
 	public static XContentBuilder jobsIndexJson() throws Exception {
@@ -119,7 +120,46 @@ public class EsJson {
 		builder.endObject();
 		return builder;
 	}
-	
+	public static XContentBuilder redditIndexJson() throws Exception {
+		XContentBuilder builder = XContentFactory.jsonBuilder();
+		builder.startObject();
+		{
+			builder.startObject("properties");
+			{
+
+				builder.startObject("category");
+				{
+					builder.field("type", "keyword");
+				}
+				builder.endObject();
+				builder.startObject("content");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("doc_id");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				builder.startObject("doc_url");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+				
+				
+				builder.startObject("created");
+				{
+					builder.field("type", "date");
+				}
+				builder.endObject();
+			}
+			builder.endObject();
+		}
+		builder.endObject();
+		return builder;	
+}
 	
 	public static XContentBuilder possiblePhrasesIndexJson() throws Exception {
 		XContentBuilder builder = XContentFactory.jsonBuilder();

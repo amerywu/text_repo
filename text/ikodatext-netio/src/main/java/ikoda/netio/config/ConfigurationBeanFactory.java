@@ -194,10 +194,6 @@ public class ConfigurationBeanFactory
 							new ConfigurationBeanForTextAnalysis_Reddit(),
 							InterfaceConfigurationBeanParent.FILENAME_TEXTANALYSIS);
 					config.setTaConfig(taConfig);
-					InterfaceConfigurationBeanPersist pConfig = (InterfaceConfigurationBeanPersist) getConfigBeanChild(
-							new ConfigurationBeanForPersistence_JobDescriptionAnalysis(),
-							InterfaceConfigurationBeanParent.FILENAME_PERSISTENCE);
-					config.setPersistConfig(pConfig);
 					return config;
 				}
 				else if (beanType.equals(InterfaceConfigurationBeanParent.JOB_DESCRIPTION_ANALYSIS_CONFIGURATION))

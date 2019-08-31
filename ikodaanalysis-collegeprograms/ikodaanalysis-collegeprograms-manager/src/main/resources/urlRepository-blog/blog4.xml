@@ -3,9 +3,9 @@
 <urls>
 		<url>https://www.reddit.com/r/business/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>business/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -31,9 +31,9 @@
 <urls>
 		<url>https://www.reddit.com/r/Accounting/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Accounting/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -59,9 +59,9 @@
 <urls>
 		<url>https://www.reddit.com/r/Banking/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Banking/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -87,9 +87,9 @@
 <urls>
 		<url>https://www.reddit.com/r/Economics/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Economics/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -115,9 +115,9 @@
 <urls>
 		<url>https://www.reddit.com/r/RealEstate/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>RealEstate/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -143,9 +143,9 @@
 <urls>
 		<url>https://www.reddit.com/r/sales/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>sales/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -171,9 +171,9 @@
 <urls>
 		<url>https://www.reddit.com/r/ElectricalEngineering/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>ElectricalEngineering/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -199,9 +199,9 @@
 <urls>
 		<url>https://www.reddit.com/r/AskEngineers/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>AskEngineers/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -227,9 +227,9 @@
 <urls>
 		<url>https://www.reddit.com/r/matlab/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>matlab/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>

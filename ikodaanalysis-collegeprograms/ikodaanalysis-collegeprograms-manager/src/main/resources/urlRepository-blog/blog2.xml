@@ -4,9 +4,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/math/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>math/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -32,9 +32,9 @@
 		<urls>
 		<url>https://www.reddit.com/r/AskSocialScience/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>AskSocialScience/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -61,9 +61,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/socialscience/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>socialscience/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -88,9 +88,9 @@
 <urls>
 		<url>https://www.reddit.com/r/geospatial/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>geospatial/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -116,9 +116,9 @@
 <urls>
 		<url>https://www.reddit.com/r/logistics/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>logistics/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -144,9 +144,9 @@
 <urls>
 		<url>https://www.reddit.com/r/civilengineering/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>civilengineering/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -173,9 +173,9 @@
 <urls>
 		<url>https://www.reddit.com/r/finance/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>finance/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -201,9 +201,9 @@
 <urls>
 		<url>https://www.reddit.com/r/science/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>science/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -229,9 +229,9 @@
 <urls>
 		<url>https://www.reddit.com/r/biology/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>biology/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -257,9 +257,9 @@
 <urls>
 		<url>https://www.reddit.com/r/labrats/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>labrats/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>

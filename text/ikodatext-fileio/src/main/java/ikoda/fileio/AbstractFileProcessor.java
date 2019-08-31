@@ -26,12 +26,8 @@ import ikoda.utils.StaticSundryUtils;
 
 public abstract class AbstractFileProcessor
 {
-
-
 	public final static String TAGDELIMITER = "__";
-
 	protected final static String XML = "xml_";
-
 	protected final static String MAIN = "test";
 	protected static String RESULTS_PAGE = "/jobs?";
 	protected static String JOB_POSTING = "/pagead/";
@@ -89,6 +85,8 @@ public abstract class AbstractFileProcessor
         outString = outString.replace("...", ".");
         outString = outString.replace("7u8e4", "|[");
         outString = outString.replace("7u8e5", "]|");
+        
+        
         char grave = 96;
         char apostrophe = 39;
         outString = outString.replace(grave, apostrophe);
@@ -97,10 +95,9 @@ public abstract class AbstractFileProcessor
         outString = outString.replace("\\", " ");
         outString = outString.replace("/", " ");
         outString = outString.replace(";", ".");
-
         return outString;
-
     }
+    
 	protected String extractTextFromPdf(Path p)
 	{
 
@@ -323,22 +320,18 @@ public abstract class AbstractFileProcessor
 				try
 				{
 					FioLog.getLogger().debug("got lock: " + fromFile.toString());
-
 					if (!Files.exists(Paths.get(toDir)))
 					{
 						Files.createDirectories(Paths.get(toDir));
 					}
-
 					Path TO = Paths
 							.get(toDir + File.separator + tagString(fileNameTags) + fromFile.getFileName().toString());
 					// overwrite existing file, if exists
 					FioLog.getLogger().debug("copying");
-
 					CopyOption[] options = new CopyOption[]
 					{ StandardCopyOption.REPLACE_EXISTING, StandardCopyOption.COPY_ATTRIBUTES };
 					Files.copy(fromFile, TO, options);
 					FioLog.getLogger().debug("done");
-
 				}
 				catch (Exception e)
 				{
@@ -479,8 +472,6 @@ public abstract class AbstractFileProcessor
 		}
 	}
 
-
-	////////////////
 
 	protected String tagString(List<String> tags)
 	{

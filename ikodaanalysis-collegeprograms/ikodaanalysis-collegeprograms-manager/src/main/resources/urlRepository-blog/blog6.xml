@@ -3,9 +3,9 @@
 <urls>
 		<url>https://www.reddit.com/r/environmental_science/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>environmental_science/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -31,9 +31,9 @@
 <urls>
 		<url>https://www.reddit.com/r/EarthScience/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>EarthScience/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -59,9 +59,9 @@
 <urls>
 		<url>https://www.reddit.com/r/climate/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>climate/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -87,9 +87,9 @@
 <urls>
 		<url>https://www.reddit.com/r/nursing/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -115,9 +115,9 @@
 <urls>
 		<url>https://www.reddit.com/r/MedicalAssistant/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>MedicalAssistant/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -145,9 +145,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/emergencymedicine/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>emergencymedicine/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -173,9 +173,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/pharmacy/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>pharmacy/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
@@ -201,9 +201,9 @@
 	<urls>
 		<url>https://www.reddit.com/r/respiratorytherapy/new/</url>
 		<website>REDDIT</website>
-        <firstRoundLinks>/?count=</firstRoundLinks>
+        <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>respiratorytherapy/comments</secondRoundLinks>
-		<secondRoundLinks>*</secondRoundLinks>
+		
 		<propertyMap>
 			<property>
 				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>

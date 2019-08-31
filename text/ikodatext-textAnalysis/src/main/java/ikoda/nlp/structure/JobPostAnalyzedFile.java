@@ -859,8 +859,6 @@ public class JobPostAnalyzedFile extends AnalyzedFile
             analyzeFailedRun();
         }
         
-
-
         return saved;
     }
     

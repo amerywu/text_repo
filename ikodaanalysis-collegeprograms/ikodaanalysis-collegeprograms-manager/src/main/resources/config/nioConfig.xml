@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <configurationNetio>
-    <urlRepository>Z:\_fd\_filedump_reddit\urlRepository</urlRepository>
-    <netIoDumpPath>Z:\_filedump\redditTestDump\nioRedditOutput</netIoDumpPath>
-    <netIoAccumulatorPath>Z:\_filedump\redditTestDump\nioRedditOutput</netIoAccumulatorPath>
-    <maxCallsRoundOne>50</maxCallsRoundOne>
-    <maxCallsRoundTwo>50</maxCallsRoundTwo>
+    <urlRepository>D:\jake\_urlrepo-reddit\urlRepository</urlRepository>
+    <netIoDumpPath>D:\jake\filedump\reddit\nioRedditOutput</netIoDumpPath>
+    <netIoAccumulatorPath>D:\jake\filedump\reddit\nioRedditOutput</netIoAccumulatorPath>
+    <maxCallsRoundOne>5</maxCallsRoundOne>
+    <maxCallsRoundTwo>200</maxCallsRoundTwo>
     <maxCallsRoundThree>0</maxCallsRoundThree>
     <maxCallsRoundFour>0</maxCallsRoundFour>
-    <netioMinimumCycleInMinutes>34689</netioMinimumCycleInMinutes>
+    <netioMinimumCycleInMinutes>5760</netioMinimumCycleInMinutes>
     <netioRunInCycle>false</netioRunInCycle>
     
     
@@ -27,6 +27,7 @@
         <linksForUniversalIgnore>reddit.com/rules/</linksForUniversalIgnore>
         <linksForUniversalIgnore>reddithelp.com</linksForUniversalIgnore>
         <linksForUniversalIgnore>reddit.com/wiki/</linksForUniversalIgnore>
+        <linksForUniversalIgnore>redditstatic</linksForUniversalIgnore>
         <linksForUniversalIgnore>/help/healthycommunities/</linksForUniversalIgnore>
         <linksForUniversalIgnore>reddit.com/contact</linksForUniversalIgnore>
         <linksForUniversalIgnore>reddit-the-official-app</linksForUniversalIgnore>

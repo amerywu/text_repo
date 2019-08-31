@@ -19,12 +19,24 @@ public class Reddit extends AbstractWebSite
 {
 
 	private static Map<String, String> uniqueTopBranchMap = new HashMap<String, String>();
+	private final static String SLASH= "/";
+	private final static String BAR= "|";
 	private Integer spiderId;
 	StringBuilder sb = new StringBuilder();
 
 	public Reddit()
 	{
 
+	}
+	
+	private String getCategory(String uri) {
+		int idx = uri.lastIndexOf(SLASH);
+		if(idx > 0) {
+			return uri.substring(0,idx).replace(SLASH, BAR);
+		} else
+		{
+			return uri.replace(SLASH, BAR);
+		}
 	}
 
 	protected String generatePromulgationString(Document content, UrlSrc thisUrl, int round)
@@ -39,27 +51,15 @@ public class Reddit extends AbstractWebSite
 			titleText = title.text();
 			if (round == 1)
 			{
-				String tbid = "";
-				if (null != titleText)
-				{
-					tbid = titleText.replaceAll("[^A-Za-z0-9]", "");
-				}
-				else
-				{
-					tbid = String.valueOf(UUID.randomUUID());
-				}
 
 				returnString = StringConstantsInterface.SPIDERTAG_HOST_OPEN + thisUrl.getHostAsString()
-						+ StringConstantsInterface.SPIDERTAG_HOST_CLOSE + StringConstantsInterface.SPIDERTAG_URI_OPEN
+						+ StringConstantsInterface.SPIDERTAG_HOST_CLOSE + 
+						StringConstantsInterface.SPIDERTAG_URI_OPEN
 						+ thisUrl.getUriAsString() + StringConstantsInterface.SPIDERTAG_URI_CLOSE
-						+ StringConstantsInterface.SPIDERTAG_CATEGORY + titleText
-						+ StringConstantsInterface.SPIDERTAG_CATEGORY_CLOSE
-						+ StringConstantsInterface.SPIDERTAG_TBID_OPEN + tbid
-						+ StringConstantsInterface.SPIDERTAG_TBID_CLOSE
-						+ StringConstantsInterface.SPIDERTAG_WEBSITE_OPEN + thisUrl.getWebSiteName()
-						+ StringConstantsInterface.SPIDERTAG_WEBSITE_CLOSE
-						+ StringConstantsInterface.SPIDERTAG_URLREPOSITORY_OPEN + thisUrl.getUrlRepository()
-						+ StringConstantsInterface.SPIDERTAG_URLREPOSITORY_CLOSE;
+						+ StringConstantsInterface.SPIDERTAG_CATEGORY + getCategory(thisUrl.getUriAsString())+ StringConstantsInterface.SPIDERTAG_CATEGORY_CLOSE
+						+ StringConstantsInterface.SPIDERTAG_TBID_OPEN + thisUrl.getUriAsString().replace(SLASH, BAR)+ StringConstantsInterface.SPIDERTAG_TBID_CLOSE
+						+ StringConstantsInterface.SPIDERTAG_WEBSITE_OPEN + thisUrl.getWebSiteName()+ StringConstantsInterface.SPIDERTAG_WEBSITE_CLOSE
+						+ StringConstantsInterface.SPIDERTAG_URLREPOSITORY_OPEN + thisUrl.getUrlRepository()+ StringConstantsInterface.SPIDERTAG_URLREPOSITORY_CLOSE;
 			}
 			if (round == 2)
 			{
@@ -125,7 +125,8 @@ public class Reddit extends AbstractWebSite
 		String linkHref = le.attr("href");
 		if (linkHref.startsWith("http"))
 		{
-			NioLog.getLogger().debug("processRedditCall " + linkHref);
+			//NioLog.getLogger().debug("processRedditCall " + linkHref);
+			
 			return linkHref;
 		}
 		else
@@ -146,7 +147,7 @@ public class Reddit extends AbstractWebSite
 
 			for (Element le : content.getAllElements())
 			{
-				NioLog.getLogger().trace("Looking at "+le.attr("href"));
+				//NioLog.getLogger().trace("Looking at "+le.attr("href"));
 
 				//////////////////////////////////////////////////
 				
@@ -159,7 +160,7 @@ public class Reddit extends AbstractWebSite
 							
 							
 							nextRoundCall.add(newUrlSrc);
-			
+							//NioLog.getLogger().debug("\nr1ProcessNextRoundCalls Created nextRoundCall: " + newUrlSrc.getUrl());
 							sb.append("\nr1ProcessNextRoundCalls Created nextRoundCall: " + newUrlSrc.getUrl());
 							nextRoundAdd++;
 						}
@@ -172,7 +173,7 @@ public class Reddit extends AbstractWebSite
 			// div-------\r\n\r\n");
 
 			sb.append("\n\nNext round added: " + nextRoundAdd + "\n\nSkipped as Duplicate: " + skippedAsDuplicate);
-			NioLog.getLogger().debug("%%%%%%%%%%Round 1 nextRound calls  " + printCalls(nextRoundCall));
+			//NioLog.getLogger().debug("%%%%%%%%%%Round 1 nextRound calls  " + printCalls(nextRoundCall));
 			return thisURL.getPromulgatedData();
 		}
 		catch (Exception e)
@@ -193,26 +194,31 @@ public class Reddit extends AbstractWebSite
 		// NioLog.getLogger().debug("attr incl
 		// href"+content.getElementsByAttributeStarting("href").toString());
 
-		Elements elements1 = content.getElementsByAttributeStarting("href");
 
-		for (Element link : elements1)
+		Elements elements1 = content.getElementsByAttribute("link rel");
+        NioLog.getLogger().debug("elements1 " + elements1.size());
+        for (Element le : content.getAllElements())
 		{
-
-			// NioLog.getLogger().debug("\n\nLink is "+link.toString());
-
-			UrlSrc newUrlSrc = processCall(processRedditCall(link, thisURL), thisURL, thisURL.getFirstRoundLinks(),
-					thisURL.getFirstRoundIgnore(), 1);
-
-			if (null == newUrlSrc)
-			{
-				// NioLog.getLogger().debug("Skipping ");
-
-				continue;
-			}
-
-			NioLog.getLogger().debug("\nAdding this round " + link.toString());
-
-			upComingCalls.add(newUrlSrc);
+        	if(le.hasAttr("href"))
+        	{	
+        		Element link = le;
+				//NioLog.getLogger().debug("\n\nLink is "+link.toString());
+	
+				UrlSrc newUrlSrc = processCall(processRedditCall(link, thisURL), thisURL, thisURL.getFirstRoundLinks(),
+						thisURL.getFirstRoundIgnore(), 1);
+	
+				if (null == newUrlSrc)
+				{
+					// NioLog.getLogger().debug("Skipping ");
+	
+					continue;
+				}
+	
+				//NioLog.getLogger().debug("\nAdding this round " + link.toString());
+				sb.append("\nr1r1ProcessUpcomingCalls Created thisRoundCall: " + newUrlSrc.getUrl());
+				thisRoundAdd++;
+				upComingCalls.add(newUrlSrc);
+        	}
 			
 
 		}

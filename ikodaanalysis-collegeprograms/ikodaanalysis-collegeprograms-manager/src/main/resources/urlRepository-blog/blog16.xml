@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <urlrepository>
 	<urls> 
-		<url>https://www.reddit.com/r/ProductManagement/new/</url>
+		<url>https://www.reddit.com/r/ProductManagement/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>ProductManagement/comments</secondRoundLinks>
@@ -28,7 +28,7 @@
 		
 	</urls>
 <urls>
-		<url>https://www.reddit.com/r/Communications/new/</url>
+		<url>https://www.reddit.com/r/Communications/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Communications/comments</secondRoundLinks>
@@ -58,7 +58,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/PublicRelations/new/</url>
+		<url>https://www.reddit.com/r/PublicRelations/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>PublicRelations/comments</secondRoundLinks>
@@ -88,7 +88,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/socialmedia/new/</url>
+		<url>https://www.reddit.com/r/socialmedia/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>socialmedia/comments</secondRoundLinks>
@@ -119,7 +119,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/marketing/new/</url>
+		<url>https://www.reddit.com/r/marketing/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>marketing/comments</secondRoundLinks>
@@ -149,7 +149,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/Kinesiology/new/</url>
+		<url>https://www.reddit.com/r/Kinesiology/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>Kinesiology/comments</secondRoundLinks>
@@ -178,7 +178,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/AdvancedFitness/new/</url>
+		<url>https://www.reddit.com/r/AdvancedFitness/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
@@ -207,7 +207,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/AskHR/new/</url>
+		<url>https://www.reddit.com/r/AskHR/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>AskHR/comments</secondRoundLinks>
@@ -237,7 +237,7 @@
 	
 	
 	<urls>
-		<url>https://www.reddit.com/r/humanresources/new/</url>
+		<url>https://www.reddit.com/r/humanresources/controversial/</url>
 		<website>REDDIT</website>
         <firstRoundLinks>/?after=</firstRoundLinks>
 		<secondRoundLinks>humanresources/comments</secondRoundLinks>

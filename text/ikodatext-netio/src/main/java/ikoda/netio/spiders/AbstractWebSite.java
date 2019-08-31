@@ -256,29 +256,36 @@ public abstract class AbstractWebSite
 			boolean requireAll = thisURL.getPropertyMap().getAsBoolean(UrlSrc._REQUIRE_ALL_LINK_CRITERIA, round);
 			boolean asRestful = thisURL.getPropertyMap().getAsBoolean(UrlSrc._AS_RESTFUL);
 
-			// NioLog.getLogger().debug("Round "+ round+" looking at raw link "+linkHref);
+			//NioLog.getLogger().debug("Round "+ round+" looking at raw link "+linkHref);
+			//NioLog.getLogger().debug("Round "+ round+" links "+links);
+			//NioLog.getLogger().debug("Round "+ round+" ignore "+ignore);
 
 			boolean isTargetLink = false;
 			linkHref = processUrl(thisURL, linkHref, round);
-			// NioLog.getLogger().debug(" looking at processed link "+linkHref);
+			//NioLog.getLogger().debug(" looking at processed link "+linkHref);
 			if (asRestful)
 			{
+				//NioLog.getLogger().debug(" asRestful ");
 				isTargetLink = linkIsRestful(linkHref, thisURL, ignore, restfulDepth);
 			}
 			else if (requireAll)
 			{
+				//NioLog.getLogger().debug(" requireAll ");
 				isTargetLink = linkContainsAll(linkHref, links, ignore, thisURL.getUrlAndUriAsString(), round);
 			}
 			else
 			{
+				//NioLog.getLogger().debug(" requireOne ");
 				isTargetLink = linkContainsEither(linkHref, links, ignore, thisURL.getUrlAndUriAsString(),round);
 			}
 
 			if (isTargetLink)
 			{
+				//NioLog.getLogger().debug(" isTargetLink " + isTargetLink);
 
 				return processTargetLink(linkHref, thisURL, round);
 			}
+			//NioLog.getLogger().debug(" isTargetLink " + isTargetLink);
 			return null;
 		}
 		catch (Exception e)
