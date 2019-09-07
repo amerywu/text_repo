@@ -67,6 +67,8 @@ public class CollegeAnalysisThread extends CollegeAnalysisCoordinator {
 						new Integer(config.getElasticSearchPort()).intValue());
 				ElasticSearchManager.getInstance().createIndexIfNotExisting(EsJson.REDDIT_INDEX_NAME,
 						EsJson.redditIndexJson());
+				ElasticSearchManager.getInstance().createIndexIfNotExisting(ES_LOG_INDEX,
+						ElasticSearchManager.logIndexJson());
 			}
 
 			if (config.isElegantStop()) {

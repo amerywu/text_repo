@@ -22,7 +22,7 @@
     <projectPrefix>reddit_</projectPrefix>
     <targetColumnName>aa_label</targetColumnName>
 
-    <maxNumberOfDocuments>1000</maxNumberOfDocuments>
+    <maxNumberOfDocuments>10000000</maxNumberOfDocuments>
     <maxFileLength>1000000</maxFileLength>
     <minFileLength>1100</minFileLength>
     <taThreadCount>1</taThreadCount>

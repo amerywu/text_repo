@@ -59,6 +59,8 @@ public class JobPostAnalyzedFile extends AnalyzedFile
     private final static String LEARN = "LEARN MORE";
     private final static String VISIT = "VISIT";
     private final static String EMPLOYMENT = "EMPLOYMENT";
+    private final static String ENTITLEMENT = "ENTITLEMENT";
+    private final static String DISABILITY = "DISABILITY";
     private final static String NAVIGATION = "NAVIGATION";
     private final static String RACE = "RACE";
     private final static String SEARCH = "SEARCH";
@@ -74,7 +76,7 @@ public class JobPostAnalyzedFile extends AnalyzedFile
     private static String[] uidIgnoreWords = { HTTP, COPYRIGHT, RIGHTRESERVED, GENDER, ETHNICITY, ETHNIC, INDEED,
             EQUAL_OPPORTUNITY, EQUAL, INTERVIEW, SIMPLYHIRED, CAREERBUILDER, PRIVACY, APPLY, SOCIAL_SECURITY,
             ELIGIBILITY, ELIGIBLE, TERMS_CONDITIONS, LEARN, VISIT, EMPLOYMENT, NAVIGATION, RACE, SEARCH,
-            QUALITY_RESULTS };
+            QUALITY_RESULTS,ENTITLEMENT,DISABILITY };
 
     private static String[] jobTitleTrim = { JOB_TITLE_TRIM1, JOB_TITLE_TRIM2, JOB_TITLE_TRIM3 };
 
@@ -102,6 +104,26 @@ public class JobPostAnalyzedFile extends AnalyzedFile
         }
         TALog.getLogger().debug(contentType + "   |    AnalyzedFile:  " + id);
         // TODO Auto-generated constructor stub
+    }
+    
+    private boolean comparableSalary(String value) {
+    	try
+    	{
+    		double salary = Double.parseDouble(value);
+    		double extantSalary = Double.parseDouble(salaryStartRange);
+    		if(salary > (extantSalary * 1.1)) {
+    			return false;
+    		}
+    		if (extantSalary > (salary * 1.1))
+    		{
+    			return false;
+    		}
+    		return true;
+    	}
+    	catch(Exception e) {
+    		TALog.getLogger().warn("comparableSalary error      "+ e.getMessage());
+    		return false;
+    	}
     }
 
     @Override
@@ -153,11 +175,19 @@ public class JobPostAnalyzedFile extends AnalyzedFile
             /// it wrong
             if (salaryStartRange.length() > 0)
             {
-                if (contentType.equals(StringConstantsInterface.JOBPOSTING_LABEL))
+            	
+            	
+            	if (contentType.equals(StringConstantsInterface.JOBPOSTING_LABEL))
                 {
-                    salaryStartRange = "-1";
-                    itoken.setValue("-1");
-                    TALog.getLogger().warn("Second salary value. I'm confused, ergo resetting to -1");
+            		if(comparableSalary(itoken.getValue()))
+                	{
+                		salaryStartRange = itoken.getValue();
+                	}
+            		else {
+	                    salaryStartRange = "-1";
+	                    itoken.setValue("-1");
+	                    TALog.getLogger().warn("Second salary value. I'm confused, ergo resetting to -1");
+            		}
 
                     return true;
                 }
@@ -175,10 +205,15 @@ public class JobPostAnalyzedFile extends AnalyzedFile
             {
                 if (contentType.equals(StringConstantsInterface.JOBPOSTING_LABEL))
                 {
-                    salaryEndRange = "-1";
-                    itoken.setValue("-1");
-                    TALog.getLogger().warn("Second salary value. I'm confused, ergo resetting to -1");
-
+                	if(comparableSalary(itoken.getValue()))
+                	{
+                		salaryStartRange = itoken.getValue();
+                	}
+                	else {
+	                    salaryEndRange = "-1";
+	                    itoken.setValue("-1");
+	                    TALog.getLogger().warn("Second salary value. I'm confused, ergo resetting to -1");
+                	}
                     return true;
                 }
             }
@@ -880,6 +915,21 @@ public class JobPostAnalyzedFile extends AnalyzedFile
 
     }
     
+    private String generateUid(InfoBox ib) {
+    	StringBuilder sb = new StringBuilder();
+    	sb.append(ib.getInfoBoxUID().hashCode());
+    	sb.append(ib.getJobFinal());
+    	sb.append(ib.getDetailLevel());
+    	sb.append(ib.getLocation().hashCode());
+    	return sb.toString();
+    	
+    }
+    
+	private boolean isExisting(String uid) {
+		return ElasticSearchManager.getInstance().documentExists(EsJson.JOBS_INDEX_NAME, uid);
+
+	}
+    
 	private boolean dispatchToES(InfoBox ib) {
 		try {
 			XContentBuilder builder = XContentFactory.jsonBuilder();
@@ -906,7 +956,17 @@ public class JobPostAnalyzedFile extends AnalyzedFile
 				builder.field("created", System.currentTimeMillis());
 			}
 			builder.endObject();
-			ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME);
+			
+			String uid = generateUid(ib);
+			TALog.getLogger().info("infobox_uid = "+ ib.getInfoBoxUID());
+			TALog.getLogger().info("uid = "+ uid);
+			if(!isExisting(uid)) {
+				ElasticSearchManager.getInstance().addDocument(builder, EsJson.JOBS_INDEX_NAME,uid);
+				ProcessStatus.incrementStatus("TA Doc Created");
+			}
+			else {
+				ProcessStatus.incrementStatus("TA Doc Exists");
+			}
 
 			return true;
 		} catch (Exception e) {

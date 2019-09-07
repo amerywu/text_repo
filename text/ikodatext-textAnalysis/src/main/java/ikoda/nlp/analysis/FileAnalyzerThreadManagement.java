@@ -11,7 +11,7 @@ public abstract class FileAnalyzerThreadManagement extends Thread
 	protected long fileProcessStartTime;
 	protected boolean ready = false;
 	protected int sleepTime = 1000;
-	protected int baseSleepTime = 1000;
+	protected int baseSleepTime = 100;
 	protected static boolean stopDependsOnFileio;
 	protected static boolean upstreamThreadDone = true;
 	protected int threadId = 0;

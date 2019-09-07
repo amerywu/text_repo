@@ -4,7 +4,7 @@
 		<Console name="Console" target="SYSTEM_OUT">
 			<PatternLayout pattern="%d{HH:mm:ss.SSS}   %-5level %logger{36} - %msg%n" />
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</Console>
 		<File name="jcAppender" fileName="./logs/jc.log" append="false">
@@ -20,7 +20,7 @@
 				<Pattern>%d %p %C %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 		<File name="FileAppender" fileName="./logs/ikoda.log" append="false">
@@ -28,7 +28,7 @@
 				<Pattern>%d %p %C %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 		<File name="fioAppender" fileName="./logs/fio.log" append="false">
@@ -45,7 +45,7 @@
 				<Pattern>%d %p %C %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 
@@ -62,7 +62,7 @@
 				<Pattern>%d %p %C %m%n</Pattern>
 			</PatternLayout>
 			<Filters>
-				<ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY" />
+				<ThresholdFilter level="info" onMatch="ACCEPT" onMismatch="DENY" />
 			</Filters>
 		</File>
 		<File name="persistenceReportingAppender" fileName="./logs/persistenceReporting.log" append="false">
@@ -82,24 +82,24 @@
 
 <!-- #################################################################### -->
 	<Loggers>
-		<Root level="debug">
+		<Root level="info">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="RootFileAppender" />
 		</Root>
 
-		<Logger name="ikoda" level="debug" additivity="false">
+		<Logger name="ikoda" level="info" additivity="false">
 			<AppenderRef ref="FileAppender" />
 		</Logger>
 
 
-		<Logger name="ikoda.netio" level="debug" additivity="false">
+		<Logger name="ikoda.netio" level="info" additivity="false">
 			<AppenderRef ref="nioAppender" />
 		</Logger>
-		<Logger name="ikoda.jobcollection" level="debug" additivity="true">
+		<Logger name="ikoda.jobcollection" level="info" additivity="true">
             <AppenderRef ref="Console" />
 			<AppenderRef ref="jcAppender" /> 
 		</Logger>
-		<Logger name="ikoda.collegeanalysis" level="debug" additivity="false">
+		<Logger name="ikoda.collegeanalysis" level="info" additivity="false">
 			<AppenderRef ref="collegeAnalysisAppender" />
 		</Logger>
 				<Logger name="ikoda.fileio" level="info" additivity="false">
@@ -113,11 +113,11 @@
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="persistenceAppender" />
 		</Logger>
-		<Logger name="ikoda.persistencechores" level="debug" additivity="true">
+		<Logger name="ikoda.persistencechores" level="info" additivity="true">
 			<AppenderRef ref="Console" />
 			<AppenderRef ref="persistenceAppender" />
 		</Logger>
-		<Logger name="ikoda.persistencereporting" level="debug"
+		<Logger name="ikoda.persistencereporting" level="info"
 			additivity="false">
 			<AppenderRef ref="persistenceReportingAppender" />
 		</Logger>
@@ -125,10 +125,10 @@
 			additivity="false">
 			<AppenderRef ref="persistenceReportingAppender" />
 		</Logger>
-		<Logger name="ikoda.test" level="debug" additivity="false">
+		<Logger name="ikoda.test" level="info" additivity="false">
 			<AppenderRef ref="FileAppender" />
 		</Logger>
-		<Logger name="jake.app" level="debug" additivity="false">
+		<Logger name="jake.app" level="info" additivity="false">
 			<AppenderRef ref="FileAppender" />
 		</Logger> 
 	</Loggers>

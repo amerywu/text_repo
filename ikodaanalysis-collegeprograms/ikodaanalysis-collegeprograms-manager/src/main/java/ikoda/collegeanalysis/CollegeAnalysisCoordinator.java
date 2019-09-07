@@ -43,6 +43,7 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 	protected List<CollegeNetioThread> netioThreads = new ArrayList<CollegeNetioThread>();
 	private List<String> logIgnoreList = new ArrayList<>(Arrays.asList("Netio 02","Low Call Count","High Fail", "Excessive Accumulated Calls"));
 	protected int cycleCount = 0;
+	protected final static String ES_LOG_INDEX = "data-collection-logs";
 
 	public CollegeAnalysisCoordinator()
 	{
@@ -215,14 +216,16 @@ public abstract class CollegeAnalysisCoordinator extends Thread
 
 	protected void printLog()
 	{
-		if(cycleCount % 25 ==0)
+		if(cycleCount % 15 == 0)
 		{
 
 	       logger.info(ProcessStatus.print());
+	       ElasticSearchManager.getInstance().log(ES_LOG_INDEX, ProcessStatus.print(), config.getAnalysisType());
 		}
 		else
 		{
 			logger.info(ProcessStatus.print(logIgnoreList));
+
 		}
 
 	}

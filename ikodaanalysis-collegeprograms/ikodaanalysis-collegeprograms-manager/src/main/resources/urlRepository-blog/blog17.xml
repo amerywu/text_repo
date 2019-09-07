@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<urlrepository>
+	<urls> 
+		<url>https://www.reddit.com/r/AskHistorians/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>AskHistorians/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+<urls>
+		<url>https://www.reddit.com/r/mentalhealth/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>mentalhealth/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/businessschool/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>businessschool/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/physiotherapy/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>physiotherapy/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/Fitness/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>fitness/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/PoliticalScience/new/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>PoliticalScience/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+	<urls>
+		<url>https://www.reddit.com/r/AdvancedFitness/controversial/</url>
+		<website>REDDIT</website>
+        <firstRoundLinks>/?after=</firstRoundLinks>
+		<secondRoundLinks>AdvancedFitness/comments</secondRoundLinks>
+		
+		<propertyMap>
+			<property>
+				<key>R1_ALLOW_DUPLICATES_ANYWHERE</key>
+				<value>false</value>
+			</property>
+			<property>
+				<key>R1_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>true</value>
+			</property>
+			
+			<property>
+				<key>R2_ALLOW_DUPLICATES_INSIDE_BRANCH</key>
+				<value>true</value>
+			</property>
+			<property>
+				<key>R2_REQUIRE_ALL_LINK_CRITERIA</key>
+				<value>false</value>
+			</property>
+		</propertyMap>
+		
+	</urls>
+	
+	
+</urlrepository>

@@ -24,6 +24,10 @@ public class ProcessStatus
 	
 	
 	
+	public static synchronized void clearAll() {
+		 statusMap.clear();
+		 accumulatorMap.clear();
+	}
 	
 	public static synchronized void averageOver(String key, int accumulateCount, double value)
 	{

@@ -725,6 +725,7 @@ public class NetIoThread extends Thread
 				{
 					if (isRestartFullCycle())
 					{
+						ProcessStatus.clearAll();
 
 						// // restart full cycle if sufficient time has passed
 						NioLog.getLogger().info("\n\n\n\n\n\n****Restarting new cycle***\n\n\n\n\n\n\n\n\n\n");

@@ -117,7 +117,7 @@ public class FileAnalyzerThread extends FileAnalyzerThreadManagement
 
             
             Path p = FileList.getInstance().getNextFile(PATHSNAME);
-            TALog.getLogger().info("Processing " + threadId + " : " + p);
+            TALog.getLogger().debug("Processing " + threadId + " : " + p);
             if (null == p)
             {
             	replenishFileList();
@@ -609,7 +609,7 @@ public class FileAnalyzerThread extends FileAnalyzerThreadManagement
             }
             FileList.getInstance().init(PATHSNAME, inputPaths, TALog.getLogger(), inlock);
             FileList.getInstance().listFiles(PATHSNAME);
-            TALog.getLogger().info("File Count "+FileList.getInstance().size(PATHSNAME));
+            TALog.getLogger().debug("File Count "+FileList.getInstance().size(PATHSNAME));
             ready = true;
 
             initializeNlp(inconfig.getSpecifiedLanguage());

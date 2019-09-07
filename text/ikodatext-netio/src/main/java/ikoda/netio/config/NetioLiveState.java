@@ -52,11 +52,11 @@ public class NetioLiveState
 			if (scc.getCallCount().intValue() < 5)
 			{
 				ProcessStatus.getStatusMap().put(
-						"Netio: " + this.getCurrentRound() + " Low Call Count: " + scc.getName(),
+						"X Netio: " + this.getCurrentRound() + " Low Call Count: " + scc.getName(),
 						String.valueOf(scc.getCallCount()));
 			}
 			evaluateSpiderSuccessRate(scc);
-		}
+		} 
 	}
 
 	private void evaluateSpiderSuccessRate(SpiderCallCount scc)
@@ -70,7 +70,7 @@ public class NetioLiveState
 
 			if (fails > 0)
 			{
-				String key = "Netio: " + currentRound + " High Fail Rate:  " + scc.getName();
+				String key = "X Netio: " + currentRound + " High Fail Rate:  " + scc.getName();
 				if (calls == 0)
 				{
 

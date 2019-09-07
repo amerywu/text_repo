@@ -41,17 +41,14 @@ import ikoda.utils.StaticSundryUtils;
 import ikoda.utils.TicToc;
 
 public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
-	private static boolean finalized = false;
+
 	private static boolean brunOnceSetUp = false;
 
 	protected static final String BY_DOCUMENT = "BY-DOCUMENT";
 	protected static final String BY_SENTENCE = "BY-SENTENCE";
-	private static final String MAXPERBATCH = "maxRowPerBatch";
 	protected static final String LEMMATIZEDSENTENCE = "LEMMATIZEDSENTENCE";
 	protected static final String UNDERSCORE = "_";
 	protected static final String ZERO = "0";
-	private static final String ADJ_PREFIX = "adj_";
-	private static final String VERB_PREFIX = "v_";
 	private static final String END_TAGS = "CLOSETAGS";
 
 	private static ConfigurationBeanForTextAnalysis_Reddit configt;
@@ -150,16 +147,16 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 		try {
 			fileProcessStartTime = System.currentTimeMillis();
 
-			TALog.getLogger().info("\n\ndoFileProcess ");
-			TALog.getLogger().debug("totalRowCount " + FileList.getInstance().getTotalCount());
-			TALog.getLogger().debug("Files Processed: " + FileList.getInstance().getTotalCount());
+			TALog.getLogger().debug("\n\ndoFileProcess ");
+			//TALog.getLogger().debug("totalRowCount " + FileList.getInstance().getTotalCount());
+			//TALog.getLogger().debug("Files Processed: " + FileList.getInstance().getTotalCount());
 			TALog.getLogger().debug("Max File Count: " + configt.getMaxNumberOfDocuments());
 
 			if (!runStatusGo()) {
 				return false;
 			}
 
-			sleepTime = 3000;
+			sleepTime = 100;
 
 			Path p = FileList.getInstance().getNextFile(PATHSNAME);
 			if (null == p) {
@@ -176,8 +173,7 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 				moveUndeterminedFile(p);
 			}
 
-			TALog.getLogger()
-					.trace("\n\n\n\n\n\n\nTA: Number of files processed: " + FileList.getInstance().getTotalCount());
+
 			return true;
 		} catch (Exception e) {
 			TALog.getLogger().error(e.getMessage(), e);
@@ -213,10 +209,7 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 
 		try {
 			TALog.getLogger().debug("\n\n=============pipeline===================\n" + p);
-			TicToc tt = new TicToc();
-
-			tt.tic("sendToAnalyzer");
-
+			
 			String fileContents = getFileContents(p);
 			if (!validateContent(fileContents, p)) {
 				return false;
@@ -225,8 +218,9 @@ public class CollegeProgramElasticSearchDispatcher extends FileAnalyzerThread {
 			CollegeRawDataUnit rdu = createRDU(fileContents);
 			dispatchToES(rdu);
 			ProcessStatus.incrementStatus("TA SUCCESS");
+			ProcessStatus.put("TA Files in Queue",FileList.getInstance().size(PATHSNAME));
 
-			TALog.getLogger().trace("::" + tt.toc("sendToAnalyzer"));
+
 			moveSuccessfulFile(p, "SUCCESS");
 
 			FileList.getInstance().incrementCount();

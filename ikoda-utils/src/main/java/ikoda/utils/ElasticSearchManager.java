@@ -15,7 +15,9 @@ import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.indices.GetIndexRequest;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.xcontent.XContentBuilder;
+import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.search.fetch.subphase.FetchSourceContext;
+
 
 public class ElasticSearchManager {
 
@@ -96,6 +98,57 @@ public class ElasticSearchManager {
 			logger.info(indexResponse.toString());
 		} catch (Exception e) {
 			logger.warn(e.getMessage(), e);
+		}
+	}
+	
+	
+	
+	public static XContentBuilder logIndexJson() throws Exception {
+		XContentBuilder builder = XContentFactory.jsonBuilder();
+		builder.startObject();
+		{
+			builder.startObject("properties");
+			{
+				builder.startObject("message");
+				{
+					builder.field("type", "text");
+				}
+				builder.endObject();
+	
+				builder.startObject("source");
+				{
+					builder.field("type", "keyword");
+				}
+				builder.endObject();
+				builder.startObject("created");
+				{
+					builder.field("type", "date");
+				}
+				builder.endObject();
+			}
+			builder.endObject();
+		}
+		builder.endObject();
+		return builder;
+	}
+	
+	public boolean log(String indexName, String message, String source) {
+		try {
+
+			XContentBuilder builder = XContentFactory.jsonBuilder();
+			builder.startObject();
+			{
+				builder.field("message", message);
+				builder.field("source", source);
+				builder.field("created", System.currentTimeMillis());
+			}
+			builder.endObject();
+			ElasticSearchManager.getInstance().addDocument(builder, indexName, String.valueOf(System.currentTimeMillis()));
+
+			return true;
+		} catch (Exception e) {
+			logger.warn(e.getMessage(), e);
+			return false;
 		}
 	}
 

@@ -204,7 +204,7 @@ public class SALARYNerTokenAnalyzer extends AbstractNERTokenAnalyzer
         }
         catch (Exception e)
         {
-            TALog.getLogger().error(e.getMessage(), e);
+            TALog.getLogger().error(" error:      " + e.getMessage());
             return "-1";
         }
     }
