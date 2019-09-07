@@ -71,7 +71,7 @@ public class Indeed extends AbstractWebSite
 
 		try
 		{
-			NioLog.getLogger().info("\n\n======================\n\n\nIndeed processing: " + thisUrl);
+			NioLog.getLogger().debug("\n\n======================\n\n\nIndeed processing: " + thisUrl);
 			NioLog.getLogger().debug("Indeed spiderId: " + inspiderId);
 
 			NioLog.getLogger().debug("myname is : " + thisUrl.getWebSiteName());
@@ -275,7 +275,7 @@ public class Indeed extends AbstractWebSite
 				// "+linkHref+"\n\n");
 				if (isJobList)
 				{
-					NioLog.getLogger().info("\n\n\nround1 looking at:  " + linkHref + "\n\n");
+					NioLog.getLogger().debug("\n\n\nround1 looking at:  " + linkHref + "\n\n");
 
 					if (isDuplicate(linkHref))
 					{

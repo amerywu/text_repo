@@ -1067,7 +1067,7 @@ public class NetIoThread extends Thread
 					String.valueOf(netioLiveState.getCurrentRound()));
 			ProcessStatus.getStatusMap().put("Netio 06. Spider id", String.valueOf(nextURL.getSpiderId()));
 			ProcessStatus.getStatusMap()
-					.put("Netio 02. r " + netioLiveState.getCurrentRound() + " | spider " + nextURL.getSpiderId()
+					.put("X Netio 02. r " + netioLiveState.getCurrentRound() + " | spider " + nextURL.getSpiderId()
 							+ " | " + netioLiveState.getSpiderName(nextURL.getSpiderId()) + " ||| Call count",
 							String.valueOf(netioLiveState.getCallCountBySpiderId(nextURL.getSpiderId())));
 			ProcessStatus.getStatusMap().put("Netio 07. CurrentUrlRepository", currentUrlRepository);

@@ -2,8 +2,8 @@
 <configurationNetio>
     <urlRepository>D:\jake\_urlrepo-en-majors\urlRepository</urlRepository>
     <netIoDumpPath>D:\jake\filedump\en-major\output</netIoDumpPath>
-    <maxCallsRoundOne>1</maxCallsRoundOne>
-    <maxCallsRoundTwo>3</maxCallsRoundTwo>
+    <maxCallsRoundOne>20</maxCallsRoundOne>
+    <maxCallsRoundTwo>300</maxCallsRoundTwo>
     <maxCallsRoundThree>1</maxCallsRoundThree>
     <maxCallsRoundFour>1</maxCallsRoundFour>
     <netioMinimumCycleInMinutes>3500</netioMinimumCycleInMinutes>
